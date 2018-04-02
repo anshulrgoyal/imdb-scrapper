@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "imdb",
+    "scraper",
+    "movies",
+    "trending",
+    "tv show"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hack-throne/imdb-scrapper.git"
@@ -18,7 +25,6 @@
   "homepage": "https://github.com/hack-throne/imdb-scrapper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "request": "^2.85.0",
     "request-promise-native": "^1.0.5"
   }
 }
