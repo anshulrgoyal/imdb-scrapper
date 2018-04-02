@@ -3,6 +3,7 @@ const cheerio=require('cheerio')
 const {getWinner}=require('./lib/awards');
 const {getImageCast,getPoster}=require('./lib/photo');
 const {getRating,getGenre,getPro,getStory,getTitle}=require('./lib/data');
+const {getTrending,getTrendingGenre}=require('./lib/trending');
 
 function scrapper(id){
    return request.get(`http://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data)=>{
@@ -34,4 +35,4 @@ getFull('tt5013056').then(data=>console.log(data))
 
 
 
-module.exports={scrapper}
+module.exports={scrapper,getTrendingGenre,getTrending}
