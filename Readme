@@ -1,0 +1,34 @@
+this is a simple imdb scrapper 
+
+
+usage :
+scrap any tv show like
+
+`code()`
+
+```javascript
+
+const {scrapper}=require('imdb-scrapper');
+
+
+scrapper('tt4154756').then((movieDetails)=>{
+  console.log(movieDetails)
+
+})
+```
+
+
+# it also provide a api for getting trending based on genre and global trending;
+
+eg :
+```javascript
+const {getTrendingGenre}=require('imdb-scrapper');
+
+getTrendingGenre('comdeny').then((list)=>{
+ console.log(list)
+
+})
+
+```
+
+user are suggested to use child_process.fork(),since scrapping is slow.
