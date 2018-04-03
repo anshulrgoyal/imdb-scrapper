@@ -47,5 +47,12 @@ const {search}=require('imdb-scrapper');
 search('flash',6).then((result)=>{
  console.log(result) // give 6 result related to word flash
 })
+```
 
+to install :
+```
+npm
+
+npm install --save imdb-scrapper
+```
 user are suggested to use child_process.fork(),since scrapping is slow.
