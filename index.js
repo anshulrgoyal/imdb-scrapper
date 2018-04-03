@@ -29,11 +29,14 @@ function getFull(id){
 
 
 
+getFull('tt5013056').then((movieDetails)=>{
+    console.log(movieDetails)
+
+})
 
 
 
 
 
 
-
-module.exports={scrapper,getTrendingGenre,getTrending,search}
+module.exports={scrapper,getTrendingGenre,getTrending,search,getFull,awardsPage}
