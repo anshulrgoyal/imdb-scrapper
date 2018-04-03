@@ -26,7 +26,7 @@ function getFull(id){
         return {...data[0],...data[1]}
     })
 }
-getFull('tt5013056').then(data=>console.log(data))
+
 
 
 
