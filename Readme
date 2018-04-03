@@ -22,13 +22,30 @@ scrapper('tt4154756').then((movieDetails)=>{
 
 eg :
 ```javascript
-const {getTrendingGenre}=require('imdb-scrapper');
+const {getTrendingGenre,getTrending}=require('imdb-scrapper');
 
-getTrendingGenre('comdeny').then((list)=>{
- console.log(list)
+getTrendingGenre('action').then((list)=>{
+ console.log(list) //gives trending based on genre
+
+})
+getTrending().then((list)=>{
+ console.log(list) // give global trending
 
 })
 
 ```
+# new
+
+search feature added:
+eg:
+
+
+```javascript
+
+const {search}=require('imdb-scrapper');
+
+search('flash',6).then((result)=>{
+ console.log(result) // give 6 result related to word flash
+})
 
 user are suggested to use child_process.fork(),since scrapping is slow.
