@@ -2,7 +2,7 @@ const request=require('request-promise-native')
 const cheerio=require('cheerio')
 const {getWinner}=require('./lib/awards');
 const {getImageCast,getPoster}=require('./lib/photo');
-const {getRating,getGenre,getPro,getStory,getTitle}=require('./lib/data');
+const {getRating,getGenre,getPro,getStory,getTitle,getRuntime,getYear}=require('./lib/data');
 const {getTrending,getTrendingGenre}=require('./lib/trending');
 const {search}=require('./lib/search')
 
@@ -10,7 +10,7 @@ function scrapper(id){
    return request.get(`http://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data)=>{
         const $=cheerio.load(data);
 
-        return{...getTitle($),...getStory($),...getPro($),...getGenre($),...getRating($),...getPoster($),...getImageCast($),...getPoster($)}
+        return{...getTitle($),...getRuntime($),...getYear($),...getStory($),...getPro($),...getGenre($),...getRating($),...getPoster($),...getImageCast($),...getPoster($)}
        // return{...getTitle($)}
     })
 }
@@ -29,10 +29,6 @@ function getFull(id){
 
 
 
-getFull('tt5013056').then((movieDetails)=>{
-    console.log(movieDetails)
-
-})
 
 
 
