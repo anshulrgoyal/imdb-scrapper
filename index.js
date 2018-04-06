@@ -32,9 +32,7 @@ function getFull(id){
 
 
 
-scrapper('tt1825683').then((data)=>{
-    console.log(data)
-})
+
 
 
 module.exports={scrapper,getTrendingGenre,getTrending,search,getFull,awardsPage}
