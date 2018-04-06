@@ -1,4 +1,5 @@
-this is a simple imdb scrapper 
+<a href="https://codeclimate.com/github/anshulgoyal15/imdb-scrapper/maintainability"><img src="https://api.codeclimate.com/v1/badges/bc6194d22404dbf244c3/maintainability" /></a>
+#this is a simple imdb scrapper
 
 
 usage :
