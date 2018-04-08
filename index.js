@@ -1,7 +1,7 @@
 const request=require('request-promise-native')
 const cheerio=require('cheerio')
 const {getWinner}=require('./lib/awards');
-const {getImageCast,getPoster}=require('./lib/photo');
+const {getCast,getPoster}=require('./lib/photo');
 const {getRating,getGenre,getPro,getStory,getTitle,getRuntime,getYear}=require('./lib/data');
 const {getTrending,getTrendingGenre}=require('./lib/trending');
 const {search}=require('./lib/search')
@@ -10,7 +10,7 @@ function scrapper(id){
    return request.get(`http://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data)=>{
         const $=cheerio.load(data);
 
-        return{...getTitle($),...getRuntime($),...getYear($),...getStory($),...getPro($),...getGenre($),...getRating($),...getPoster($),...getImageCast($),...getPoster($)}
+        return{...getTitle($),...getRuntime($),...getYear($),...getStory($),...getPro($),...getGenre($),...getRating($),...getPoster($),...getPoster($)}
        // return{...getTitle($)}
     })
 }
@@ -22,11 +22,15 @@ function awardsPage(id){
 }
 
 function getFull(id){
-    return Promise.all([scrapper(id),awardsPage(id)]).then((data)=>{
-        return {...data[0],...data[1]}
+    return Promise.all([scrapper(id),awardsPage(id),getCast(id)]).then((data)=>{
+
+        return {...data[0],...data[1],...data[2]}
     })
 }
+getFull('tt2395427').then((movieDetails)=>{
+    console.log(movieDetails)
 
+})
 
 
 
