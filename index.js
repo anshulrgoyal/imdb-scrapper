@@ -27,10 +27,6 @@ function getFull(id){
         return {...data[0],...data[1],...data[2]}
     })
 }
-getFull('tt2395427').then((movieDetails)=>{
-    console.log(movieDetails)
-
-})
 
 
 
@@ -39,4 +35,5 @@ getFull('tt2395427').then((movieDetails)=>{
 
 
 
-module.exports={scrapper,getTrendingGenre,getTrending,search,getFull,awardsPage}
+
+module.exports={scrapper,getTrendingGenre,getTrending,search,getFull,awardsPage,getCast}

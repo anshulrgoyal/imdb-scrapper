@@ -203,9 +203,9 @@ getTrending().then((list)=>{
 })
 
 ```
-# new
 
-search feature added:
+
+search feature :
 eg:
 
 
@@ -216,6 +216,14 @@ const {search}=require('imdb-scrapper');
 search('flash',6).then((result)=>{
  console.log(result) // give 6 result related to word flash
 })
+```
+#NEW
+
+the module is split into different functions for better modularity
+the cast is now given by
+```
+javascript
+getCast(id) //where id is imdb id of the movies
 ```
 
 to install :
