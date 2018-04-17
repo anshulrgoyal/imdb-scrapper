@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="371e0ce8-1534-4adc-950f-27a03dda0f08" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/trending.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/trending.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="646">
               <caret line="38" column="87" selection-start-line="38" selection-start-column="87" selection-end-line="38" selection-end-column="87" />
             </state>
           </provider>
@@ -49,8 +46,8 @@
       <file leaf-file-name="trending.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/trending.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="799">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,8 +55,8 @@
       <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="225" column="47" selection-start-line="225" selection-start-column="47" selection-end-line="225" selection-end-column="47" />
+            <state relative-caret-position="386">
+              <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -128,9 +125,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -203,7 +197,8 @@
       <workItem from="1522996315139" duration="4011000" />
       <workItem from="1523188070923" duration="14244000" />
       <workItem from="1523366349194" duration="137000" />
-      <workItem from="1523692303107" duration="271000" />
+      <workItem from="1523692303107" duration="570000" />
+      <workItem from="1523905482242" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary=" updated readme">
       <created>1522752164530</created>
@@ -223,21 +218,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50292000" />
+    <option name="totallyTimeSpent" value="50910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="724" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="22" width="1374" height="750" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.799511" visible="true" weight="0.14668652" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7980456" visible="true" weight="0.14668652" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293919" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22297297" />
-      <window_info id="npm" order="2" sideWeight="0.200489" side_tool="true" visible="true" weight="0.14668652" />
+      <window_info id="npm" order="2" sideWeight="0.2019544" side_tool="true" visible="true" weight="0.14668652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3091216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.0" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,22 +593,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/trending.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="799">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="646">
           <caret line="38" column="87" selection-start-line="38" selection-start-column="87" selection-end-line="38" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="225" column="47" selection-start-line="225" selection-start-column="47" selection-end-line="225" selection-end-column="47" />
+        <state relative-caret-position="386">
+          <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
         </state>
       </provider>
     </entry>
