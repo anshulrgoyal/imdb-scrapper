@@ -27,37 +27,7 @@ scrapper('tt1825683').then((movieDetails)=>{
   genre: [ ' Action ', ' Adventure ', ' Sci-Fi' ],
   rating: '7.8',
   poster: 'https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_UX182_CR0,0,182,268_AL__QL50.jpg',
-  cast:
-   [ { name: 'Chadwick Boseman',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Michael B. Jordan',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Lupita Nyong\'o',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Danai Gurira',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Martin Freeman',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Daniel Kaluuya',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Letitia Wright',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Winston Duke',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Sterling K. Brown',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Angela Bassett',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Forest Whitaker',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Andy Serkis',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'Florence Kasumba',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'John Kani',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' },
-     { name: 'David S. Lee',
-       image: 'https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB499603809_.png' } ] }
+   }
 
 
 ```
@@ -217,7 +187,6 @@ search('flash',6).then((result)=>{
  console.log(result) // give 6 result related to word flash
 })
 ```
-#NEW
 
 the module is split into different functions for better modularity
 the cast is now given by
@@ -225,6 +194,148 @@ the cast is now given by
 javascript
 getCast(id) //where id is imdb id of the movies
 ```
+#NEW
+An new api for any auto complete to make api fast the data transfer is made with short forms:
+```
+javascript
+simpleSearch('flash').then((data)=>{
+    console.log(data)
+})
+```
+output:
+```
+{
+   "v":1,
+   "q":"flash",
+   "d":[
+      {
+         "l":"The Flash",
+         "id":"tt3107288",
+         "s":"Grant Gustin, Candice Patton",
+         "y":2014,
+         "q":"TV series",
+         "vt":19,
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BZTQzNmEwZTMtZGNkNC00YjQ5LThhYzMtZTBhNzUzODI5ZjRjXkEyXkFqcGdeQXVyMjM5NzU3OTM@._V1_.jpg",
+            1080,
+            1350
+         ],
+         "v":[
+            {
+               "l":"Comic-Con Trailer",
+               "id":"vi523352345",
+               "s":"2:01",
+               "i":[
+                  "https://ia.media-imdb.com/images/M/MV5BNDE4OWI3OTktYTU5ZS00NjE1LThjZGUtMmNlZmNhNzJlYTZkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+                  1280,
+                  720
+               ]
+            },
+            {
+               "l":"Extended Season 3 Trailer",
+               "id":"vi2912597529",
+               "s":"1:00",
+               "i":[
+                  "https://ia.media-imdb.com/images/M/MV5BMTU3NjE5MjExMV5BMl5BanBnXkFtZTgwMDMzMDUxMDI@._V1_.jpg",
+                  1280,
+                  720
+               ]
+            },
+            {
+               "l":"Season 3 Trailer From Comic-Con",
+               "id":"vi1006679833",
+               "s":"2:12",
+               "i":[
+                  "https://ia.media-imdb.com/images/M/MV5BMTU1MTkxNjU5MV5BMl5BanBnXkFtZTgwNTQ3NjI1OTE@._V1_.jpg",
+                  1280,
+                  720
+               ]
+            }
+         ]
+      },
+      {
+         "l":"Flash Gordon",
+         "id":"tt0080745",
+         "s":"Sam J. Jones, Melody Anderson",
+         "y":1980,
+         "q":"feature",
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BN2Y4ZDBjMjEtZWQ0OS00NzYyLTg0M2ItMmUzYTEwN2RmMGVlXkEyXkFqcGdeQXVyMjgyOTI1ODY@._V1_.jpg",
+            1944,
+            2988
+         ]
+      },
+      {
+         "l":"The Flash",
+         "id":"tt0098798",
+         "s":"John Wesley Shipp, Amanda Pays",
+         "y":1990,
+         "q":"TV series",
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BMjAzOTkzNzk4OV5BMl5BanBnXkFtZTgwNzc0MzUzMzE@._V1_.jpg",
+            500,
+            375
+         ]
+      },
+      {
+         "l":"Untitled The Flash Film",
+         "id":"tt0439572",
+         "s":"Gal Gadot, Ezra Miller",
+         "y":2020,
+         "q":"feature"
+      },
+      {
+         "l":"Ricki and the Flash",
+         "id":"tt3623726",
+         "s":"Meryl Streep, Kevin Kline",
+         "y":2015,
+         "q":"feature",
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BMTY1NzIxNzkzM15BMl5BanBnXkFtZTgwMzAzNjIzNjE@._V1_.jpg",
+            1382,
+            2048
+         ]
+      },
+      {
+         "l":"Flash",
+         "id":"tt0136199",
+         "s":"Lucas Black, Brian Kerwin",
+         "y":1997,
+         "q":"TV episode",
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BMTkwNzY4Mzg5N15BMl5BanBnXkFtZTcwNzE4MzEyMQ@@._V1_.jpg",
+            286,
+            475
+         ]
+      },
+      {
+         "l":"Lego DC Comics Super Heroes: The Flash",
+         "id":"tt7877382",
+         "s":"James Arnold Taylor, Kate Micucci",
+         "y":2018,
+         "q":"video",
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BODY5NjI2OTEtODI2ZC00MjJhLTk5MTEtNmM5MzlmNTUwNzEwXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
+            375,
+            500
+         ]
+      },
+      {
+         "l":"Flash Gordon",
+         "id":"tt0959086",
+         "s":"Eric Johnson, Gina Holden",
+         "y":2007,
+         "q":"TV series",
+         "i":[
+            "https://ia.media-imdb.com/images/M/MV5BMTY2Njc1MTgyNV5BMl5BanBnXkFtZTcwODYwNTI1MQ@@._V1_.jpg",
+            429,
+            600
+         ]
+      }
+   ]
+}
+```
+
 
 to install :
 ```
