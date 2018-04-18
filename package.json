@@ -1,6 +1,6 @@
 {
   "name": "imdb-scrapper",
-  "version": "1.0.11",
+  "version": "1.0.12-0",
   "description": "scrap data from imdb web site",
   "main": "index.js",
   "scripts": {
