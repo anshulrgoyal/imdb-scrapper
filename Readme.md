@@ -10,6 +10,7 @@ Every function in this lib is async it returns a promise.The module is made to b
 </ul>
 <h2>Using Above function in Different PNC</h2>
 If awards and cast is only required,
+
 ```javascript
 const funs=[awardsPage('tt1825683'),getCast('tt1825683',14)];
 Promise.all(funs).then((data)=>{
