@@ -51,7 +51,7 @@ scrapper('tt1825683').then((movieDetails)=>{
 
 ```
 output:
-```json
+```
 { title: 'Black Panther (2018)',
   runtime: '2h 14min',
   year: '2018',
@@ -81,7 +81,7 @@ awardsPage('tt5580390').then((movieDetails)=>{
 ```
 
 output:
-```json
+```
 { Oscar:
    [ { category: 'Best Achievement in Directing',
        wonBy: 'Guillermo del Toro' },
@@ -114,7 +114,7 @@ getFull('tt2395427').then((movieDetails)=>{
 })
 ```
 output:
-```json
+```
 { title: 'Avengers: Age of Ultron (2015)',
   runtime: '2h 21min',
   year: '2015',
@@ -249,7 +249,7 @@ simpleSearch('flash').then((data)=>{
 })
 ```
 output:
-```json
+```
 {
    "v":1,
    "q":"flash",
