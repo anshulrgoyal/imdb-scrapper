@@ -8,7 +8,7 @@ Every function in this lib is async it returns a promise.The module is made to b
 <li>getCast(id,n) id here reffer to imdbID like:'tt1825683' n is optional it specify the no. of actors required by default it is set to 20. This function provide cast of the movies </li>
 <li> getFull(id) id here reffer to imdbID like:'tt1825683.This function is the combination of above three,but with it's configuration is set to default </li>
 </ul>
-#Using Above function in Different PNC
+<h2>Using Above function in Different PNC</h2>
 If awards and cast is only required,
 ```javascript
 const funs=[awardsPage('tt1825683'),getCast('tt1825683',14)];
@@ -17,7 +17,6 @@ Promise.all(funs).then((data)=>{
 }).then((movieDetails)=>{
     console.log(movieDetails)
 })
-
 ``` 
 <h1>SEACRH APIS</h1>
 The most important aspect of any movie site is search .This module provide two search Stragey:
@@ -48,7 +47,6 @@ scrapper('tt1825683').then((movieDetails)=>{
     console.log(movieDetails)
 
 })
-
 ```
 output:
 ```
