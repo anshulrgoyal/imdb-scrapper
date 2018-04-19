@@ -4,7 +4,8 @@
   "description": "scrap data from imdb web site",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "standard&&node test.js",
+    "fix":"standard --fix"
   },
   "keywords": [
     "imdb",
@@ -27,5 +28,8 @@
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
   }
 }
