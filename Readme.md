@@ -1,4 +1,4 @@
-#IMDB SCRAPPER
+<h1>IMDB SCRAPPER</h1>
 This is one stop tool/lib for getting any type of data from imdb site,eg you can get cast
 of a movie or awards won by movie and some of it's basic info.
 Every function in this lib is async it returns a promise.The module is made to be modular for different function like it provide four function:
@@ -19,7 +19,7 @@ Promise.all(funs).then((data)=>{
 })
 
 ``` 
-#SEACRH APIS
+<h1>SEACRH APIS</h1>
 The most important aspect of any movie site is search .This module provide two search Stragey:
 <ul>
 <li>serach(term,n) term reprensts the search query n signify the required number of results.The 
@@ -27,7 +27,7 @@ function provide serach results from all the genre</li>
 <li>simpleSearch(term) term reprensts the search query This function is faster as it directly uses 
 the ajax calls made by imdb page and can be suited for auto complete feature</li>
 </ul>
-#Trending movies
+<h1>Trending movies</h1>
 This section is not provided by any other api or scrapper including cast and awards.
 There are two different ways of scrapping provide by this lib:
 <ul>
@@ -36,8 +36,8 @@ There are two different ways of scrapping provide by this lib:
 <li>getTrendingGenre(genre,n) n is optional parameter giving the count of result required.This function provide results sorted on the basis of genre </li>
 </ul>
 
-#EXAMPLES
-SCRAPPER
+<h1>EXAMPLES</h1>
+<h2>SCRAPPER</h2>
 
 ```javascript
 
@@ -68,7 +68,7 @@ output:
 
 
 ```
-AWARDSPAGE
+<h2>AWARDSPAGE</h2>
 
 ```javascript
 
@@ -102,7 +102,7 @@ output:
      { category: 'Original Music', wonBy: 'Alexandre Desplat' } ] }
 
 ```
-GETFULL
+<h2>GETFULL</h2>
 
 
 ```javascript
@@ -241,7 +241,7 @@ output:
        role: 'Strucker' } ] }
 
 ```
-SIMPLESEARCH
+<h2>SIMPLESEARCH</h2>
 
 ```javascript
 simpleSearch('flash').then((data)=>{
