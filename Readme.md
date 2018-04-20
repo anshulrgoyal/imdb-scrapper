@@ -18,7 +18,9 @@ Promise.all(funs).then((data)=>{
 }).then((movieDetails)=>{
     console.log(movieDetails)
 })
-``` 
+```
+<h3>To install</h3>
+```npm install --save imdb-scrapper```
 <h1>SEACRH APIS</h1>
 The most important aspect of any movie site is search .This module provide two search Stragey:
 <ul>
