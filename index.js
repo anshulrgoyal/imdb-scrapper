@@ -1,6 +1,6 @@
 const request = require('request-promise-native') // importing request for making get request
 const cheerio = require('cheerio') // import cheerio for making use of css selector to get info
-const {ifError}=require('./lib/error') // error file
+const {ifError} = require('./lib/error') // error file
 const {getWinner} = require('./lib/awards') // awards are provided
 const {getCast, getPoster} = require('./lib/photo') // poster and cast info is given by this function
 const {getRating, getGenre, getPro, getStory, getTitle, getRuntime, getYear} = require('./lib/data')
@@ -33,4 +33,4 @@ function getFull (id) {
 //   console.log(data)
 // })
 
-module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch,ifError}
+module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch, ifError}
