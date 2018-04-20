@@ -27,11 +27,11 @@ function getFull (id) {
     return {...data[0], ...data[1], ...data[2]}
   })
 }
-const funs=[awardsPage('tt1825683'),getCast('tt1825683',14)];
-Promise.all(funs).then((data)=>{
-  return {...data[0],...data[1]}
-}).then((movieDetails)=>{
-  console.log(movieDetails)
-})
+// const funs=[awardsPage('tt1825683'),getCast('tt1825683',14)];
+// Promise.all(funs).then((data)=>{
+//   return {...data[0],...data[1]}
+// }).then((movieDetails)=>{
+//   console.log(movieDetails)
+// })
 
 module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch}
