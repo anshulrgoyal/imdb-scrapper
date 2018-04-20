@@ -1,6 +1,6 @@
 <h1>IMDB SCRAPPER</h1>
 This is one stop tool/lib for getting any type of data from imdb site,eg you can get cast
-of a movie or awards won by movie and some of it's basic info.
+of a movie or awards won by movie and some of it's basic info.All the images function provide images with title and poster of high quality.
 Every function in this lib is async it returns a promise.The module is made to be modular for different function like it provide four function:
 <ul>
 <li>scrapper(id) id here reffer to imdbID like:'tt1825683'. This function provide some basic data like genre,runtime,plot etc</li>
