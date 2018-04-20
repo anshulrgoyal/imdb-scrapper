@@ -58,7 +58,12 @@ output:
 { title: 'Black Panther (2018)',
   runtime: '2h 14min',
   year: '2018',
-  story: 'After the events of Captain America: Civil War, King Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his countrys new leader. However, Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.        ',
+  story: 'After the events of Captain America: Civil War, King Challa returns home to the reclusive,
+  technologically advanced African nation of Wakanda to serve as his countrys new leader. However,
+  Challa soon finds that he is challenged for the throne from factions within his own country.
+  When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with
+  C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda
+   from being dragged into a world war.',
   director: 'Ryan Coogler',
   writer: 'Ryan Coogler',
   genre: [ ' Action ', ' Adventure ', ' Sci-Fi' ],
@@ -413,4 +418,72 @@ output:
       }
    ]
 }
+```
+<h3>GETTRENDING</h3>
+
+```javascript
+const {getTrending}=require('imdb-scrapper')
+getTrending(7).then((data)=>{
+  console.log(data)
+})
+```
+```
+{ trending:
+   [ { name: 'A Quiet Place',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_QL50.jpg',
+       id: 'tt6644200' },
+     { name: 'Avengers: Infinity War',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_QL50.jpg',
+       id: 'tt4154756' },
+     { name: 'Ready Player One',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqc
+       GdeQXVyNTI4MzE4MDU@._V1_QL50.jpg',
+       id: 'tt1677720' },
+     { name: 'Rampage',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BNDA1NjA3ODU3OV5BMl5BanBnXkFtZTgwOTg3MTIwNTM@._V1_QL50.jpg',
+       id: 'tt2231461' },
+     { name: 'The Meg',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMTg1ODc2NDQzNF5BMl5BanBnXkFtZTgwOTY1OTUyNTM@._V1_QL50.jpg',
+       id: 'tt4779682' },
+     { name: 'Solo: A Star Wars Story',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_QL50.jpg',
+       id: 'tt3778644' },
+     { name: 'Black Panther',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg',
+       id: 'tt1825683' } ] }
+
+```
+<h3>GETTRENDINGGENRE</h3>
+
+```javascript
+const {getTrendingGenre}=require('imdb-scrapper')
+getTrendingGenre('comedy',7).then((data)=>{
+  console.log(data)
+})
+```
+```
+{ trending:
+   [ { name: 'A Series of Unfortunate Events',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMjQ4OTg3ODkyMl5BMl5BanBnXkFtZTgwMjI0OTg5NDM@._V1_QL50.jpg',
+       id: 'tt4834206' },
+     { name: 'Blockers',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMjE0ODIzNjkzMl5BMl5BanBnXkFtZTgwODQ3MzU4NDM@._V1_QL50.jpg',
+       id: 'tt2531344' },
+     { name: 'Suits',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMTk1MjYzOTU2Nl5BMl5BanBnXkFtZTgwMzAxMTg5MTE@._V1_QL50.jpg',
+       id: 'tt1632701' },
+     { name: 'Jumanji: Welcome to the Jungle',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqc
+       GdeQXVyMTQxNzMzNDI@._V1_QL50.jpg',
+       id: 'tt2283362' },
+     { name: 'Isle of Dogs',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMTYyOTUwNjAxM15BMl5BanBnXkFtZTgwODcyMzE0NDM@._V1_QL50.jpg',
+       id: 'tt5104604' },
+     { name: 'Roseanne',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BMzQyZWExODMtZDFkOC00MGUxLTgxMmItZWVkMmYwYzgxY2ZlXkEyXkFqcGdeQXVyODQwNjgyMw@@._V1_QL50.jpg',
+       id: 'tt0094540' },
+     { name: 'Shameless',
+       poster: 'https://ia.media-imdb.com/images/M/MV5BZjQ3ZjFkZmQtYjMwZS00ZWFkLTgyNGMtYTE1OTI5ZTAwNWI3XkEyXkFqcGdeQXVyNjc3OTUzNzM@._V1_QL50.jpg',
+       id: 'tt1586680' } ] }
+
 ```

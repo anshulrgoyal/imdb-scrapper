@@ -1,10 +1,11 @@
-const request = require('request-promise-native')
-const cheerio = require('cheerio')
-const {getWinner} = require('./lib/awards')
-const {getCast, getPoster} = require('./lib/photo')
+const request = require('request-promise-native') // importing request for making get request
+const cheerio = require('cheerio') // import cheerio for making use of css selector to get info
+const {ifError}=require('./lib/error') // error file
+const {getWinner} = require('./lib/awards') // awards are provided
+const {getCast, getPoster} = require('./lib/photo') // poster and cast info is given by this function
 const {getRating, getGenre, getPro, getStory, getTitle, getRuntime, getYear} = require('./lib/data')
-const {getTrending, getTrendingGenre} = require('./lib/trending')
-const {search, simpleSearch} = require('./lib/search')
+const {getTrending, getTrendingGenre} = require('./lib/trending') // provide trending functions
+const {search, simpleSearch} = require('./lib/search') // provide search functions
 
 function scrapper (id) {
   return request.get(`http://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data) => {
@@ -12,26 +13,24 @@ function scrapper (id) {
 
     return {...getTitle($), ...getRuntime($), ...getYear($), ...getStory($), ...getPro($), ...getGenre($), ...getRating($), ...getPoster($), ...getPoster($)}
     // return{...getTitle($)}
-  })
-}
+  }).catch(ifError)
+} // combining all the low level api in the single one
 
 function awardsPage (id) {
   return request.get(`http://www.imdb.com/title/${id}/awards?ref_=tt_awd`).then((data) => {
     const $ = cheerio.load(data)
     return {...getWinner(4, $), ...getWinner(7, $), ...getWinner(10, $)}
-  })
+  }).catch(ifError)
 }
 
 function getFull (id) {
   return Promise.all([scrapper(id), awardsPage(id), getCast(id)]).then((data) => {
     return {...data[0], ...data[1], ...data[2]}
-  })
+  }).catch(ifError)
 }
-// const funs=[awardsPage('tt1825683'),getCast('tt1825683',14)];
-// Promise.all(funs).then((data)=>{
-//   return {...data[0],...data[1]}
-// }).then((movieDetails)=>{
-//   console.log(movieDetails)
+// const {getTrending}=require('imdb-scrapper')
+// getTrendingGenre('comedy', 7).then((data)=>{
+//   console.log(data)
 // })
 
-module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch}
+module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch,ifError}
