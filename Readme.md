@@ -1,3 +1,5 @@
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/bc6194d22404dbf244c3/test_coverage)](https://codeclimate.com/github/anshulgoyal15/imdb-scrapper/test_coverage)
 <h1>IMDB SCRAPPER</h1>
 This is one stop tool/lib for getting any type of data from imdb site,eg you can get cast
 of a movie or awards won by movie and some of it's basic info.All the images function provide images with title and poster of high quality.
