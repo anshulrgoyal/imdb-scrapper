@@ -1,4 +1,4 @@
-const request = require('request-promise-native') // importing request for making get request
+const request = require('./lib/request') // importing request for making get request
 const cheerio = require('cheerio') // import cheerio for making use of css selector to get info
 const {ifError} = require('./lib/error') // error file
 const {getWinner} = require('./lib/awards') // awards are provided
@@ -28,9 +28,8 @@ function getFull (id) {
     return {...data[0], ...data[1], ...data[2]}
   }).catch(ifError)
 }
-// const {getTrending}=require('imdb-scrapper')
-// getTrendingGenre('comedy', 7).then((data)=>{
-//   console.log(data)
-// })
+getTrendingGenre('comedy', 7).then((data)=>{
+  console.log(data)
+})
 
 module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch, ifError}
