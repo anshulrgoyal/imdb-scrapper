@@ -8,7 +8,7 @@ const {getTrending, getTrendingGenre} = require('./lib/trending') // provide tre
 const {search, simpleSearch} = require('./lib/search') // provide search functions
 
 function scrapper (id) {
-  return request.get(`http://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data) => {
+  return request(`https://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data) => {
     const $ = cheerio.load(data)
 
     return {...getTitle($), ...getRuntime($), ...getYear($), ...getStory($), ...getPro($), ...getGenre($), ...getRating($), ...getPoster($), ...getPoster($)}
@@ -17,7 +17,7 @@ function scrapper (id) {
 } // combining all the low level api in the single one
 
 function awardsPage (id) {
-  return request.get(`http://www.imdb.com/title/${id}/awards?ref_=tt_awd`).then((data) => {
+  return request(`http://www.imdb.com/title/${id}/awards?ref_=tt_awd`).then((data) => {
     const $ = cheerio.load(data)
     return {...getWinner(4, $), ...getWinner(7, $), ...getWinner(10, $)}
   }).catch(ifError)
@@ -28,8 +28,8 @@ function getFull (id) {
     return {...data[0], ...data[1], ...data[2]}
   }).catch(ifError)
 }
-getTrendingGenre('comedy', 7).then((data)=>{
-  console.log(data)
-})
+// getTrendingGenre('comedy', 7).then((data)=>{
+//   console.log(data)
+// })
 
 module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch, ifError}
