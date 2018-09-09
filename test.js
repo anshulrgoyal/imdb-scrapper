@@ -13,6 +13,7 @@ function test () {
       rating: '7.4'
 
     }
+    console.log(movieDetails);
     return movieDetails.title === output.title
   }).then((data) => { data ? console.log('evrything is working fine') : console.error('something is wrong') })
 }

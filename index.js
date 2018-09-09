@@ -17,7 +17,7 @@ function scrapper (id) {
 } // combining all the low level api in the single one
 
 function awardsPage (id) {
-  return request(`http://www.imdb.com/title/${id}/awards?ref_=tt_awd`).then((data) => {
+  return request(`https://www.imdb.com/title/${id}/awards?ref_=tt_awd`).then((data) => {
     const $ = cheerio.load(data)
     return {...getWinner(4, $), ...getWinner(7, $), ...getWinner(10, $)}
   }).catch(ifError)
