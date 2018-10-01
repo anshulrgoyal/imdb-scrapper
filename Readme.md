@@ -1,6 +1,7 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bc6194d22404dbf244c3/test_coverage)](https://codeclimate.com/github/anshulgoyal15/imdb-scrapper/test_coverage)
 <h1>IMDB SCRAPPER</h1>
+
 This is one stop tool/lib for getting any type of data from imdb site,eg you can get cast
 of a movie or awards won by movie and some of it's basic info.All the images function provide images with title and poster of high quality.
 Every function in this lib is async it returns a promise.The module is made to be modular for different function like it provide four function:
@@ -487,5 +488,8 @@ getTrendingGenre('comedy',7).then((data)=>{
      { name: 'Shameless',
        poster: 'https://ia.media-imdb.com/images/M/MV5BZjQ3ZjFkZmQtYjMwZS00ZWFkLTgyNGMtYTE1OTI5ZTAwNWI3XkEyXkFqcGdeQXVyNjc3OTUzNzM@._V1_QL50.jpg',
        id: 'tt1586680' } ] }
+       
+       
+       Hope u understood.
 
 ```
