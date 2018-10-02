@@ -5,6 +5,7 @@ const {ifError} = require('./lib/error') // error file
 const {getWinner} = require('./lib/awards') // awards are provided
 const {getCast, getPoster} = require('./lib/photo') // poster and cast info is given by this function
 const {getRating, getGenre, getPro, getStory, getTitle, getRuntime, getYear, getEpisodeCount} = require('./lib/data')
+const {getEpStory, getAirDate, getEpRating} = require('./lib/episode');
 const {getTrending, getTrendingGenre} = require('./lib/trending') // provide trending functions
 const {search, simpleSearch} = require('./lib/search') // provide search functions
 
@@ -26,6 +27,13 @@ function awardsPage(id) {
   }).catch(ifError)
 }
 
+function episodePage(id) {
+  return request(`https://www.imdb.com/title/${id}/?ref_=tt_awd`).then((data) => {
+    const $ = cheerio.load(data)
+    return { ...getEpStory($), ...getAirDate($), ...getEpRating($) }
+  }).catch(ifError)
+}
+
 function getFull(id) {
   return Promise.all([scrapper(id), awardsPage(id), getCast(id)]).then((data) => {
     return { ...data[0], ...data[1], ...data[2] }
@@ -35,4 +43,4 @@ function getFull(id) {
 //   console.log(data)
 // })
 
-module.exports = { scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch, ifError, request }
+module.exports = { scrapper, getTrendingGenre, getTrending, search, getFull, awardsPage, episodePage, getCast, simpleSearch, ifError, request }
