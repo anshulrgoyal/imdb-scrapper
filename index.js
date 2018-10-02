@@ -3,7 +3,7 @@ const cheerio = require('cheerio') // import cheerio for making use of css selec
 const {ifError} = require('./lib/error') // error file
 const {getWinner} = require('./lib/awards') // awards are provided
 const {getCast, getPoster} = require('./lib/photo') // poster and cast info is given by this function
-const {getRating, getGenre, getPro, getStory, getTitle, getRuntime, getYear} = require('./lib/data')
+const {getRating, getGenre, getPro, getStory, getTitle, getRuntime, getYear, getEpisodeCount} = require('./lib/data')
 const {getTrending, getTrendingGenre} = require('./lib/trending') // provide trending functions
 const {search, simpleSearch} = require('./lib/search') // provide search functions
 
@@ -11,7 +11,7 @@ function scrapper (id) {
   return request(`https://www.imdb.com/title/${id}/?ref_=nv_sr_1`).then((data) => {
     const $ = cheerio.load(data)
 
-    return {...getTitle($), ...getRuntime($), ...getYear($), ...getStory($), ...getPro($), ...getGenre($), ...getRating($), ...getPoster($), ...getPoster($)}
+    return {...getTitle($), ...getRuntime($), ...getYear($), ...getStory($), ...getPro($), ...getGenre($), ...getRating($), ...getPoster($), ...getPoster($), ...getEpisodeCount($)}
     // return{...getTitle($)}
   }).catch(ifError)
 } // combining all the low level api in the single one
