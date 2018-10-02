@@ -10,6 +10,7 @@ Every function in this lib is async it returns a promise.The module is made to b
 <li>awardsPage(id) id here reffer to imdbID like:'tt1825683'.This function provide awards won by movies by default it provide first three awards or most rated ones</li>
 <li>getCast(id,n) id here reffer to imdbID like:'tt1825683' n is optional it specify the no. of actors required by default it is set to 20. This function provide cast of the movies </li>
 <li> getFull(id) id here reffer to imdbID like:'tt1825683.This function is the combination of above three,but with it's configuration is set to default </li>
+<li>For making a get request use request()</li>
 </ul>
 <h2>Using Above function in Different PNC</h2>
 If awards and cast is only required,
