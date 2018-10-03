@@ -1,4 +1,4 @@
-const { getFull, episodePage } = require("./index");
+const { getFull, episodesPage } = require("./index");
 
 function dislayMessage(msg, status) {
   status
@@ -7,7 +7,7 @@ function dislayMessage(msg, status) {
 }
 
 function test() {
-  Promise.all([getFull("tt2395427"), getFull("tt0944947"), episodePage("tt7362420")]).then(data => {
+  Promise.all([getFull("tt2395427"), getFull("tt0944947"), episodesPage("tt2177461")]).then(data => {
     let movieDetails = data[0];
     const expectedMovieDetails = {
       title: "Avengers: Age of Ultron (2015)",
@@ -21,7 +21,7 @@ function test() {
       genre: [" Action ", " Adventure ", " Sci-Fi"],
       rating: "7.4"
     };
-    console.log(movieDetails);
+    // console.log(movieDetails);
 
     const moviesTestValid = movieDetails.title === expectedMovieDetails.title;
     dislayMessage("Movie Details", moviesTestValid);
@@ -39,7 +39,7 @@ function test() {
       rating: "9.5",
       episodes: '73 episodes',
     };
-    console.log(seriesDetails)
+    // console.log(seriesDetails)
 
     //series should have year, runtime, episode count
     let seriesTestValid =
@@ -49,18 +49,18 @@ function test() {
       seriesDetails.episodes === expectedSeriesDetails.episodes;
     dislayMessage("Series Details", seriesTestValid);
 
-    let seriesEpisode = data[2];
+    let seriesEpisode = data[2].episodes[0];
     const expectedSeriesEpisodeDetails = {
-      story: "    Things get creepy for historian and closet witch, Diana Bishop, when she calls up a magical manuscript. Her discovery is about to throw her back into the world of magic and into the path of Matthew Clairmont, a centuries old vampire.",
-      airDate: "14 September 2018",
+      story: "Things get creepy for historian and closet witch, Diana Bishop, when she calls up a magical manuscript. Her discovery is about to throw her back into the world of magic and into the path of Matthew Clairmont, a centuries old vampire.",
+      airDate: "14 Sep. 2018",
       rating: "8.6"
     };
     console.log(seriesEpisode)
 
     let episodeTestValid =
-        seriesEpisode.story === expectedSeriesEpisodeDetails.story &&
-        seriesEpisode.airDate === expectedSeriesEpisodeDetails.airDate &&
-        seriesEpisode.rating === expectedSeriesEpisodeDetails.rating;
+      seriesEpisode.story === expectedSeriesEpisodeDetails.story &&
+      seriesEpisode.airDate === expectedSeriesEpisodeDetails.airDate &&
+      seriesEpisode.rating === expectedSeriesEpisodeDetails.rating;
     dislayMessage("Series Episode", episodeTestValid);
   });
 }
