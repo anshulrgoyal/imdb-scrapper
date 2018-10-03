@@ -6,6 +6,7 @@ const request = require('./lib/request') // importing request for making get req
 const {ifError} = require('./lib/error') // error file
 const {getWinner} = require('./lib/awards') // awards are provided
 const {getCast, getPoster} = require('./lib/photo') // poster and cast info is given by this function
+const {getEpisodes} = require('./lib/episode');
 const {
   getRating,
   getGenre,
@@ -41,6 +42,12 @@ function awardsPage(id) {
   }).catch(ifError)
 }
 
+function episodesPage(id, season = 1) {
+  return request(`https://www.imdb.com/title/${id}/episodes?season=${season}`).then((data) => {
+    const $ = cheerio.load(data)
+    return { ...getEpisodes($) }
+  }).catch(ifError)
+
 function getStarsByBornDay(date){
   const monthday = getMonthDay(date);
   return request(`${BASE_URL}/search/name?birth_monthday=${monthday}&refine=birth_monthday&ref_=nv_cel_brn`).then(data => {
@@ -63,4 +70,5 @@ function getFull(id) {
 //   console.log(data)
 // })
 
-module.exports = { scrapper, getTrendingGenre, getTrending, search, getFull, getStarsByBornDay, getStarsBornToday, awardsPage, getCast, simpleSearch, ifError, request }
+module.exports = { scrapper, getTrendingGenre, getTrending, search, getFull, getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast, simpleSearch, ifError, request }
+
