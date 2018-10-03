@@ -1,4 +1,4 @@
-const { getFull } = require("./index");
+const { getFull, getStarsByBornDay, getStarsBornToday } = require("./index");
 
 function dislayMessage(msg, status) {
   status
@@ -21,7 +21,7 @@ function test() {
       genre: [" Action ", " Adventure ", " Sci-Fi"],
       rating: "7.4"
     };
-    console.log(movieDetails);
+    //console.log(movieDetails);
 
     const moviesTestValid = movieDetails.title === expectedMovieDetails.title;
     dislayMessage("Movie Details", moviesTestValid);
@@ -39,7 +39,7 @@ function test() {
       rating: "9.5",
       episodes: '73 episodes',
     };
-    console.log(seriesDetails)
+    //console.log(seriesDetails)
 
     //series should have year, runtime, episode count
     let seriesTestValid =
@@ -51,4 +51,23 @@ function test() {
   });
 }
 
+function testGetStarsByBornDay(){
+  getStarsByBornDay(new Date('2018-10-2'))
+    .then(data => {
+      const isValid = data.length > 0;
+      dislayMessage("Stars By Born Day", isValid);
+    })
+}
+
+function testGetStarsBornToday(){
+  getStarsBornToday()
+    .then(data => {
+      const isValid = data.length > 0;
+      dislayMessage("Stars Born Today", isValid);
+    })
+}
+
 test();
+
+testGetStarsByBornDay();
+testGetStarsBornToday();
