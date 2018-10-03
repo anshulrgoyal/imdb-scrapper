@@ -24,15 +24,16 @@ Promise.all(funs).then((data)=>{
 })
 ```
 <h3>To install</h3>
+
 ```
 npm install --save imdb-scrapper
 ```
 <h1>SEACRH APIS</h1>
 The most important aspect of any movie site is search .This module provide two search Stragey:
 <ul>
-<li>serach(term,n) term reprensts the search query n signify the required number of results.The 
+<li>serach(term,n) term reprensts the search query n signify the required number of results.The
 function provide serach results from all the genre</li>
-<li>simpleSearch(term) term reprensts the search query This function is faster as it directly uses 
+<li>simpleSearch(term) term reprensts the search query This function is faster as it directly uses
 the ajax calls made by imdb page and can be suited for auto complete feature</li>
 </ul>
 <h1>Trending movies</h1>
@@ -72,10 +73,10 @@ output:
   writer: 'Ryan Coogler',
   genre: [ ' Action ', ' Adventure ', ' Sci-Fi' ],
   rating: '7.8',
-  poster: 
+  poster:
   'https://ia.media-imdb.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_UX182_CR0,
   0,182,268_AL__QL50.jpg',
-  
+
    }
 
 
@@ -130,15 +131,15 @@ output:
 { title: 'Avengers: Age of Ultron (2015)',
   runtime: '2h 21min',
   year: '2015',
-  story: 'ony Stark creates the Ultron Program to protect the world, but when the peacekeeping 
-  program becomes hostile, he Avengers go into action to try and defeat a virtually impossible enemy 
-  together. Earths mightiest heroes must come together once again to protect the world from global 
+  story: 'ony Stark creates the Ultron Program to protect the world, but when the peacekeeping
+  program becomes hostile, he Avengers go into action to try and defeat a virtually impossible enemy
+  together. Earths mightiest heroes must come together once again to protect the world from global
   extinction.                Written byapplenatalia9            ',
   director: 'Joss Whedon',
   writer: 'Joss Whedon',
   genre: [ ' Action ', ' Adventure ', ' Sci-Fi' ],
   rating: '7.4',
-  poster: 
+  poster:
   'https://ia.media-imdb.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGde
   QXVyNTgzMDMzMTg@._V1_UX182_CR0,0,182,268_AL__QL50.jpg',
   'Saturn Award':
@@ -151,53 +152,53 @@ output:
        wonBy: 'Christopher Townsend' } ],
   cast:
    [ { name: 'Robert Downey Jr.',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@.
        _V1_UX75_CR0,0,75,109_AL_.jpg',
        role: 'Tony Stark/Iron Man' },
      { name: 'Chris Hemsworth',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BOTU2MTI0NTIyNV5BMl5BanBnXkFtZTcwMTA4Nzc3OA@@.
        _V1_UX75_CR0,0,75,109_AL_.jpg',
        role: 'Thor' },
      { name: 'Mark Ruffalo',
-       image: 
+       image:
        'https://ia.media-imdb.
        com/images/M/MV5BNDQyNzMzZTMtYjlkNS00YzFhLWFhMTctY2M4YmQ1NmRhODBkXkEyXkFqcGdeQXVyNjcyNzgyOTE@.
        _V1_UY109_CR6,0,75,109_AL_.jpg',
        role: 'Bruce Banner/Hulk' },
      { name: 'Chris Evans',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BMTU2NTg1OTQzMF5BMl5BanBnXkFtZTcwNjIyMjkyMg@@.
        _V1_UY109_CR1,0,75,109_AL_.jpg',
        role: 'Steve Rogers/Captain America' },
      { name: 'Scarlett Johansson',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@.
        _V1_UY109_CR7,0,75,109_AL_.jpg',
        role: 'Natasha Romanoff/Black Widow' },
      { name: 'Jeremy Renner',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BOTk2NDc2ODgzMF5BMl5BanBnXkFtZTcwMTMzOTQ4Nw@@.
        _V1_UX75_CR0,0,75,109_AL_.jpg',
        role: 'Clint Barton/Hawkeye' },
      { name: 'James Spader',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BMTQ3MTQ5NjY5Ml5BMl5BanBnXkFtZTgwMTY0NzU5MDE@.
        _V1_UY109_CR4,0,75,109_AL_.jpg',
        role: 'Ultron' },
      { name: 'Samuel L. Jackson',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_UX75_CR0,
        0,75,109_AL_.jpg',
        role: 'Nick Fury' },
      { name: 'Don Cheadle',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BNDMxNDM3MzY5N15BMl5BanBnXkFtZTcwMjkzOTY4MQ@@.
        _V1_UY109_CR5,0,75,109_AL_.jpg',
        role: 'James Rhodes/War Machine' },
      { name: 'Aaron Taylor-Johnson',
-       image: 
+       image:
        'https://ia.media-imdb.com/images/M/MV5BMzE5MzI0MzY2OF5BMl5BanBnXkFtZTgwODE3MTk4MTE@.
        _V1_UY109_CR4,0,75,109_AL_.jpg',
        role: 'Pietro Maximoff/Quicksilver' },
@@ -274,7 +275,7 @@ output:
          "q":"TV series",
          "vt":19,
          "i":[
-            
+
             "https://ia.media-imdb.
             com/images/M/MV5BZTQzNmEwZTMtZGNkNC00YjQ5LThhYzMtZTBhNzUzODI5ZjRjXkEyXkFqcGdeQXVyMjM5NzU3O
             TM@._V1_.jpg",
@@ -287,7 +288,7 @@ output:
                "id":"vi523352345",
                "s":"2:01",
                "i":[
-                  
+
                   "https://ia.media-imdb.
                   com/images/M/MV5BNDE4OWI3OTktYTU5ZS00NjE1LThjZGUtMmNlZmNhNzJlYTZkXkEyXkFqcGdeQXVyMTk
                   xNjUyNQ@@._V1_.jpg",
@@ -300,10 +301,10 @@ output:
                "id":"vi2912597529",
                "s":"1:00",
                "i":[
-                  
+
                   "https://ia.media-imdb.
                   com/images/M/MV5BMTU3NjE5MjExMV5BMl5BanBnXkFtZTgwMDMzMDUxMDI@._V1_.jpg",
-                  
+
                   1280,
                   720
                ]
@@ -313,10 +314,10 @@ output:
                "id":"vi1006679833",
                "s":"2:12",
                "i":[
-                  
+
                   "https://ia.media-imdb.
                   com/images/M/MV5BMTU1MTkxNjU5MV5BMl5BanBnXkFtZTgwNTQ3NjI1OTE@._V1_.jpg",
-                  
+
                   1280,
                   720
                ]
@@ -330,7 +331,7 @@ output:
          "y":1980,
          "q":"feature",
          "i":[
-            
+
             "https://ia.media-imdb.
             com/images/M/MV5BN2Y4ZDBjMjEtZWQ0OS00NzYyLTg0M2ItMmUzYTEwN2RmMGVlXkEyXkFqcGdeQXVyMjgyOTI1O
             DY@._V1_.jpg",
@@ -345,10 +346,10 @@ output:
          "y":1990,
          "q":"TV series",
          "i":[
-            
+
             "https://ia.media-imdb.com/images/M/MV5BMjAzOTkzNzk4OV5BMl5BanBnXkFtZTgwNzc0MzUzMzE@._V1_.
             jpg",
-            
+
             500,
             375
          ]
@@ -367,10 +368,10 @@ output:
          "y":2015,
          "q":"feature",
          "i":[
-            
+
             "https://ia.media-imdb.com/images/M/MV5BMTY1NzIxNzkzM15BMl5BanBnXkFtZTgwMzAzNjIzNjE@._V1_.
             jpg",
-            
+
             1382,
             2048
          ]
@@ -382,10 +383,10 @@ output:
          "y":1997,
          "q":"TV episode",
          "i":[
-            
+
             "https://ia.media-imdb.com/images/M/MV5BMTkwNzY4Mzg5N15BMl5BanBnXkFtZTcwNzE4MzEyMQ@@._V1_.
             jpg",
-            
+
             286,
             475
          ]
@@ -397,7 +398,7 @@ output:
          "y":2018,
          "q":"video",
          "i":[
-            
+
             "https://ia.media-imdb.
             com/images/M/MV5BODY5NjI2OTEtODI2ZC00MjJhLTk5MTEtNmM5MzlmNTUwNzEwXkEyXkFqcGdeQXVyNTM3MDMyM
             DQ@._V1_.jpg",
@@ -412,10 +413,10 @@ output:
          "y":2007,
          "q":"TV series",
          "i":[
-            
+
             "https://ia.media-imdb.com/images/M/MV5BMTY2Njc1MTgyNV5BMl5BanBnXkFtZTcwODYwNTI1MQ@@._V1_.
             jpg",
-            
+
             429,
             600
          ]
@@ -489,8 +490,8 @@ getTrendingGenre('comedy',7).then((data)=>{
      { name: 'Shameless',
        poster: 'https://ia.media-imdb.com/images/M/MV5BZjQ3ZjFkZmQtYjMwZS00ZWFkLTgyNGMtYTE1OTI5ZTAwNWI3XkEyXkFqcGdeQXVyNjc3OTUzNzM@._V1_QL50.jpg',
        id: 'tt1586680' } ] }
-       
-       
+
+
        Hope u understood.
 
 ```
