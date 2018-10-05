@@ -6,7 +6,7 @@ const {getWinner} = require('./lib/awards') // awards are provided
 const {getCast, getPoster} = require('./lib/photo') // poster and cast info is given by this function
 const {getRating, getGenre, getPro, getStory, getTitle, getRuntime, getYear, getEpisodeCount} = require('./lib/data')
 const {getTrending, getTrendingGenre} = require('./lib/trending') // provide trending functions
-const {search, simpleSearch} = require('./lib/search') // provide search functions
+const {search, searchActor, simpleSearch} = require('./lib/search') // provide search functions
 
 
 function scrapper(id) {
@@ -52,24 +52,8 @@ function getActor(id){
     return result;
   }).catch(ifError)
 }
-
-function searchActor(name){
-  return request(`https://www.imdb.com/find?ref_=nv_sr_fn&q=${name}&s=nm`).then((data) => {
-    const $ = cheerio.load(data);
-    let result = [];
-    $('tr').each((index, element) => {
-      let image = $(element).find('td.primary_photo > a > img').attr('src');
-      let name = $(element).find('td.result_text > a').text();
-      result.push({
-        actorImage: image,
-        actorName: name
-      });
-    });
-    return result;
-  }).catch(ifError)
-}
 // getTrendingGenre('comedy', 7).then((data)=>{
 //   console.log(data)
 // })
 
-module.exports = {scrapper,searchActor ,getActor, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch, ifError}
+module.exports = {scrapper, searchActor, getActor, getTrendingGenre, getTrending, search, getFull, awardsPage, getCast, simpleSearch, ifError}
