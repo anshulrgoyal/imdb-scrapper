@@ -47,6 +47,7 @@ function episodesPage(id, season = 1) {
     const $ = cheerio.load(data)
     return { ...getEpisodes($) }
   }).catch(ifError)
+}
 
 function getStarsByBornDay(date){
   const monthday = getMonthDay(date);
@@ -71,4 +72,3 @@ function getFull(id) {
 // })
 
 module.exports = { scrapper, getTrendingGenre, getTrending, search, getFull, getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast, simpleSearch, ifError, request }
-
