@@ -19,7 +19,7 @@ const {
   getStars
 } = require('./lib/data');
 const {getTrending, getTrendingGenre} = require('./lib/trending') // provide trending functions
-const {search, simpleSearch} = require('./lib/search') // provide search functions
+const {search, searchActor, simpleSearch} = require('./lib/search') // provide search functions
 
 const getMonthDay = d3TimeFormat('%m-%d');
 
@@ -67,8 +67,31 @@ function getFull(id) {
     return { ...data[0], ...data[1], ...data[2] }
   }).catch(ifError)
 }
+
+function getActor(id){
+  return request(`https://www.imdb.com/name/${id}/?ref_=tt_cl_t1`).then((data) => {
+    const $ = cheerio.load(data);
+    let result = [];
+    let info = $('div.inline').text().split('\n').join(' ').split('...');
+    let birthDate = $('div#name-born-info a:nth-child(1)').text();
+    let birthYear = $('div#name-born-info a:nth-child(2)').text();
+    let bornInfo = $('div#name-born-info a:nth-child(3)').text();
+    let name = $('h1.header span.itemprop').text();
+    let image = $('a img#name-poster').attr('src');
+    result.push({
+      actorName: name,
+      actorImage: image,
+      actorInfo: info[0].trim(),
+      actorBirth: birthDate + ", " + birthYear,
+      actorBorn: bornInfo
+    });
+    return result;
+  }).catch(ifError)
+}
 // getTrendingGenre('comedy', 7).then((data)=>{
 //   console.log(data)
 // })
 
+
 module.exports = { scrapper, getTrendingGenre, getTrending, search, getFull, getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast, simpleSearch, ifError, request }
+
