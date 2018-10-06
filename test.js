@@ -1,4 +1,4 @@
-const { getFull } = require("./index");
+const { getFull, getStarsByBornDay, getStarsBornToday, episodesPage } = require("./index");
 
 function dislayMessage(msg, status) {
   status
@@ -7,7 +7,7 @@ function dislayMessage(msg, status) {
 }
 
 function test() {
-  Promise.all([getFull("tt2395427"), getFull("tt0944947")]).then(data => {
+  Promise.all([getFull("tt2395427"), getFull("tt0944947"), episodesPage("tt2177461")]).then(data => {
     let movieDetails = data[0];
     const expectedMovieDetails = {
       title: "Avengers: Age of Ultron (2015)",
@@ -48,7 +48,40 @@ function test() {
       seriesDetails.runtime === expectedSeriesDetails.runtime &&
       seriesDetails.episodes === expectedSeriesDetails.episodes;
     dislayMessage("Series Details", seriesTestValid);
+
+    let seriesEpisode = data[2].episodes[0];
+    const expectedSeriesEpisodeDetails = {
+      story: "Things get creepy for historian and closet witch, Diana Bishop, when she calls up a magical manuscript. Her discovery is about to throw her back into the world of magic and into the path of Matthew Clairmont, a centuries old vampire.",
+      airDate: "14 Sep. 2018",
+      rating: "8.6"
+    };
+    console.log(seriesEpisode)
+
+    let episodeTestValid =
+      seriesEpisode.story === expectedSeriesEpisodeDetails.story &&
+      seriesEpisode.airDate === expectedSeriesEpisodeDetails.airDate &&
+      seriesEpisode.rating === expectedSeriesEpisodeDetails.rating;
+    dislayMessage("Series Episode", episodeTestValid);
   });
 }
 
+function testGetStarsByBornDay(){
+  getStarsByBornDay(new Date('2018-10-2'))
+    .then(data => {
+      const isValid = data.length > 0;
+      dislayMessage("Stars By Born Day", isValid);
+    })
+}
+
+function testGetStarsBornToday(){
+  getStarsBornToday()
+    .then(data => {
+      const isValid = data.length > 0;
+      dislayMessage("Stars Born Today", isValid);
+    })
+}
+
 test();
+
+testGetStarsByBornDay();
+testGetStarsBornToday();
