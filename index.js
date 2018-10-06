@@ -32,7 +32,7 @@ function scrapper(id) {
 
     return {...getTitle($), ...getRuntime($), ...getYear($), ...getStory($),
       ...getPro($), ...getGenre($), ...getRating($), ...getPoster($),
-      ...getPoster($), ...getEpisodeCount($)}
+      ...getPoster($), ...getEpisodeCount($), ...getSimilarMoviesById($)}
     // return{...getTitle($)}
   }).catch(ifError)
 } // combining all the low level api in the single one
@@ -66,18 +66,9 @@ function getStarsBornToday(){
   return getStarsByBornDay(Date.now())
 }
 
-function getSimilarMovies(id){
-  return request(`${BASE_URL}/title/${id}/?ref_=nv_sr_1`)
-    .then(data => {
-      const $ = cheerio.load(data);
-      return getSimilarMoviesById($);
-    })
-    .catch(ifError)
-}
-
 function getFull(id) {
-  return Promise.all([scrapper(id), awardsPage(id), getCast(id), getSimilarMovies(id)]).then((data) => {
-    return { ...data[0], ...data[1], ...data[2], ...data[3] }
+  return Promise.all([scrapper(id), awardsPage(id), getCast(id)]).then((data) => {
+    return { ...data[0], ...data[1], ...data[2]}
   }).catch(ifError)
 }
 // getTrendingGenre('comedy', 7).then((data)=>{
