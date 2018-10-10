@@ -97,5 +97,4 @@ function getActor(id){
 // })
 
 module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull,
-  getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast,
-  simpleSearch, ifError, request}
+  getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast,getActor,searchActor, simpleSearch, ifError, request}

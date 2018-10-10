@@ -1,5 +1,4 @@
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/bc6194d22404dbf244c3/test_coverage)](https://codeclimate.com/github/anshulgoyal15/imdb-scrapper/test_coverage)
 <h1>IMDB Scrapper</h1>
 
 This is one stop tool/lib for getting any type of data from IMDB website. For instance, you can get cast(s) of a movie or awards won by that movie and some of it's basic information. All the images function provides images with title and poster of high quality.
@@ -10,7 +9,14 @@ Every function in this lib is asynchronous, they all return a promise. The modul
 <li>`getCast(id[,n])`: `id` refers to IMDBID like _tt1825683_, `n` is optional, it specify number of actors and actresses. By default it is set to 20. This function provide cast of the movies. </li>
 <li> `getFull(id)`: `id` refers to IMDBID like _tt1825683_. This function is the amalgamation of above three. And its configurations are set to default.</li>
 <li>For making a get request use **request**</li>
+<li>`getActor(id)` to get detail of the actor id is the actor id like _nm43124_.This function provide basic info about the actor like name ,birthdate, image etc</li>
+<li>`searchActor(term)`.This function provide the serach functionality for actors</li>
+<li> `episodePage(id,seasonNumber)`.the season no. is the season which is required</li>
 </ul>
+
+### Check test.js for example of allmost very function usage and returned data ;)
+
+
 <h2>Using above function in different PNC</h2>
 If awards and cast is only required,
 
