@@ -1,18 +1,17 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bc6194d22404dbf244c3/test_coverage)](https://codeclimate.com/github/anshulgoyal15/imdb-scrapper/test_coverage)
-<h1>IMDB SCRAPPER</h1>
+<h1>IMDB Scrapper</h1>
 
-This is one stop tool/lib for getting any type of data from imdb site,eg you can get cast
-of a movie or awards won by movie and some of it's basic info.All the images function provide images with title and poster of high quality.
-Every function in this lib is async it returns a promise.The module is made to be modular for different function like it provide four function:
+This is one stop tool/lib for getting any type of data from IMDB website. For instance, you can get cast(s) of a movie or awards won by that movie and some of it's basic information. All the images function provides images with title and poster of high quality.
+Every function in this lib is asynchronous, they all return a promise. The module is made to be modular for different functions. It provides four function:
 <ul>
-<li>scrapper(id) id here reffer to imdbID like:'tt1825683'. This function provide some basic data like genre,runtime,plot etc</li>
-<li>awardsPage(id) id here reffer to imdbID like:'tt1825683'.This function provide awards won by movies by default it provide first three awards or most rated ones</li>
-<li>getCast(id,n) id here reffer to imdbID like:'tt1825683' n is optional it specify the no. of actors required by default it is set to 20. This function provide cast of the movies </li>
-<li> getFull(id) id here reffer to imdbID like:'tt1825683.This function is the combination of above three,but with it's configuration is set to default </li>
-<li>For making a get request use request()</li>
+<li>`scrapper(id)`: `id` refers to IMDBID like _tt1825683_. This function provides some basic metadata like genre, runtime, plot etc.</li>
+<li>`awardsPage(id)`: `id` refers to IMDBID like _tt1825683_. This function provides list of awards won by the movie. By default it provides first three awards or most rated ones.</li>
+<li>`getCast(id[,n])`: `id` refers to IMDBID like _tt1825683_, `n` is optional, it specify number of actors and actresses. By default it is set to 20. This function provide cast of the movies. </li>
+<li> `getFull(id)`: `id` refers to IMDBID like _tt1825683_. This function is the amalgamation of above three. And its configurations are set to default.</li>
+<li>For making a get request use **request**</li>
 </ul>
-<h2>Using Above function in Different PNC</h2>
+<h2>Using above function in different PNC</h2>
 If awards and cast is only required,
 
 ```javascript
@@ -23,30 +22,30 @@ Promise.all(funs).then((data)=>{
     console.log(movieDetails)
 })
 ```
-<h3>To install</h3>
+<h3>To install the package</h3>
 
 ```
 npm install --save imdb-scrapper
 ```
-<h1>SEACRH APIS</h1>
-The most important aspect of any movie site is search .This module provide two search Stragey:
+<h1>Search APIs</h1>
+The most important aspect of any movie website is search. This module provides two search strategies:
 <ul>
-<li>serach(term,n) term reprensts the search query n signify the required number of results.The
-function provide serach results from all the genre</li>
-<li>simpleSearch(term) term reprensts the search query This function is faster as it directly uses
-the ajax calls made by imdb page and can be suited for auto complete feature</li>
+<li>`search(term,n)`: `term` represents the search query and `n` signify the required number of results. The
+function provide search results from all the genres.</li>
+<li>`simpleSearch(term)`: `term` represents the search query. This function is faster as it directly uses
+the ajax calls made by IMDB page and is suited for auto complete feature.</li>
 </ul>
-<h1>Trending movies</h1>
+<h1>Trending Movies</h1>
 This section is not provided by any other api or scrapper including cast and awards.
 There are two different ways of scrapping provide by this lib:
 <ul>
-<li>getTrending(n) n is optional parameter giving the count of result required.This function provide
- the trending movies known as 'trending 250' on imdb website</li>
-<li>getTrendingGenre(genre,n) n is optional parameter giving the count of result required.This function provide results sorted on the basis of genre </li>
+<li>`getTrending([n])`: `n` is an optional parameter, representing the count of result required. This function provides
+ the trending movies known as _trending 250_ on IMDB website.</li>
+<li>`getTrendingGenre(genre [,n])`: `n` is an optional parameter, representing the count of result required. This function provide results sorted on the basis of genres.</li>
 </ul>
 
-<h1>EXAMPLES</h1>
-<h2>SCRAPPER</h2>
+<h1>Examples</h1>
+<h2>Scrapper</h2>
 
 ```javascript
 
@@ -490,8 +489,6 @@ getTrendingGenre('comedy',7).then((data)=>{
      { name: 'Shameless',
        poster: 'https://ia.media-imdb.com/images/M/MV5BZjQ3ZjFkZmQtYjMwZS00ZWFkLTgyNGMtYTE1OTI5ZTAwNWI3XkEyXkFqcGdeQXVyNjc3OTUzNzM@._V1_QL50.jpg',
        id: 'tt1586680' } ] }
-
-
-       Hope u understood.
-
 ```
+
+I hope it helps.
