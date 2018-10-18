@@ -92,7 +92,6 @@ function getActor(id){
     return result;
   }).catch(ifError)
 }
-scrapper('tt5095030').then(data=>console.log(data))
 
 module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull,
   getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast,getActor,searchActor, simpleSearch, ifError, request}
