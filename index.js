@@ -51,7 +51,7 @@ function episodesPage(id, season = 1) {
     return { ...getEpisodes($) }
   }).catch(ifError)
 }
-
+//episodesPage('tt1520211').then(data=>console.log(data))
 function getStarsByBornDay(date){
   const monthday = getMonthDay(date);
   return request(`${BASE_URL}/search/name?birth_monthday=${monthday}&refine=birth_monthday&ref_=nv_cel_brn`)
