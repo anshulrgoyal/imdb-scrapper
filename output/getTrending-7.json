@@ -1,0 +1,39 @@
+{
+    "trending": [
+        {
+            "name": "Bohemian Rhapsody",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_QL50.jpg",
+            "id": "tt1727824"
+        },
+        {
+            "name": "Overlord",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzU0NTI1MTU2M15BMl5BanBnXkFtZTgwNTg4MDIzNjM@._V1_QL50.jpg",
+            "id": "tt4530422"
+        },
+        {
+            "name": "A Star Is Born",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjE3MDQ0MTA3M15BMl5BanBnXkFtZTgwMDMwNDY2NTM@._V1_QL50.jpg",
+            "id": "tt1517451"
+        },
+        {
+            "name": "Outlaw King",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTc4MTU4YzEtODBiNC00NzA4LTg0NGItM2ZhZjZlNDFiNjJjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL50.jpg",
+            "id": "tt6679794"
+        },
+        {
+            "name": "Fantastic Beasts: The Crimes of Grindelwald",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZjFiMGUzMTAtNDAwMC00ZjRhLTk0OTUtMmJiMzM5ZmVjODQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL50.jpg",
+            "id": "tt4123430"
+        },
+        {
+            "name": "The Grinch",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYmE5Yjg0MzktYzgzMi00YTFiLWJjYTItY2M5MmI1ODI4MDY3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL50.jpg",
+            "id": "tt2709692"
+        },
+        {
+            "name": "Halloween",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMmMzNjJhYjUtNzFkZi00MWQ4LWJiMDEtYWM0NTAzNGZjMTI3XkEyXkFqcGdeQXVyOTE2OTMwNDk@._V1_QL50.jpg",
+            "id": "tt1502407"
+        }
+    ]
+}

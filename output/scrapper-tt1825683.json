@@ -1,0 +1,87 @@
+{
+    "title": "Black Panther (2018)",
+    "runtime": "2h 14min",
+    "year": "2018",
+    "story": "    After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
+    "director": [
+        "Ryan Coogler"
+    ],
+    "writers": [
+        "Ryan Coogler",
+        "Joe Robert Cole"
+    ],
+    "stars": [
+        "Chadwick Boseman",
+        "Michael B. Jordan",
+        "Lupita Nyong'o"
+    ],
+    "genre": [
+        " Action ",
+        " Adventure ",
+        " Sci-Fi"
+    ],
+    "rating": "7.4",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
+    "related": [
+        {
+            "id": "tt3501632",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Thor: Ragnarok"
+        },
+        {
+            "id": "tt2250912",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Spider-Man: Homecoming"
+        },
+        {
+            "id": "tt4154756",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Avengers: Infinity War"
+        },
+        {
+            "id": "tt5463162",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY190_CR31,0,128,190_AL_.jpg",
+            "name": "Deadpool 2"
+        },
+        {
+            "id": "tt2015381",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Guardians of the Galaxy"
+        },
+        {
+            "id": "tt0451279",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Wonder Woman"
+        },
+        {
+            "id": "tt3896198",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Guardians of the Galaxy Vol. 2"
+        },
+        {
+            "id": "tt3498820",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Captain America: Civil War"
+        },
+        {
+            "id": "tt1211837",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Doctor Strange"
+        },
+        {
+            "id": "tt1431045",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Deadpool"
+        },
+        {
+            "id": "tt2395427",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Avengers: Age of Ultron"
+        },
+        {
+            "id": "tt0848228",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "The Avengers"
+        }
+    ]
+}

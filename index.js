@@ -33,7 +33,6 @@ function scrapper(id) {
     return {...getTitle($), ...getRuntime($), ...getYear($), ...getStory($),
       ...getPro($), ...getGenre($), ...getRating($), ...getPoster($),
       ...getPoster($), ...getEpisodeCount($), ...getSimilarMoviesById($)}
-    // return{...getTitle($)}
   }).catch(ifError)
 } // combining all the low level api in the single one
 
@@ -92,5 +91,6 @@ function getActor(id){
     return result;
   }).catch(ifError)
 }
+
 module.exports = {scrapper, getTrendingGenre, getTrending, search, getFull,
   getStarsByBornDay, getStarsBornToday, awardsPage, episodesPage, getCast,getActor,searchActor, simpleSearch, ifError, request}
