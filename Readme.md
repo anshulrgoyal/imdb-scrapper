@@ -1,5 +1,5 @@
 
-#IMDB Scrapper
+# IMDB Scrapper
 
 This is one stop tool/lib for getting any type of data from IMDB website. For instance, you can get cast(s) of a movie or awards won by that movie and some of it's basic information. All the images function provides images with title and poster of high quality.
 Every function in this lib is asynchronous, they all return a promise. The module is made to be modular for different functions. It provides many functions:
