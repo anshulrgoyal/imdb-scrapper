@@ -1,23 +1,26 @@
 
-<h1>IMDB Scrapper</h1>
+#IMDB Scrapper
 
 This is one stop tool/lib for getting any type of data from IMDB website. For instance, you can get cast(s) of a movie or awards won by that movie and some of it's basic information. All the images function provides images with title and poster of high quality.
-Every function in this lib is asynchronous, they all return a promise. The module is made to be modular for different functions. It provides four function:
-<ul>
-<li>`scrapper(id)`: `id` refers to IMDBID like _tt1825683_. This function provides some basic metadata like genre, runtime, plot etc.</li>
-<li>`awardsPage(id)`: `id` refers to IMDBID like _tt1825683_. This function provides list of awards won by the movie. By default it provides first three awards or most rated ones.</li>
-<li>`getCast(id[,n])`: `id` refers to IMDBID like _tt1825683_, `n` is optional, it specify number of actors and actresses. By default it is set to 20. This function provide cast of the movies. </li>
-<li> `getFull(id)`: `id` refers to IMDBID like _tt1825683_. This function is the amalgamation of above three. And its configurations are set to default.</li>
-<li>For making a get request use **request**</li>
-<li>`getActor(id)` to get detail of the actor id is the actor id like _nm43124_.This function provide basic info about the actor like name ,birthdate, image etc</li>
-<li>`searchActor(term)`.This function provide the serach functionality for actors</li>
-<li> `episodePage(id,seasonNumber)`.the season no. is the season which is required</li>
-</ul>
+Every function in this lib is asynchronous, they all return a promise. The module is made to be modular for different functions. It provides many functions:
+
+1. `scrapper(id)`: `id` refers to IMDBID like _tt1825683_. This function provides some basic metadata like genre, runtime, plot etc.
+2. `awardsPage(id)`: `id` refers to IMDBID like _tt1825683_. This function provides list of awards won by the movie. By default it provides first three awards or most rated ones.
+3. `getCast(id[,n])`: `id` refers to IMDBID like _tt1825683_, `n` is optional, it specify number of actors and actresses. By default it is set to 20. This function provide cast of the movies.  
+4.  `getFull(id)`: `id` refers to IMDBID like _tt1825683_. This function is the amalgamation of above three. And its configurations are set to default.
+5. For making a get request use **request**
+6. `getActor(id)` : to get detail of the actor id is the actor id like _nm43124_.This function provide basic info about the actor like name ,birthdate, image etc
+7. `searchActor(term)`:This function provide the serach functionality for actors
+8.  `episodePage(id,seasonNumber)`:the season no. is the season which is required
+9. `simpleSearch(term)` :This provide a fast way to get autocomplete suggestions .Under the hood it uses the imdb api for result.No scrapping is involved in the process.
+10. `serach(term)` : This provide api to serach for `term` using scrapping.
+11. ` getTrendingGenre(genre,n), getTrending(n,type)`:get movies trending based on `genre` or `type =['tv','movies']`.
+12. `getStarsBornToday(),getStarsBorn(date)`:gives the stars born on `date` or today.
 
 ### Check test.js for example of allmost very function usage and returned data ;)
 
 
-<h2>Using above function in different PNC</h2>
+## Using above function in different PNC
 If awards and cast is only required,
 
 ```javascript
@@ -28,42 +31,44 @@ Promise.all(funs).then((data)=>{
     console.log(movieDetails)
 })
 ```
-<h3>To install the package</h3>
+### To install the package
 
 ```
 npm install --save imdb-scrapper
 ```
-<h1>Search APIs</h1>
+## Search APIs
 The most important aspect of any movie website is search. This module provides two search strategies:
-<ul>
-<li>`search(term,n)`: `term` represents the search query and `n` signify the required number of results. The
-function provide search results from all the genres.</li>
-<li>`simpleSearch(term)`: `term` represents the search query. This function is faster as it directly uses
-the ajax calls made by IMDB page and is suited for auto complete feature.</li>
-</ul>
-<h1>Trending Movies</h1>
+
+1. `search(term,n)`: `term` represents the search query and `n` signify the required number of results. The
+function provide search results from all the genres.
+1. `simpleSearch(term)`: `term` represents the search query. This function is faster as it directly uses
+the ajax calls made by IMDB page and is suited for auto complete feature.
+
+
+## Trending Movies
 This section is not provided by any other api or scrapper including cast and awards.
 There are two different ways of scrapping provide by this lib:
 <ul>
-<li>`getTrending([n])`: `n` is an optional parameter, representing the count of result required. This function provides
- the trending movies known as _trending 250_ on IMDB website.</li>
-<li>`getTrendingGenre(genre [,n])`: `n` is an optional parameter, representing the count of result required. This function provide results sorted on the basis of genres.</li>
-</ul>
+1. `getTrending([n])`: `n` is an optional parameter, representing the count of result required. This function provides
+ the trending movies known as _trending 250_ on IMDB website.
+1. `getTrendingGenre(genre [,n])`: `n` is an optional parameter, representing the count of result required. This function provide results sorted on the basis of genres.
 
-<h1>Examples</h1>
-<h2>Scrapper</h2>
+## Examples
+
+
+### Scrapper
 
 ```javascript
 
 const {scrapper}=require('imdb-scrapper');
-
-
 scrapper('tt1825683').then((movieDetails)=>{
     console.log(movieDetails)
 
 })
 ```
-output:
+
+#### output:
+
 ```
 { title: 'Black Panther (2018)',
   runtime: '2h 14min',
@@ -86,7 +91,7 @@ output:
 
 
 ```
-<h2>AWARDSPAGE</h2>
+### AWARDSPAGE
 
 ```javascript
 
@@ -98,7 +103,8 @@ awardsPage('tt5580390').then((movieDetails)=>{
 })
 ```
 
-output:
+#### output:
+
 ```
 { Oscar:
    [ { category: 'Best Achievement in Directing',
@@ -120,18 +126,18 @@ output:
      { category: 'Original Music', wonBy: 'Alexandre Desplat' } ] }
 
 ```
-<h2>GETFULL</h2>
+### GETFULL
 
 
 ```javascript
-const {scrapper,awardsPage,getFull}=require('imdb-scrapper');
+const {getFull}=require('imdb-scrapper');
 
 getFull('tt2395427').then((movieDetails)=>{
     console.log(movieDetails)
 
 })
 ```
-output:
+#### output:
 ```
 { title: 'Avengers: Age of Ultron (2015)',
   runtime: '2h 21min',
@@ -259,15 +265,17 @@ output:
        role: 'Strucker' } ] }
 
 ```
-<h2>SIMPLESEARCH</h2>
+### SIMPLESEARCH
 
 ```javascript
 simpleSearch('flash').then((data)=>{
     console.log(data)
 })
 ```
-output:
-```
+
+#### output:
+
+```json
 {
    "v":1,
    "q":"flash",
@@ -429,7 +437,7 @@ output:
    ]
 }
 ```
-<h3>GETTRENDING</h3>
+### GETTRENDING
 
 ```javascript
 const {getTrending}=require('imdb-scrapper')
@@ -437,6 +445,7 @@ getTrending(7).then((data)=>{
   console.log(data)
 })
 ```
+#### output:
 ```
 { trending:
    [ { name: 'A Quiet Place',
@@ -463,7 +472,7 @@ getTrending(7).then((data)=>{
        id: 'tt1825683' } ] }
 
 ```
-<h3>GETTRENDINGGENRE</h3>
+### GETTRENDINGGENRE
 
 ```javascript
 const {getTrendingGenre}=require('imdb-scrapper')
@@ -471,6 +480,7 @@ getTrendingGenre('comedy',7).then((data)=>{
   console.log(data)
 })
 ```
+#### output:
 ```
 { trending:
    [ { name: 'A Series of Unfortunate Events',
@@ -497,4 +507,4 @@ getTrendingGenre('comedy',7).then((data)=>{
        id: 'tt1586680' } ] }
 ```
 
-I hope it helps.
+*I hope it helps.*
