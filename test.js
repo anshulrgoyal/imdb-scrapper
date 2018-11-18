@@ -1,5 +1,18 @@
-const { getFull, getStarsByBornDay, getStarsBornToday, episodesPage } = require("./index");
+const {
+  getFull,
+  getStarsByBornDay,
+  getStarsBornToday,
+  episodesPage
+} = require("./index");
 
+/**
+ * dislayMessage - show error or sucess message
+ *
+ * @param {String} msg   the tested function name
+ * @param {Boolean} status the status of the working of tested functions
+ *
+ * @returns {Undifined}
+ */
 function dislayMessage(msg, status) {
   status
     ? console.log(`${msg} is working fine`)
@@ -7,7 +20,11 @@ function dislayMessage(msg, status) {
 }
 
 function test() {
-  Promise.all([getFull("tt2395427"), getFull("tt0944947"), episodesPage("tt2177461")]).then(data => {
+  Promise.all([
+    getFull("tt2395427"),
+    getFull("tt0944947"),
+    episodesPage("tt2177461")
+  ]).then(data => {
     let movieDetails = data[0];
     const expectedMovieDetails = {
       title: "Avengers: Age of Ultron (2015)",
@@ -37,48 +54,47 @@ function test() {
       stars: ["Emilia Clarke", "Peter Dinklage", "Kit Harington"],
       genre: [" Action ", " Adventure ", " Drama ", " Fantasy ", " Romance"],
       rating: "9.5",
-      episodes: '73 episodes',
+      episodes: "73 episodes"
     };
-    console.log(seriesDetails)
+    console.log(seriesDetails);
 
     //series should have year, runtime, episode count
     let seriesTestValid =
       seriesDetails.title === expectedSeriesDetails.title &&
       seriesDetails.year === expectedSeriesDetails.year &&
       seriesDetails.runtime === expectedSeriesDetails.runtime &&
-      seriesDetails.episodes !==null;
+      seriesDetails.episodes !== null;
     dislayMessage("Series Details", seriesTestValid);
 
     let seriesEpisode = data[2].episodes[0];
     const expectedSeriesEpisodeDetails = {
-      story: "Things get creepy for historian and closet witch, Diana Bishop, when she calls up a magical manuscript. Her discovery is about to throw her back into the world of magic and into the path of Matthew Clairmont, a centuries old vampire.",
+      story:
+        "Things get creepy for historian and closet witch, Diana Bishop, when she calls up a magical manuscript. Her discovery is about to throw her back into the world of magic and into the path of Matthew Clairmont, a centuries old vampire.",
       airDate: "14 Sep. 2018",
       rating: "8.6"
     };
-    console.log(seriesEpisode)
+    console.log(seriesEpisode);
 
     let episodeTestValid =
       seriesEpisode.story === expectedSeriesEpisodeDetails.story &&
       seriesEpisode.airDate === expectedSeriesEpisodeDetails.airDate &&
-      seriesEpisode.rating !==null;
+      seriesEpisode.rating !== null;
     dislayMessage("Series Episode", episodeTestValid);
   });
 }
 
-function testGetStarsByBornDay(){
-  getStarsByBornDay(new Date('2018-10-2'))
-    .then(data => {
-      const isValid = data.length > 0;
-      dislayMessage("Stars By Born Day", isValid);
-    })
+function testGetStarsByBornDay() {
+  getStarsByBornDay(new Date("2018-10-2")).then(data => {
+    const isValid = data.length > 0;
+    dislayMessage("Stars By Born Day", isValid);
+  });
 }
 
-function testGetStarsBornToday(){
-  getStarsBornToday()
-    .then(data => {
-      const isValid = data.length > 0;
-      dislayMessage("Stars Born Today", isValid);
-    })
+function testGetStarsBornToday() {
+  getStarsBornToday().then(data => {
+    const isValid = data.length > 0;
+    dislayMessage("Stars Born Today", isValid);
+  });
 }
 
 test();
