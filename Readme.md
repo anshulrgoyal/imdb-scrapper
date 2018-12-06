@@ -58,6 +58,6 @@ There are two different ways of scrapping provide by this lib:
     the trending movies known as _trending 250_ on IMDB website.
 2.  `getTrendingGenre(genre [,n])`: `n` is an optional parameter, representing the count of result required. This function provide results sorted on the basis of genres.
 
-**_Have a look at outputGenerator for expamle and output for output example also have look at [example](imdb-scrapper/EXAMPLE.md)_**
+**_Have a look at outputGenerator for expamle and output for output example also have look at [example](https://github.com/hack-throne/imdb-scrapper/blob/master/EXAMPLE.md)_**
 
 _I hope it helps._
