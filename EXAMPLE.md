@@ -1,5 +1,35 @@
 
+  ## changeQuality(n)
+  ### n can be 0,1,2,3,4,5
+  
+## 0
+![quality-0](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX32_CR0,0,32,44_AL_.jpg)
+
+
+## 1
+![quality-1](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UY99_CR43,0,99,99_AL_.jpg)
+
+
+## 2
+![quality-2](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX86_CR0,0,86,86_AL_.jpg)
+
+
+## 3
+![quality-3](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX148_CR0,0,148,216_AL__QL50.jpg)
+
+
+## 4
+![quality-4](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg)
+
+
+## 5
+![quality-5](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_QL50.jpg)
+
+
   ## simpleSearch(flash)
+  ```javascript
+  simpleSearch(flash).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
@@ -13,13 +43,33 @@
       "y": 2014,
       "yr": "2014-",
       "q": "TV series",
-      "vt": 26,
+      "vt": 29,
       "i": [
         "https://m.media-amazon.com/images/M/MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM@._V1_.jpg",
         960,
         1200
       ],
       "v": [
+        {
+          "l": "Official Promo",
+          "id": "vi2312747545",
+          "s": "0:31",
+          "i": [
+            "https://m.media-amazon.com/images/M/MV5BNmM2YWRmOTctZWZjOC00ZTIxLWI1YWMtZTgzNmI5NzNmMDg0XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+            1920,
+            1080
+          ]
+        },
+        {
+          "l": "\"Elseworlds\" | Batwoman Teaser",
+          "id": "vi198883865",
+          "s": "0:21",
+          "i": [
+            "https://m.media-amazon.com/images/M/MV5BZTI1OWJhNzQtZGM3NC00MDVmLTljNWMtNzkxZDk0ZmRkM2VkXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_.jpg",
+            1920,
+            1080
+          ]
+        },
         {
           "l": "Comic-Con 2018 Trailer",
           "id": "vi701348633",
@@ -28,26 +78,6 @@
             "https://m.media-amazon.com/images/M/MV5BMWM3NTQ2NjMtOGQ2OS00YWE1LWFhZGQtNDgwN2RmYzQ0YWQ5XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
             1920,
             1080
-          ]
-        },
-        {
-          "l": "Comic-Con 2017 Trailer",
-          "id": "vi523352345",
-          "s": "2:01",
-          "i": [
-            "https://m.media-amazon.com/images/M/MV5BNDE4OWI3OTktYTU5ZS00NjE1LThjZGUtMmNlZmNhNzJlYTZkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-            1280,
-            720
-          ]
-        },
-        {
-          "l": "Extended Season 3 Trailer",
-          "id": "vi2912597529",
-          "s": "1:00",
-          "i": [
-            "https://m.media-amazon.com/images/M/MV5BMTU3NjE5MjExMV5BMl5BanBnXkFtZTgwMDMzMDUxMDI@._V1_.jpg",
-            1280,
-            720
           ]
         }
       ]
@@ -91,31 +121,6 @@
       ]
     },
     {
-      "l": "Ricki and the Flash",
-      "id": "tt3623726",
-      "s": "Meryl Streep, Kevin Kline",
-      "y": 2015,
-      "q": "feature",
-      "i": [
-        "https://m.media-amazon.com/images/M/MV5BMTY1NzIxNzkzM15BMl5BanBnXkFtZTgwMzAzNjIzNjE@._V1_.jpg",
-        1382,
-        2048
-      ]
-    },
-    {
-      "l": "Flash Forward",
-      "id": "tt0115173",
-      "s": "Ben Foster, Jewel Staite",
-      "y": 1995,
-      "yr": "1995-1997",
-      "q": "TV series",
-      "i": [
-        "https://m.media-amazon.com/images/M/MV5BYjM4YWE5ZmEtY2VkNC00ODYwLWIxOTgtNmI5ZmVkOTIzOWFiXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg",
-        947,
-        1000
-      ]
-    },
-    {
       "l": "Flash Gordon",
       "id": "tt0959086",
       "s": "Eric Johnson, Gina Holden",
@@ -129,16 +134,68 @@
       ]
     },
     {
+      "l": "Ricki and the Flash",
+      "id": "tt3623726",
+      "s": "Meryl Streep, Kevin Kline",
+      "y": 2015,
+      "q": "feature",
+      "i": [
+        "https://m.media-amazon.com/images/M/MV5BMTY1NzIxNzkzM15BMl5BanBnXkFtZTgwMzAzNjIzNjE@._V1_.jpg",
+        1382,
+        2048
+      ]
+    },
+    {
       "l": "Flash Gordon",
-      "id": "tt0421201",
-      "q": "feature"
+      "id": "tt0027623",
+      "s": "Buster Crabbe, Jean Rogers",
+      "y": 1936,
+      "q": "feature",
+      "i": [
+        "https://m.media-amazon.com/images/M/MV5BMjA5NDczNjM5Nl5BMl5BanBnXkFtZTgwNzMxMDM1MjE@._V1_.jpg",
+        336,
+        500
+      ]
+    },
+    {
+      "l": "Jumpin' Jack Flash",
+      "id": "tt0091306",
+      "s": "Whoopi Goldberg, Stephen Collins",
+      "y": 1986,
+      "q": "feature",
+      "i": [
+        "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
+        500,
+        766
+      ]
     }
   ]
 }
   ```
     
 
+  ## getActor(nm2652716)
+  ```javascript
+  getActor(nm2652716).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   [
+  {
+    "actorName": "Grant Gustin",
+    "actorImage": "https://m.media-amazon.com/images/M/MV5BMjE3NDUyMTg1MF5BMl5BanBnXkFtZTgwMTQzMjY1NjM@._V1_UY317_CR11,0,214,317_AL__QL50.jpg",
+    "actorInfo": "Thomas Grant Gustin was born on January 14, 1990 in Norfolk, Virginia, to Tina Lynne (Sweeney), a pediatric nurse, and Thomas Avery Gustin. In 2008, he graduated from Granby High School and went on to attend the BFA Music Theatre Program at Elon University in North Carolina for two years. He left school to take the role of Baby John in the",
+    "actorBirth": "January 14, 1990",
+    "actorBorn": "Norfolk, Virginia, USA"
+  }
+]
+  ```
+    
+
   ## getCast(tt1825683)
+  ```javascript
+  getCast(tt1825683).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
@@ -249,6 +306,9 @@
     
 
   ## searchActor(govinda)
+  ```javascript
+  searchActor(govinda).then(val=>console.log(val))
+  ```
   ### output
    ```json
    [
@@ -267,8 +327,8 @@
   },
   {
     "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm1535726"
+    "actorName": "Govinda",
+    "actorId": "nm5771431"
   },
   {
     "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
@@ -289,977 +349,25 @@
     "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
     "actorName": "R. Govindaraj",
     "actorId": "nm5407632"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Jandhyala Gaurinatha Sastri",
-    "actorId": "nm0310181"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMTgwMTczODg2OF5BMl5BanBnXkFtZTgwNDk5OTU0MTE@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Linda Lavin",
-    "actorId": "nm0492089"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Menon",
-    "actorId": "nm5962047"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm7678583"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm5771431"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm5744282"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BZDMxOWUxNmUtNGQwMS00OTIzLWFmZDMtMTM4YTVhM2EzNjZmXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Namdeo",
-    "actorId": "nm0620636"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindas",
-    "actorId": "nm3234865"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindan",
-    "actorId": "nm1634354"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "N. Govindan",
-    "actorId": "nm2023826"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda R.",
-    "actorId": "nm9317989"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "A. Govindan",
-    "actorId": "nm2262188"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNmI2MzBmZmUtNWRmMS00YTE2LTg1MWEtZjNlNWVlM2MyYjgzXkEyXkFqcGdeQXVyODcwNDY2MTg@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Santosh Govindaraju",
-    "actorId": "nm8844501"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNWFjNGQ1MTUtMzExNy00YWE2LTgwMjgtOGY0ODQwYWFjNjQ0XkEyXkFqcGdeQXVyMTc5ODgxMw@@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kevin Daniels",
-    "actorId": "nm0199823"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Ram Govind",
-    "actorId": "nm1338988"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm5723734"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm9778551"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm2996535"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm9855570"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm7884607"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm6936257"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm8272174"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm4741501"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm3481913"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm10260893"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm6306676"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind",
-    "actorId": "nm2855666"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Roser",
-    "actorId": "nm4774613"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMTAwNmMxYzYtZGRiMy00MGNkLTlkMjEtYzlmZjc2ZDlmNzMxXkEyXkFqcGdeQXVyMjE2ODU0MzU@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Kumar",
-    "actorId": "nm3526346"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Rae",
-    "actorId": "nm6255260"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Moonis",
-    "actorId": "nm0600793"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Pandey",
-    "actorId": "nm1588618"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "S. Govind",
-    "actorId": "nm3132691"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "M. Govind",
-    "actorId": "nm5744568"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Khatri",
-    "actorId": "nm1385758"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Yadav",
-    "actorId": "nm9348559"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Nihalani",
-    "actorId": "nm0631539"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Ammu Govind",
-    "actorId": "nm9708904"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Namdev",
-    "actorId": "nm5105464"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindaiah",
-    "actorId": "nm3406698"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Nepal",
-    "actorId": "nm7495585"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "G.K. Govinda Rao",
-    "actorId": "nm7971264"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "S. Govindaraj",
-    "actorId": "nm10251041"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindaraju",
-    "actorId": "nm10089436"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Hargovindas",
-    "actorId": "nm3745807"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Trazo",
-    "actorId": "nm4746773"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "V. Govindaraj",
-    "actorId": "nm9783536"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Ven Govinda",
-    "actorId": "nm6328289"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Raju",
-    "actorId": "nm5563120"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNmRjYWJkODgtYzcwNy00NTUxLWIyNjUtZmU0MzU2YzMxNzA5XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Lloyd",
-    "actorId": "nm8915940"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Karki",
-    "actorId": "nm6813012"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindarajan",
-    "actorId": "nm10089421"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "P.P. Govindan",
-    "actorId": "nm1164876"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Bader",
-    "actorId": "nm3778344"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Hogan",
-    "actorId": "nm7863394"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "M.S. Govindan",
-    "actorId": "nm2284311"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindaraju",
-    "actorId": "nm1715958"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Nick Govindan",
-    "actorId": "nm9238374"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Trill",
-    "actorId": "nm3081474"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "S.R. Govindan",
-    "actorId": "nm1571407"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Jinu Govindan",
-    "actorId": "nm7912743"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Rai",
-    "actorId": "nm9854208"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Gari",
-    "actorId": "nm9678982"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Hare",
-    "actorId": "nm8054468"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Bhatt",
-    "actorId": "nm7230557"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Bhags",
-    "actorId": "nm5563263"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Dasi",
-    "actorId": "nm10102497"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "P. Govindaraj",
-    "actorId": "nm5385638"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "T.K. Govindarao",
-    "actorId": "nm3982058"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindaraj",
-    "actorId": "nm8028179"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mondal",
-    "actorId": "nm5996739"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "M. Govindaraj",
-    "actorId": "nm5882195"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind V. Pai",
-    "actorId": "nm9369630"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMjM0ODU2OTcyNV5BMl5BanBnXkFtZTgwNTcxNzU0ODE@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Parvin Dabas",
-    "actorId": "nm0196375"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMTg1ODcxNjA2NV5BMl5BanBnXkFtZTYwOTM3NDEz._V1_UY44_CR2,0,32,44_AL_.jpg@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindini Murty",
-    "actorId": "nm0615475"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Maya Govind",
-    "actorId": "nm0994884"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Agrawal",
-    "actorId": "nm3035363"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNTVhYmMxYzgtNzgzNi00MzQ5LWFiZWMtNTA3ZTVlMDY4YzY4XkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Vishnu Govindhan",
-    "actorId": "nm8850112"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Raj",
-    "actorId": "nm6851253"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Tej",
-    "actorId": "nm1381799"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Pervin Dastur",
-    "actorId": "nm1513814"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Vishnu Govind",
-    "actorId": "nm6334866"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Junior Govinda",
-    "actorId": "nm6694844"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindhan",
-    "actorId": "nm9307302"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Rao",
-    "actorId": "nm0710552"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Rae",
-    "actorId": "nm7294186"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "B. Govindu",
-    "actorId": "nm2366800"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Rae",
-    "actorId": "nm8451595"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "S. Govindu",
-    "actorId": "nm8501574"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Pav Govind",
-    "actorId": "nm0332870"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "M.L. Govind",
-    "actorId": "nm2905812"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindram",
-    "actorId": "nm9074977"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Das",
-    "actorId": "nm4691828"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Raj",
-    "actorId": "nm5171522"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Ram",
-    "actorId": "nm0323636"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNGFmMzQ2NDctOTI3OS00MzZiLWIxZDQtZDA4YmZmZThkODgxXkEyXkFqcGdeQXVyODc5NDMyNzM@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Alan Govinden",
-    "actorId": "nm9813939"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNDNiM2NkYmQtMzMwYy00Njk1LTkwZTQtYzA4MDU4ZTA1NzhhXkEyXkFqcGdeQXVyNjI4MDc0MjA@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kelvin Davis",
-    "actorId": "nm1676527"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Pandey",
-    "actorId": "nm9909803"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Chatterjee",
-    "actorId": "nm1028611"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Raja Ross",
-    "actorId": "nm0743433"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Talluri",
-    "actorId": "nm5598703"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMTg1MDI3NDA1NF5BMl5BanBnXkFtZTcwMjI4MzA1Mg@@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kevin D'Arcy",
-    "actorId": "nm0195448"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kumar Govind",
-    "actorId": "nm0332868"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Belinda Gavin",
-    "actorId": "nm1310006"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Sa Ra Govindu",
-    "actorId": "nm5702887"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Gupta",
-    "actorId": "nm9498869"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Kumar",
-    "actorId": "nm10243743"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Menon",
-    "actorId": "nm1323642"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kevin Dart",
-    "actorId": "nm5463480"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kavin Dave",
-    "actorId": "nm3253318"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Kumar",
-    "actorId": "nm9401792"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMTIzMzFhN2QtODk5Mi00YmEyLWFjYzAtYjhjYmRmZWVjZGEzXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Padmasoorya",
-    "actorId": "nm3286607"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMjIwNzQ4NDk1MF5BMl5BanBnXkFtZTgwODIxNzk3OTE@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Kevin Davey",
-    "actorId": "nm4886789"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mohan",
-    "actorId": "nm5005129"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Gopal Govind",
-    "actorId": "nm6800139"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Prabhat",
-    "actorId": "nm8883567"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Martinez Govinda",
-    "actorId": "nm9899716"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Bhagwandin",
-    "actorId": "nm3756052"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Whitehurst",
-    "actorId": "nm6020238"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Phuyal",
-    "actorId": "nm9759941"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Nepala",
-    "actorId": "nm7495586"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Touzene",
-    "actorId": "nm2403106"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Lalsare",
-    "actorId": "nm9283348"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Palagolla",
-    "actorId": "nm9355392"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Tulsiram",
-    "actorId": "nm5417353"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Chhetri",
-    "actorId": "nm7507852"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Chakravarti",
-    "actorId": "nm0149838"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Angolu",
-    "actorId": "nm8559963"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Shakti",
-    "actorId": "nm7211445"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Dickman",
-    "actorId": "nm3226833"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Duplicate Govinda",
-    "actorId": "nm9217325"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Taskey",
-    "actorId": "nm8183859"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Marndi",
-    "actorId": "nm8938102"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Butcher",
-    "actorId": "nm9788444"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Chimoriyan",
-    "actorId": "nm5418877"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BYjMwM2RlNjctY2IwOS00OWU4LTljZWYtMGQ2NjA0ZjhiZmVjXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Adoor Govindankutty",
-    "actorId": "nm5213767"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Ojha",
-    "actorId": "nm7416936"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Nair",
-    "actorId": "nm10165399"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Singh",
-    "actorId": "nm7097800"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Bhat",
-    "actorId": "nm0080283"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mishra",
-    "actorId": "nm2201985"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mishra",
-    "actorId": "nm5635945"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Reshma Govind",
-    "actorId": "nm5828867"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Suresh Govind",
-    "actorId": "nm9146079"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Naresh",
-    "actorId": "nm2396652"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Shahi",
-    "actorId": "nm8880709"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Sharma",
-    "actorId": "nm2008626"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Biswas",
-    "actorId": "nm9907484"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Nishi Govind",
-    "actorId": "nm7929260"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Gopal Govind",
-    "actorId": "nm6800617"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Chandra",
-    "actorId": "nm8531427"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Ranjit Govind",
-    "actorId": "nm5582365"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Goyal",
-    "actorId": "nm6859059"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Rajan",
-    "actorId": "nm2524531"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Singh",
-    "actorId": "nm2706126"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Mike Govindin",
-    "actorId": "nm3761354"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mhatre",
-    "actorId": "nm1834991"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Teja Govind",
-    "actorId": "nm7186380"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Gopal Govind",
-    "actorId": "nm2542456"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Kullar",
-    "actorId": "nm6466345"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Ranade",
-    "actorId": "nm1532787"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind N. Karekar",
-    "actorId": "nm10174173"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Vishal Govind",
-    "actorId": "nm7451348"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Master Govind",
-    "actorId": "nm1531739"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Singh",
-    "actorId": "nm6148622"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mishra",
-    "actorId": "nm10084130"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Thadi",
-    "actorId": "nm6119045"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Menon",
-    "actorId": "nm10249422"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Suraj Govind",
-    "actorId": "nm7639590"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "B. Govindraj",
-    "actorId": "nm9667507"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindharaj",
-    "actorId": "nm5297539"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Vinay Govind",
-    "actorId": "nm5577396"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Gujjar",
-    "actorId": "nm9982797"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinde Gowda",
-    "actorId": "nm9934189"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Pranav Govind",
-    "actorId": "nm6901984"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Goyal",
-    "actorId": "nm9873502"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mehta",
-    "actorId": "nm1221313"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Kamble",
-    "actorId": "nm1917240"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Kumar",
-    "actorId": "nm1647935"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Ubhe",
-    "actorId": "nm5630802"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Swarup",
-    "actorId": "nm9139998"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Mishra",
-    "actorId": "nm10079599"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Pathak",
-    "actorId": "nm9982798"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Singh",
-    "actorId": "nm5903258"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Jat Govindjee",
-    "actorId": "nm9938345"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Balagovind",
-    "actorId": "nm8855080"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Sill",
-    "actorId": "nm7384809"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Munees",
-    "actorId": "nm8342123"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Sankla",
-    "actorId": "nm1356430"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Dhalvi",
-    "actorId": "nm10018771"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govind Menon",
-    "actorId": "nm7102381"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Sudhir Govind",
-    "actorId": "nm1122413"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Master Govind",
-    "actorId": "nm7998829"
   }
 ]
   ```
     
 
+  ## search('new world')
+  ```javascript
+  search('new world').then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   []
+  ```
+    
+
   ## awardsPage(tt5580390)
+  ```javascript
+  awardsPage(tt5580390).then(val=>console.log(val))
+  ```
   ### output
    ```json
    [
@@ -1291,111 +399,14 @@
   ```
     
 
-  ## search('new world')
-  ### output
-   ```json
-   []
-  ```
-    
-
-  ## getTrending(comedy,7)
-  ### output
-   ```json
-   {
-  "trending": [
-    {
-      "name": "The Grinch",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmE5Yjg0MzktYzgzMi00YTFiLWJjYTItY2M5MmI1ODI4MDY3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL50.jpg",
-      "id": "tt2709692"
-    },
-    {
-      "name": "Incredibles 2",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_UX67_CR0,0,67,98_AL_.jpg@._V1_QL50.jpg",
-      "id": "tt3606756"
-    },
-    {
-      "name": "The Big Bang Theory",
-      "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_QL50.jpg",
-      "id": "tt0898266"
-    },
-    {
-      "name": "Shameless",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM5MzAzNTQyOV5BMl5BanBnXkFtZTgwNjY0MjcyNjM@._V1_QL50.jpg",
-      "id": "tt1586680"
-    },
-    {
-      "name": "Crazy Rich Asians",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_QL50.jpg",
-      "id": "tt3104988"
-    },
-    {
-      "name": "BlacKkKlansman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_QL50.jpg",
-      "id": "tt7349662"
-    },
-    {
-      "name": "This Is Us",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZGY3MDk3ZWYtNjA1YS00NzFhLWIxMTctOTZhOWVhZjE2Mjk0XkEyXkFqcGdeQXVyNjMxNzcwOTI@._V1_QL50.jpg",
-      "id": "tt5555260"
-    }
-  ]
-}
-  ```
-    
-
   ## getUpcoming(20)
+  ```javascript
+  getUpcoming(20).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
   "upcoming": [
-    {
-      "name": "Creed II",
-      "id": "tt6343314"
-    },
-    {
-      "name": "Ralph Breaks the Internet",
-      "id": "tt5848272"
-    },
-    {
-      "name": "Green Book",
-      "id": "tt6966692"
-    },
-    {
-      "name": "The Front Runner",
-      "id": "tt7074886"
-    },
-    {
-      "name": "The Christmas Chronicles",
-      "id": "tt2990140"
-    },
-    {
-      "name": "The Favourite",
-      "id": "tt5083738"
-    },
-    {
-      "name": "Shoplifters",
-      "id": "tt8075192"
-    },
-    {
-      "name": "The Possession of Hannah Grace",
-      "id": "tt5734576"
-    },
-    {
-      "name": "Happy as Lazzaro",
-      "id": "tt6752992"
-    },
-    {
-      "name": "The Mercy",
-      "id": "tt3319730"
-    },
-    {
-      "name": "The Griddle House",
-      "id": "tt3555514"
-    },
-    {
-      "name": "Vox Lux",
-      "id": "tt5960374"
-    },
     {
       "name": "Mary Queen of Scots",
       "id": "tt2328900"
@@ -1409,6 +420,14 @@
       "id": "tt4878482"
     },
     {
+      "name": "All the Devil's Men",
+      "id": "tt6012244"
+    },
+    {
+      "name": "Kedarnath",
+      "id": "tt7027278"
+    },
+    {
       "name": "Spider-Man: Into the Spider-Verse",
       "id": "tt4633694"
     },
@@ -1417,324 +436,345 @@
       "id": "tt1571234"
     },
     {
-      "name": "Roma",
-      "id": "tt6155172"
-    },
-    {
       "name": "The Mule",
       "id": "tt7959026"
     },
     {
+      "name": "Backtrace",
+      "id": "tt3588588"
+    },
+    {
       "name": "Capernaum",
       "id": "tt8267604"
+    },
+    {
+      "name": "Mary Poppins Returns",
+      "id": "tt5028340"
+    },
+    {
+      "name": "Aquaman",
+      "id": "tt1477834"
+    },
+    {
+      "name": "Bumblebee",
+      "id": "tt4701182"
+    },
+    {
+      "name": "Welcome to Marwen",
+      "id": "tt3289724"
+    },
+    {
+      "name": "Cold War",
+      "id": "tt6543652"
+    },
+    {
+      "name": "Second Act",
+      "id": "tt2126357"
+    },
+    {
+      "name": "Zero",
+      "id": "tt6527426"
+    },
+    {
+      "name": "Vice",
+      "id": "tt6266538"
+    },
+    {
+      "name": "Holmes & Watson",
+      "id": "tt1255919"
+    },
+    {
+      "name": "If Beale Street Could Talk",
+      "id": "tt7125860"
     }
   ]
 }
   ```
     
 
-  ## getStarsByBornDay(Sun Nov 18 2018 13:59:24 GMT+0530 (India Standard Time))
+  ## getStarsByBornDay(Thu Dec 06 2018 17:02:37 GMT+0530 (India Standard Time))
+  ```javascript
+  getStarsByBornDay(Thu Dec 06 2018 17:02:37 GMT+0530 (India Standard Time)).then(val=>console.log(val))
+  ```
   ### output
    ```json
    [
   {
-    "id": "nm0001721",
-    "name": "Chloë Sevigny",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTA3ODUwMTc1NDFeQTJeQWpwZ15BbWU4MDk1MjE2Nzkx._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm0005508",
+    "name": "Janine Turner",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTIzNDUzNDc1OF5BMl5BanBnXkFtZTYwMjQ4NDc0._V1_UY209_CR1,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0707214",
-    "name": "Miranda Raison",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjI1NjY3ODQwOF5BMl5BanBnXkFtZTgwODk2MjYwNTE@._V1_UY209_CR8,0,140,209_AL_.jpg"
+    "id": "nm0697010",
+    "name": "Lindsay Price",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTYwMTA3OTIwM15BMl5BanBnXkFtZTcwOTg4ODQ5MQ@@._V1_UY209_CR8,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0005562",
-    "name": "Owen Wilson",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTgwMzQ4ODYxMV5BMl5BanBnXkFtZTcwNDAwMTc2NQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm1423048",
+    "name": "Sarah Rafferty",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjEwOTIzMDM3OV5BMl5BanBnXkFtZTcwNTk3MjMyOQ@@._V1_UY209_CR2,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0838360",
-    "name": "Susan Sullivan",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTM1Mzk2MTg0OF5BMl5BanBnXkFtZTcwODkxMTE3Mw@@._V1_UY209_CR6,0,140,209_AL_.jpg"
+    "id": "nm0001371",
+    "name": "Tom Hulce",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTM0ODY0MTE0NF5BMl5BanBnXkFtZTcwOTQwNTIzOA@@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0001610",
-    "name": "Elizabeth Perkins",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMzNiYzc2NDEtNDFlYy00ZTM4LTgwZTQtM2YxZGE5ZmFkOWI1XkEyXkFqcGdeQXVyNTMwNDc0Mw@@._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm2640887",
+    "name": "Stefanie Scott",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNjhlYjkzYTQtMDMzOC00M2E2LWFmOTItN2E4N2Q4ODIyMGFiXkEyXkFqcGdeQXVyMTQxMTI5NDk@._V1_UY209_CR13,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0915458",
-    "name": "Damon Wayans Jr.",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjY0MTA3MzQwM15BMl5BanBnXkFtZTcwMzU4OTc1Mg@@._V1_UY209_CR9,0,140,209_AL_.jpg"
+    "id": "nm0031976",
+    "name": "Judd Apatow",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTgzMzIwMzMwMl5BMl5BanBnXkFtZTcwNjcxNjk2OA@@._V1_UY209_CR7,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1840659",
-    "name": "Nasim Pedrad",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjI2NTY1NzEzM15BMl5BanBnXkFtZTgwNzExMjg1NTM@._V1_UY209_CR0,0,140,209_AL_.jpg"
+    "id": "nm0001851",
+    "name": "JoBeth Williams",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTU4NTk2MzQ3OF5BMl5BanBnXkFtZTcwNjcxNzM0Mg@@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0539082",
-    "name": "Romany Malco",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTc1NzUzODMyM15BMl5BanBnXkFtZTgwMjM0MTQ1MzE@._V1_UY209_CR14,0,140,209_AL_.jpg"
+    "id": "nm1617744",
+    "name": "Nora Kirkpatrick",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZmY0YzRlOTYtZDRhMi00ZDQwLTg0ZWMtNWMzZDNmNTFhMTk4XkEyXkFqcGdeQXVyNDc0NDkzMg@@._V1_UY209_CR10,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm2798112",
-    "name": "Allison Tolman",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMmU5ZTJmN2ItZmI0OC00NTQ3LWI0YzktMDNkNjkwNDg2OTVlL2ltYWdlXkEyXkFqcGdeQXVyMTkyNjMwNzc@._V1_UY209_CR4,0,140,209_AL_.jpg"
+    "id": "nm0383533",
+    "name": "Torri Higginson",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZGJkZGI5YzYtMWZkOS00ZGU3LTg2OWUtZmRiMTE1M2NhMjgwXkEyXkFqcGdeQXVyMTA5MjU4OTQ@._V1_UY209_CR87,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0002067",
-    "name": "Linda Evans",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTY0OTIzNzI1OF5BMl5BanBnXkFtZTYwNzY3ODU2._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm0758760",
+    "name": "Colin Salmon",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTkxOTY0NTAwN15BMl5BanBnXkFtZTgwMzg2MzM2NzE@._V1_UY209_CR88,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1831976",
-    "name": "Jake Abel",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNDE1MDUyNTUyN15BMl5BanBnXkFtZTgwMjMxMTIwMDI@._V1_UY209_CR20,0,140,209_AL_.jpg"
+    "id": "nm0368125",
+    "name": "Colleen Haskell",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTg5NDg4NTUxNF5BMl5BanBnXkFtZTYwNzI3MDk2._V1_UY209_CR87,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0933959",
-    "name": "Peta Wilson",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTU2ODcxMjMxNF5BMl5BanBnXkFtZTYwNjkzODk0._V1_UY209_CR6,0,140,209_AL_.jpg"
+    "id": "nm0001547",
+    "name": "Agnes Moorehead",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTc4MDQ5ODE3M15BMl5BanBnXkFtZTcwODk5ODcyMQ@@._V1_UY209_CR4,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm2415436",
-    "name": "Georgia King",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjEwMTQzMTI4MF5BMl5BanBnXkFtZTgwMDU4Mjg1MzI@._V1_UY209_CR3,0,140,209_AL_.jpg"
+    "id": "nm0860947",
+    "name": "Ulrich Thomsen",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTkwNjE0MjQ0Ml5BMl5BanBnXkFtZTgwNDEyNjA3MDE@._V1_UY209_CR21,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm3889070",
-    "name": "Nick Bateman",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjFjNTNjMTItZTBkMS00ZTMzLWI4ZTUtMjE3N2QzNGFjNzNiXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY209_CR87,0,140,209_AL_.jpg"
+    "id": "nm0164929",
+    "name": "Noel Clarke",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjIxNDMyNDc2NV5BMl5BanBnXkFtZTcwODcyODA5NA@@._V1_UY209_CR25,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0376101",
-    "name": "David Hemmings",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTg3OTY3Mjk2NV5BMl5BanBnXkFtZTYwOTkyNTM2._V1_UY209_CR35,0,140,209_AL_.jpg"
+    "id": "nm1123750",
+    "name": "Jack De Sena",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjEyMTk0NTE1MV5BMl5BanBnXkFtZTgwMjU2NjA5MjE@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1386645",
-    "name": "Oscar Nuñez",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BODA1MjEwMzE2OV5BMl5BanBnXkFtZTgwODQ0NTcxMDE@._V1_UY209_CR10,0,140,209_AL_.jpg"
+    "id": "nm2340245",
+    "name": "Kelly Frye",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYjA5YTA4ZTAtYzQ4Yi00NThlLTgyY2ItN2RiZDRlZjliZWI1XkEyXkFqcGdeQXVyMTE4NzkzNzk@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0157915",
-    "name": "Nick Chinlund",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjIwMzE1OTI3N15BMl5BanBnXkFtZTgwNjIxODgzMzE@._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm0331854",
+    "name": "Angela Gots",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTNkMWRlYjEtNTRhYS00YmQ4LTk0YzUtMGQ5NzU4YTczZjM5XkEyXkFqcGdeQXVyMzAzMTg2Nzg@._V1_UY209_CR30,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1018679",
-    "name": "Steven Pasquale",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1NTc4NDc3MV5BMl5BanBnXkFtZTcwMTM2MjIzMQ@@._V1_UY209_CR33,0,140,209_AL_.jpg"
+    "id": "nm0534772",
+    "name": "Ashley Madekwe",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOWYyYjE5ODgtYmQ5Yy00NzU4LTgwNzEtY2Y3MjAxN2FjNjVlXkEyXkFqcGdeQXVyMjc3NDYyOTM@._V1_UY209_CR8,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0470941",
-    "name": "Nathan Kress",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYjNhNjNkZmUtZWRkMC00ZTQxLWI1NzctZDg2M2QyYTg4YjMxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY209_CR38,0,140,209_AL_.jpg"
+    "id": "nm0942833",
+    "name": "Steven Wright",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTU5NjA1NzkyNF5BMl5BanBnXkFtZTcwMTE2NjAzNA@@._V1_UY209_CR89,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm2059117",
-    "name": "Robert Kazinsky",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNDE2NTk1MzE0NF5BMl5BanBnXkFtZTgwNDk2MDg0MDE@._V1_UY209_CR13,0,140,209_AL_.jpg"
+    "id": "nm0401638",
+    "name": "Jens Hultén",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjA0NzE3NDE1NF5BMl5BanBnXkFtZTgwMjQwMzYzNTE@._V1_UY209_CR87,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0005148",
-    "name": "Delroy Lindo",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjEzOTg3NDQ5OF5BMl5BanBnXkFtZTYwMzA3NTY2._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm1147702",
+    "name": "K.D. Aubert",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTE0Mjc2ODQ4NV5BMl5BanBnXkFtZTYwNDc5ODQ0._V1_UY209_CR10,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0882853",
-    "name": "Brenda Vaccaro",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTc3NDUyNDUxOV5BMl5BanBnXkFtZTcwOTUwMTIwNw@@._V1_UY209_CR1,0,140,209_AL_.jpg"
+    "id": "nm0751762",
+    "name": "Leon Russom",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjc0NmNhM2YtOGEyYy00NTYyLTk5MGUtZWMyNWU1Yjc4Yzg1XkEyXkFqcGdeQXVyMjM2OTI3NDU@._V1_UY209_CR171,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0347375",
-    "name": "Tim Guinee",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTkzMzUzMzMwNF5BMl5BanBnXkFtZTgwNjk3MTk2OTE@._V1_UY209_CR87,0,140,209_AL_.jpg"
+    "id": "nm0372958",
+    "name": "Gina Hecht",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjExMjgwMjI4NF5BMl5BanBnXkFtZTgwNTMyODIwOTE@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0258402",
-    "name": "Mike Epps",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTY5MjEzOTQyNF5BMl5BanBnXkFtZTYwNjM1MjU0._V1_UY209_CR2,0,140,209_AL_.jpg"
+    "id": "nm0000872",
+    "name": "Patrick Bauchau",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMzg1NDBlZjQtYWQyNC00MTFmLWJkNDktYTY1NzU5YjMzNGE2XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY209_CR21,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm3226241",
-    "name": "Noah Ringer",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTMyNTc1OTk1NV5BMl5BanBnXkFtZTcwNjc0NDQ2Mw@@._V1_UY209_CR9,0,140,209_AL_.jpg"
+    "id": "nm1045739",
+    "name": "Max Kasch",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTczMjcyNDY1OV5BMl5BanBnXkFtZTYwNTUxNzY3._V1_UY209_CR24,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0662321",
-    "name": "Jameson Parker",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNDQ0Mzc5NDYwOF5BMl5BanBnXkFtZTcwMTgyMjgxOA@@._V1_UY209_CR18,0,140,209_AL_.jpg"
+    "id": "nm0511350",
+    "name": "Christina Lindberg",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNzgxMzM5MWMtZDg4Yy00ZGIzLTk2YjItOTU0ZGRlZTdjMzAzXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_UY209_CR121,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0005265",
-    "name": "Kevin Nealon",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMzkyMDUzMjc4N15BMl5BanBnXkFtZTcwMzE3MDIwNw@@._V1_UY209_CR6,0,140,209_AL_.jpg"
+    "id": "nm0906147",
+    "name": "Wende Wagner",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTIzOTc1MzExN15BMl5BanBnXkFtZTYwNTc5NTQ2._V1_UY209_CR31,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0896292",
-    "name": "Christina Vidal",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTYxOTE1NzM2M15BMl5BanBnXkFtZTYwNTg4MzQ1._V1_UY209_CR1,0,140,209_AL_.jpg"
+    "id": "nm0448317",
+    "name": "Ryan Kennedy",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTM1MzhkZmMtYjI3NS00ZTFjLWFlMWItYWUxMThmYTg4NTkwXkEyXkFqcGdeQXVyNDIxNDMxNw@@._V1_UY209_CR13,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm8548157",
-    "name": "Nicolette Shea",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTBmYWE1YzEtYzBhMS00YmY0LThhYjgtMDEwMzI5YzUwNmIzXkEyXkFqcGdeQXVyOTM5OTU5Njg@._V1_UY209_CR0,0,140,209_AL_.jpg"
+    "id": "nm0888399",
+    "name": "Bobby Van",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZDE2NjNhMzYtNTNiOC00ZTExLThlMTEtZTc0NmRiNWIxYjg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyOTA4NDY2Mw@@._V1_UY209_CR12,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0595590",
-    "name": "Steven Moffat",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTU5Mjk4NTIyM15BMl5BanBnXkFtZTcwMDA5MjIzNw@@._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm0661910",
+    "name": "Nick Park",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTMxMjg0NTg0NV5BMl5BanBnXkFtZTcwNzM2MTMyMw@@._V1_UY209_CR1,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0168042",
-    "name": "Imogene Coca",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTIxNDc2NzE1Nl5BMl5BanBnXkFtZTYwNDE5MTU2._V1_UY209_CR13,0,140,209_AL_.jpg"
+    "id": "nm2482088",
+    "name": "Tommy Wirkola",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjE2NjIxNDg4OV5BMl5BanBnXkFtZTcwOTExNTg2OA@@._V1_UY209_CR8,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1676649",
-    "name": "Nate Parker",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMzk3MjE5NjE4NF5BMl5BanBnXkFtZTcwOTUzODY0OQ@@._V1_UY209_CR3,0,140,209_AL_.jpg"
+    "id": "nm5415922",
+    "name": "Della Saba",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTM3NTUwNzYzN15BMl5BanBnXkFtZTcwMjk4Njk2OQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0815718",
-    "name": "Kath Soucie",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTg1NjA1NDExMl5BMl5BanBnXkFtZTcwOTQ3ODUwOA@@._V1_UY209_CR3,0,140,209_AL_.jpg"
+    "id": "nm0185281",
+    "name": "Wally Cox",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTczMTc1ODYyNF5BMl5BanBnXkFtZTcwMDkyMDgxOA@@._V1_UY209_CR2,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1521381",
-    "name": "Nayanthara",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTJiNTA3Y2EtZTI5Ny00YmQwLWIyNDctZTFiNmUxYTc5Y2JlXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_UY209_CR0,0,140,209_AL_.jpg"
+    "id": "nm0622553",
+    "name": "James Naughton",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTU2MTMzOTU5M15BMl5BanBnXkFtZTYwOTQ2ODY0._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm2719406",
-    "name": "Mathew Baynton",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjE1NjI0NDE5MF5BMl5BanBnXkFtZTgwNjA4OTQzMzE@._V1_UY209_CR69,0,140,209_AL_.jpg"
+    "id": "nm0903901",
+    "name": "Yorgo Voyagis",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTc3ODExMDc5Nl5BMl5BanBnXkFtZTcwNzQ2Nzg2Nw@@._V1_UY209_CR24,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm2045884",
-    "name": "Dan Bakkedahl",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQzOTE0MTU5MV5BMl5BanBnXkFtZTgwNzY0NzU4MTE@._V1_UY209_CR34,0,140,209_AL_.jpg"
+    "id": "nm1493817",
+    "name": "Sabrina Ouazani",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTMyNDU5ODkzOV5BMl5BanBnXkFtZTcwNjk1MjM1OQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0546004",
-    "name": "Andrea Marcovicci",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNjA3MTMwNzE2Ml5BMl5BanBnXkFtZTcwNzY5MjIxOA@@._V1_UY209_CR13,0,140,209_AL_.jpg"
+    "id": "nm0001408",
+    "name": "Shekhar Kapur",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTU3MTcyNzU1N15BMl5BanBnXkFtZTYwOTYyNjk3._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0837976",
-    "name": "Brad Sullivan",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTkwOTE4ODE2OV5BMl5BanBnXkFtZTcwODQyNDAxMw@@._V1_UY209_CR92,0,140,209_AL_.jpg"
+    "id": "nm0429693",
+    "name": "Michael Jonsson",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTlmNzdjOGMtNGJlYi00OGRjLThiZTQtYTg4YTUwOGM1ZGNiXkEyXkFqcGdeQXVyNTcxMjYzMQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0748189",
-    "name": "Daphne Rubin-Vega",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTcyMDc1ODQwM15BMl5BanBnXkFtZTcwMzE5NjQxMw@@._V1_UX140_CR0,0,140,209_AL_.jpg"
+    "id": "nm0108132",
+    "name": "Craig Brewer",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTk0ODU4MDE1NF5BMl5BanBnXkFtZTYwMTkwMjI1._V1_UY209_CR13,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm1074245",
-    "name": "Rich Fulcher",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTAxNTg0MzgzMjNeQTJeQWpwZ15BbWU3MDQ1MDE3ODk@._V1_UY209_CR116,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0368172",
-    "name": "Dennis Haskins",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTRmZTdiNjYtOTI0MS00YjdiLTkwNGItZTBjY2U5MTU2YjZhXkEyXkFqcGdeQXVyMjY2OTkwMQ@@._V1_UY209_CR87,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm2154335",
-    "name": "Megyn Kelly",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjM1MjM1NzA2N15BMl5BanBnXkFtZTgwNjQxNTg0OTE@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm4469445",
-    "name": "Julia Ducournau",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTAxNjgzOTg1NzZeQTJeQWpwZ15BbWU4MDA4MTY1MzEy._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0621597",
-    "name": "Arthur J. Nascarella",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjA4MTMwNzM5M15BMl5BanBnXkFtZTgwNjg3NTg1NzE@._V1_UY209_CR15,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm2441158",
-    "name": "Robert de Hoog",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYmZkYWYzODMtZmQ4YS00YzM3LThlNjEtZTJjODUyYjc3YWVkXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY209_CR4,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0001980",
-    "name": "Carter Burwell",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ4NjI4NDU4MV5BMl5BanBnXkFtZTgwNTcyOTk3NjE@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0789449",
-    "name": "Shari Shattuck",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjJlZWYzZWUtNDMwMi00YzY3LThiNTItZDY2ODg2NGM0OWM0XkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_UY209_CR116,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0861924",
-    "name": "Maggie Thrett",
+    "id": "nm0268200",
+    "name": "Colin Farrell",
     "photoUrl": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB470041852_.png"
   },
   {
-    "id": "nm0104720",
-    "name": "Jocelyn Brando",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTkwNTc0MDkzOV5BMl5BanBnXkFtZTcwODQwOTk5Nw@@._V1_UY209_CR5,0,140,209_AL_.jpg"
+    "id": "nm0191408",
+    "name": "Kit Culkin",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1MjI3ODAxOF5BMl5BanBnXkFtZTYwMjA0ODcy._V1_UY209_CR22,0,140,209_AL_.jpg"
   },
   {
-    "id": "nm0600872",
-    "name": "Alan Moore",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZGRhNmE0NWMtNzBkNS00MDEzLWIxNjMtNWYwYzMyMWFmMGIyXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY209_CR30,0,140,209_AL_.jpg"
-  }
-]
-  ```
-    
-
-  ## getActor(nm2652716)
-  ### output
-   ```json
-   [
+    "id": "nm0819412",
+    "name": "Lisa Spoonauer",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYzIzNWMxZTAtNjA5My00MjI0LTkzMmYtMDYwYTlkZTE5NjUyXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_UY209_CR115,0,140,209_AL_.jpg"
+  },
   {
-    "actorName": "Grant Gustin",
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMjE3NDUyMTg1MF5BMl5BanBnXkFtZTgwMTQzMjY1NjM@._V1_UY317_CR11,0,214,317_AL__QL50.jpg",
-    "actorInfo": "Thomas Grant Gustin was born on January 14, 1990 in Norfolk, Virginia, to Tina Lynne (Sweeney), a pediatric nurse, and Thomas Avery Gustin. In 2008, he graduated from Granby High School and went on to attend the BFA Music Theatre Program at Elon University in North Carolina for two years. He left school to take the role of Baby John in the",
-    "actorBirth": "January 14, 1990",
-    "actorBorn": "Norfolk, Virginia, USA"
+    "id": "nm0179281",
+    "name": "Sergio Corbucci",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZGFiYTkyY2UtNzRjZS00MjQ3LTg3NWYtODBjY2UyNjc5ZDBiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY209_CR41,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm0745402",
+    "name": "Lisa Rotondi",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjEyMzAxMzQ0Nl5BMl5BanBnXkFtZTcwODQwODAzMQ@@._V1._CR165,1.649993896484375,282,325_UY209_CR20,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm2113666",
+    "name": "Jack Thorne",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjA5MTA5MDc3NV5BMl5BanBnXkFtZTgwMTMyMjkwMzI@._V1_UX140_CR0,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm0918572",
+    "name": "Arabella Weir",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTYzMjYyMTc0Ml5BMl5BanBnXkFtZTgwOTU0MzQ1MDI@._V1_UY209_CR16,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm0809629",
+    "name": "Quinn Smith",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNjI0MDE0NjM0Nl5BMl5BanBnXkFtZTgwMDAwMzc3ODE@._V1_UX140_CR0,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm0533914",
+    "name": "Lewis Macleod",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYTJmZTJhNWMtM2Y4OC00ZDAwLTg3YjUtZGZiYzE2M2RkY2E4XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_UY209_CR161,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm0795405",
+    "name": "Kin Shriner",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTkzODg2NDE4MF5BMl5BanBnXkFtZTgwNjMxNzU2MjE@._V1_UY209_CR69,0,140,209_AL_.jpg"
+  },
+  {
+    "id": "nm0003939",
+    "name": "Vikramaditya Motwane",
+    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjYyMTkyOTI3Ml5BMl5BanBnXkFtZTcwMDEwNjM5NA@@._V1_UY209_CR9,0,140,209_AL_.jpg"
   }
 ]
   ```
     
 
-  ## getTrending(7)
+  ## getTrending(comedy,7)
+  ```javascript
+  getTrending(comedy,7).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
   "trending": [
     {
-      "name": "Bohemian Rhapsody",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_QL50.jpg",
-      "id": "tt1727824"
+      "name": "The Ballad of Buster Scruggs",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjRkYTI3M2EtZWQ4Ny00OTA2LWFmMTMtY2E4MTEyZmNjOTMxXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL50.jpg",
+      "id": "tt6412452"
     },
     {
-      "name": "Overlord",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzU0NTI1MTU2M15BMl5BanBnXkFtZTgwNTg4MDIzNjM@._V1_QL50.jpg",
-      "id": "tt4530422"
+      "name": "Ralph Breaks the Internet",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_QL50.jpg",
+      "id": "tt5848272"
     },
     {
-      "name": "A Star Is Born",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjE3MDQ0MTA3M15BMl5BanBnXkFtZTgwMDMwNDY2NTM@._V1_QL50.jpg",
-      "id": "tt1517451"
-    },
-    {
-      "name": "Outlaw King",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTc4MTU4YzEtODBiNC00NzA4LTg0NGItM2ZhZjZlNDFiNjJjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL50.jpg",
-      "id": "tt6679794"
-    },
-    {
-      "name": "Fantastic Beasts: The Crimes of Grindelwald",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjFiMGUzMTAtNDAwMC00ZjRhLTk0OTUtMmJiMzM5ZmVjODQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL50.jpg",
-      "id": "tt4123430"
+      "name": "The Christmas Chronicles",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTA3NjU3OTM2MV5BMl5BanBnXkFtZTgwNjQ2MzE1NjM@._V1_QL50.jpg",
+      "id": "tt2990140"
     },
     {
       "name": "The Grinch",
@@ -1742,102 +782,67 @@
       "id": "tt2709692"
     },
     {
-      "name": "Halloween",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmMzNjJhYjUtNzFkZi00MWQ4LWJiMDEtYWM0NTAzNGZjMTI3XkEyXkFqcGdeQXVyOTE2OTMwNDk@._V1_QL50.jpg",
-      "id": "tt1502407"
+      "name": "The Big Bang Theory",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_QL50.jpg",
+      "id": "tt0898266"
+    },
+    {
+      "name": "Crazy Rich Asians",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_QL50.jpg",
+      "id": "tt3104988"
+    },
+    {
+      "name": "This Is Us",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGY3MDk3ZWYtNjA1YS00NzFhLWIxMTctOTZhOWVhZjE2Mjk0XkEyXkFqcGdeQXVyNjMxNzcwOTI@._V1_QL50.jpg",
+      "id": "tt5555260"
     }
   ]
 }
   ```
     
 
-  ## scrapper(tt1825683)
+  ## getTrending(7)
+  ```javascript
+  getTrending(7).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
-  "title": "Black Panther (2018)",
-  "runtime": "2h 14min",
-  "year": "2018",
-  "story": "    After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
-  "director": [
-    "Ryan Coogler"
-  ],
-  "writers": [
-    "Ryan Coogler",
-    "Joe Robert Cole"
-  ],
-  "stars": [
-    "Chadwick Boseman",
-    "Michael B. Jordan",
-    "Lupita Nyong'o"
-  ],
-  "genre": [
-    " Action ",
-    " Adventure ",
-    " Sci-Fi"
-  ],
-  "rating": "7.4",
-  "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
-  "related": [
+  "trending": [
     {
-      "id": "tt3501632",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Thor: Ragnarok"
+      "name": "Creed II",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTcxMjUwNjQ5N15BMl5BanBnXkFtZTgwNjk4MzI4NjM@._V1_QL50.jpg",
+      "id": "tt6343314"
     },
     {
-      "id": "tt2250912",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Spider-Man: Homecoming"
+      "name": "Fantastic Beasts: The Crimes of Grindelwald",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjFiMGUzMTAtNDAwMC00ZjRhLTk0OTUtMmJiMzM5ZmVjODQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL50.jpg",
+      "id": "tt4123430"
     },
     {
-      "id": "tt4154756",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Avengers: Infinity War"
+      "name": "Bohemian Rhapsody",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_QL50.jpg",
+      "id": "tt1727824"
     },
     {
-      "id": "tt5463162",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY190_CR31,0,128,190_AL_.jpg",
-      "name": "Deadpool 2"
+      "name": "The Ballad of Buster Scruggs",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjRkYTI3M2EtZWQ4Ny00OTA2LWFmMTMtY2E4MTEyZmNjOTMxXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL50.jpg",
+      "id": "tt6412452"
     },
     {
-      "id": "tt3896198",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy Vol. 2"
+      "name": "Ralph Breaks the Internet",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_QL50.jpg",
+      "id": "tt5848272"
     },
     {
-      "id": "tt0451279",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Wonder Woman"
+      "name": "Venom",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_QL50.jpg",
+      "id": "tt1270797"
     },
     {
-      "id": "tt2015381",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy"
-    },
-    {
-      "id": "tt3498820",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: Civil War"
-    },
-    {
-      "id": "tt1211837",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Doctor Strange"
-    },
-    {
-      "id": "tt2395427",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Avengers: Age of Ultron"
-    },
-    {
-      "id": "tt1431045",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Deadpool"
-    },
-    {
-      "id": "tt0848228",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "The Avengers"
+      "name": "The Lion King",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg5NTY3OTU2N15BMl5BanBnXkFtZTgwOTgyOTA4NjM@._V1_QL50.jpg",
+      "id": "tt6105098"
     }
   ]
 }
@@ -1845,6 +850,9 @@
     
 
   ## getFull(tt2395427)
+  ```javascript
+  getFull(tt2395427).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
@@ -1893,24 +901,9 @@
       "name": "Captain America: The First Avenger"
     },
     {
-      "id": "tt0371746",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Iron Man"
-    },
-    {
-      "id": "tt1300854",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-      "name": "Iron Man 3"
-    },
-    {
       "id": "tt1211837",
       "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
       "name": "Doctor Strange"
-    },
-    {
-      "id": "tt3896198",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy Vol. 2"
     },
     {
       "id": "tt0800369",
@@ -1918,14 +911,29 @@
       "name": "Thor"
     },
     {
-      "id": "tt1228705",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Iron Man 2"
+      "id": "tt1300854",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
+      "name": "Iron Man 3"
     },
     {
       "id": "tt0478970",
       "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
       "name": "Ant-Man"
+    },
+    {
+      "id": "tt2015381",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Guardians of the Galaxy"
+    },
+    {
+      "id": "tt1228705",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Iron Man 2"
+    },
+    {
+      "id": "tt0371746",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Iron Man"
     },
     {
       "id": "tt1981115",
@@ -2065,7 +1073,106 @@
   ```
     
 
+  ## scrapper(tt1825683)
+  ```javascript
+  scrapper(tt1825683).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "title": "Black Panther (2018)",
+  "runtime": "2h 14min",
+  "year": "2018",
+  "story": "    After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
+  "director": [
+    "Ryan Coogler"
+  ],
+  "writers": [
+    "Ryan Coogler",
+    "Joe Robert Cole"
+  ],
+  "stars": [
+    "Chadwick Boseman",
+    "Michael B. Jordan",
+    "Lupita Nyong'o"
+  ],
+  "genre": [
+    " Action ",
+    " Adventure ",
+    " Sci-Fi"
+  ],
+  "rating": "7.4",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
+  "related": [
+    {
+      "id": "tt3501632",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Thor: Ragnarok"
+    },
+    {
+      "id": "tt2250912",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "Spider-Man: Homecoming"
+    },
+    {
+      "id": "tt4154756",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Avengers: Infinity War"
+    },
+    {
+      "id": "tt3896198",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Guardians of the Galaxy Vol. 2"
+    },
+    {
+      "id": "tt5463162",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY190_CR31,0,128,190_AL_.jpg",
+      "name": "Deadpool 2"
+    },
+    {
+      "id": "tt0451279",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Wonder Woman"
+    },
+    {
+      "id": "tt1211837",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Doctor Strange"
+    },
+    {
+      "id": "tt1431045",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "Deadpool"
+    },
+    {
+      "id": "tt3498820",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Captain America: Civil War"
+    },
+    {
+      "id": "tt0848228",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "The Avengers"
+    },
+    {
+      "id": "tt2015381",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Guardians of the Galaxy"
+    },
+    {
+      "id": "tt2395427",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Avengers: Age of Ultron"
+    }
+  ]
+}
+  ```
+    
+
   ## episodesPage(tt3107288,2)
+  ```javascript
+  episodesPage(tt3107288,2).then(val=>console.log(val))
+  ```
   ### output
    ```json
    {
@@ -2078,7 +1185,7 @@
       "rating": "8.5"
     },
     {
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTA0MzI2NDMyMjJeQTJeQWpwZ15BbWU4MDM3MjA1OTYx._V1_UX200_CR0,0,200,112_AL_.jpg@._V1_QL50.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTA0MzI2NDMyMjJeQTJeQWpwZ15BbWU4MDM3MjA1OTYx._V1_UX224_CR0,0,224,126_AL_.jpg@._V1_QL50.jpg",
       "name": "Flash of Two Worlds",
       "story": "A mysterious man brings warning of an evil speedster intent on destroying The Flash, and a determined officer wants to join Joe's meta-human task force.",
       "airDate": "13 Oct. 2015",
@@ -2141,7 +1248,7 @@
       "rating": "8.4"
     },
     {
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTA4MTExNzIxNDheQTJeQWpwZ15BbWU4MDg4NzgxODcx._V1_UX200_CR0,0,200,112_AL_.jpg@._V1_QL50.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTA4MTExNzIxNDheQTJeQWpwZ15BbWU4MDg4NzgxODcx._V1_UX224_CR0,0,224,126_AL_.jpg@._V1_QL50.jpg",
       "name": "The Reverse-Flash Returns",
       "story": "Dr. Harrison figures out how to induce Cisco's ability; they hence learn that Eobard Thawne is still alive. Iris says farewell to her mother. Patty realizes there's more to Barry than meets the eye.",
       "airDate": "26 Jan. 2016",
@@ -2218,7 +1325,7 @@
       "rating": "8.8"
     },
     {
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAyNjM2OTI4NzBeQTJeQWpwZ15BbWU4MDkyMjUyOTgx._V1_UX200_CR0,0,200,112_AL_.jpg@._V1_QL50.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAyNjM2OTI4NzBeQTJeQWpwZ15BbWU4MDkyMjUyOTgx._V1_UX224_CR0,0,224,126_AL_.jpg@._V1_QL50.jpg",
       "name": "Invincible",
       "story": "Zoom unleashes an army of Earth-2 meta-humans, the leader of which is Black Canary's doppelganger, Black Siren; Joe worries when Wally goes out to help The Flash.",
       "airDate": "17 May 2016",

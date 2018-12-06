@@ -5,7 +5,7 @@ const request = require("./lib/request"); // importing request for making get re
 
 const { ifError } = require("./lib/error"); // error file
 const { getWinner } = require("./lib/awards"); // awards are provided
-const { getCast, getPoster } = require("./lib/photo"); // poster and cast info is given by this function
+const { getCast, getPoster, changeQuality } = require("./lib/photo"); // poster and cast info is given by this function
 const { getEpisodes } = require("./lib/episode");
 const {
   getRating,
@@ -165,5 +165,6 @@ module.exports = {
   simpleSearch,
   ifError,
   request,
-  getUpcoming
+  getUpcoming,
+  changeQuality
 };

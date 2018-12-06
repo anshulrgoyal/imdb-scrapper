@@ -12,10 +12,15 @@ const {
   getActor,
   searchActor,
   simpleSearch,
-  getUpcoming
+  getUpcoming,
+  changeQuality
 } = require("./index");
 
-const { template } = require("./generateReadMe");
+const {
+  template,
+  imageTemplate,
+  imageTemplateGroup
+} = require("./generateReadMe");
 
 const fs = require("fs");
 
@@ -26,6 +31,7 @@ if (!fs.existsSync(__dirname + "/output")) {
   process.exit(1);
 }
 
+const arr = [];
 /**
  * generateFile - generate output file for function
  *
@@ -34,7 +40,7 @@ if (!fs.existsSync(__dirname + "/output")) {
  *
  * @returns {Undifined}
  */
-const arr = [];
+
 function generateFile(name, value) {
   fs.writeFileSync(
     __dirname + "/output/" + name + ".json",
@@ -47,6 +53,16 @@ function generateFile(name, value) {
       JSON.stringify(value, null, 2)
     )
   );
+}
+
+function generateImageTemplate(name, value) {
+  const values = [...Array(6).keys()];
+  const url =
+    "https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg";
+  const parsedUrl = values.map(val => {
+    return imageTemplate(changeQuality(url, val), val);
+  });
+  arr.push(imageTemplateGroup(parsedUrl));
 }
 
 const jobs = [
@@ -99,7 +115,8 @@ const jobs = [
 
   getUpcoming(20).then(val => {
     generateFile("getUpcoming-20", val);
-  })
+  }),
+  generateImageTemplate()
 ];
 Promise.all(jobs).then(v => {
   fs.writeFileSync(__dirname + "/EXAMPLE.md", arr.join("\n"));

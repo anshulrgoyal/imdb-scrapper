@@ -15,6 +15,7 @@ Every function in this lib is asynchronous, they all return a promise. The modul
 10. `serach(term)` : This provide api to serach for `term` using scrapping.
 11. `getTrendingGenre(genre,n), getTrending(n,type)`:get movies trending based on `genre` or `type =['tv','movies']`.
 12. `getStarsBornToday(),getStarsBorn(date)`:gives the stars born on `date` or today.
+13. `changeQuality(url,n)` a function to change the quality of image in `url` based on the scale of _0-5_ n specify the scale .
 
 ### Check test.js for example of allmost very function usage and returned data ;)
 
@@ -57,6 +58,6 @@ There are two different ways of scrapping provide by this lib:
     the trending movies known as _trending 250_ on IMDB website.
 2.  `getTrendingGenre(genre [,n])`: `n` is an optional parameter, representing the count of result required. This function provide results sorted on the basis of genres.
 
-**_Have a look at outputGenerator for expamle and output for output example_**
+**_Have a look at outputGenerator for expamle and output for output example also have look at [example](imdb-scrapper/EXAMPLE.md)_**
 
 _I hope it helps._

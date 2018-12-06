@@ -1,54 +1,6 @@
 {
     "upcoming": [
         {
-            "name": "Creed II",
-            "id": "tt6343314"
-        },
-        {
-            "name": "Ralph Breaks the Internet",
-            "id": "tt5848272"
-        },
-        {
-            "name": "Green Book",
-            "id": "tt6966692"
-        },
-        {
-            "name": "The Front Runner",
-            "id": "tt7074886"
-        },
-        {
-            "name": "The Christmas Chronicles",
-            "id": "tt2990140"
-        },
-        {
-            "name": "The Favourite",
-            "id": "tt5083738"
-        },
-        {
-            "name": "Shoplifters",
-            "id": "tt8075192"
-        },
-        {
-            "name": "The Possession of Hannah Grace",
-            "id": "tt5734576"
-        },
-        {
-            "name": "Happy as Lazzaro",
-            "id": "tt6752992"
-        },
-        {
-            "name": "The Mercy",
-            "id": "tt3319730"
-        },
-        {
-            "name": "The Griddle House",
-            "id": "tt3555514"
-        },
-        {
-            "name": "Vox Lux",
-            "id": "tt5960374"
-        },
-        {
             "name": "Mary Queen of Scots",
             "id": "tt2328900"
         },
@@ -61,6 +13,14 @@
             "id": "tt4878482"
         },
         {
+            "name": "All the Devil's Men",
+            "id": "tt6012244"
+        },
+        {
+            "name": "Kedarnath",
+            "id": "tt7027278"
+        },
+        {
             "name": "Spider-Man: Into the Spider-Verse",
             "id": "tt4633694"
         },
@@ -69,16 +29,56 @@
             "id": "tt1571234"
         },
         {
-            "name": "Roma",
-            "id": "tt6155172"
-        },
-        {
             "name": "The Mule",
             "id": "tt7959026"
         },
         {
+            "name": "Backtrace",
+            "id": "tt3588588"
+        },
+        {
             "name": "Capernaum",
             "id": "tt8267604"
+        },
+        {
+            "name": "Mary Poppins Returns",
+            "id": "tt5028340"
+        },
+        {
+            "name": "Aquaman",
+            "id": "tt1477834"
+        },
+        {
+            "name": "Bumblebee",
+            "id": "tt4701182"
+        },
+        {
+            "name": "Welcome to Marwen",
+            "id": "tt3289724"
+        },
+        {
+            "name": "Cold War",
+            "id": "tt6543652"
+        },
+        {
+            "name": "Second Act",
+            "id": "tt2126357"
+        },
+        {
+            "name": "Zero",
+            "id": "tt6527426"
+        },
+        {
+            "name": "Vice",
+            "id": "tt6266538"
+        },
+        {
+            "name": "Holmes & Watson",
+            "id": "tt1255919"
+        },
+        {
+            "name": "If Beale Street Could Talk",
+            "id": "tt7125860"
         }
     ]
 }
