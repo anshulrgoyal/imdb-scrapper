@@ -23,7 +23,8 @@ function test() {
   Promise.all([
     getFull("tt2395427"),
     getFull("tt0944947"),
-    episodesPage("tt2177461")
+    episodesPage("tt2177461"),
+    episodesPage("tt0436992", -1)
   ]).then(data => {
     let movieDetails = data[0];
     const expectedMovieDetails = {
@@ -80,6 +81,21 @@ function test() {
       seriesEpisode.airDate === expectedSeriesEpisodeDetails.airDate &&
       seriesEpisode.rating !== null;
     dislayMessage("Series Episode", episodeTestValid);
+
+    let seriesEpisode2 = data[3].episodes[14];
+    const expectedSeriesEpisodeDetails2 = {
+      story: "N/A",
+      airDate: "16 Sep. 2012",
+      rating: "7.2"
+    };
+    console.log(seriesEpisode2);
+
+    let episodeTestValid2 =
+      seriesEpisode2.story === expectedSeriesEpisodeDetails2.story &&
+      seriesEpisode2.airDate === expectedSeriesEpisodeDetails2.airDate &&
+      seriesEpisode2.rating !== null &&
+      seriesEpisode2.poster === null;
+    dislayMessage("Series Episode 2", episodeTestValid2);
   });
 }
 
