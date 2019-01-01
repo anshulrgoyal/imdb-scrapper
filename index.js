@@ -1,3 +1,10 @@
+/**
+ * main file for library and the all the functions are exported from these file
+ * and exported from here to user
+ * only functions with request are added to this file
+ * use functions which return the promise only
+ * */
+
 const d3TimeFormat = require("d3-time-format").timeFormat;
 const cheerio = require("cheerio"); // import cheerio for making use of css selector to get info
 

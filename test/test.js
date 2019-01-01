@@ -1,3 +1,10 @@
+/**
+ * This file contains all the test that are Written for testing our package
+ * please add test if any new user facing api is added
+ * use displayMessage for showing error or sucess
+ * always add console.log for all the data that a function is returned
+ * */
+
 const {
   getFull,
   getStarsByBornDay,
