@@ -1,6 +1,7 @@
 [
     {
-        "Saturn Award": [
+        "name": "Saturn Award",
+        "winner": [
             {
                 "category": "Best Costume Design",
                 "wonBy": "Alexandra Byrne"
@@ -8,7 +9,8 @@
         ]
     },
     {
-        "Annie": [
+        "name": "Annie",
+        "winner": [
             {
                 "category": "Outstanding Achievement in Animated Effects in a Live Action Production",
                 "wonBy": "Michael Balog"
@@ -16,7 +18,8 @@
         ]
     },
     {
-        "AACTA Award": [
+        "name": "AACTA Award",
+        "winner": [
             {
                 "category": "Best Visual Effects or Animation",
                 "wonBy": "Christopher Townsend"

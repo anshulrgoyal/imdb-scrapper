@@ -3,7 +3,7 @@ const {
   getStarsByBornDay,
   getStarsBornToday,
   episodesPage
-} = require("./index");
+} = require("../index");
 
 /**
  * dislayMessage - show error or sucess message
@@ -81,6 +81,9 @@ function test() {
       seriesEpisode.rating !== null;
     dislayMessage("Series Episode", episodeTestValid);
   });
+
+  testGetStarsByBornDay();
+  testGetStarsBornToday();
 }
 
 function testGetStarsByBornDay() {
@@ -97,7 +100,6 @@ function testGetStarsBornToday() {
   });
 }
 
-test();
-
-testGetStarsByBornDay();
-testGetStarsBornToday();
+if (module === require.main) {
+  test();
+}

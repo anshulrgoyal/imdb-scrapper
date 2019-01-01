@@ -44,6 +44,16 @@
             "name": "Captain America: The First Avenger"
         },
         {
+            "id": "tt1300854",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
+            "name": "Iron Man 3"
+        },
+        {
+            "id": "tt2015381",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Guardians of the Galaxy"
+        },
+        {
             "id": "tt1211837",
             "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
             "name": "Doctor Strange"
@@ -54,26 +64,6 @@
             "name": "Thor"
         },
         {
-            "id": "tt1300854",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-            "name": "Iron Man 3"
-        },
-        {
-            "id": "tt0478970",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
-            "name": "Ant-Man"
-        },
-        {
-            "id": "tt2015381",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Guardians of the Galaxy"
-        },
-        {
-            "id": "tt1228705",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Iron Man 2"
-        },
-        {
             "id": "tt0371746",
             "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
             "name": "Iron Man"
@@ -82,11 +72,22 @@
             "id": "tt1981115",
             "poster": "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
             "name": "Thor: The Dark World"
+        },
+        {
+            "id": "tt0478970",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Ant-Man"
+        },
+        {
+            "id": "tt1228705",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Iron Man 2"
         }
     ],
     "awards": [
         {
-            "Saturn Award": [
+            "name": "Saturn Award",
+            "winner": [
                 {
                     "category": "Best Costume Design",
                     "wonBy": "Alexandra Byrne"
@@ -94,7 +95,8 @@
             ]
         },
         {
-            "Annie": [
+            "name": "Annie",
+            "winner": [
                 {
                     "category": "Outstanding Achievement in Animated Effects in a Live Action Production",
                     "wonBy": "Michael Balog"
@@ -102,7 +104,8 @@
             ]
         },
         {
-            "AACTA Award": [
+            "name": "AACTA Award",
+            "winner": [
                 {
                     "category": "Best Visual Effects or Animation",
                     "wonBy": "Christopher Townsend"

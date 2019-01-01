@@ -1,7 +1,12 @@
 const d3TimeFormat = require("d3-time-format").timeFormat;
 const cheerio = require("cheerio"); // import cheerio for making use of css selector to get info
 
-const request = require("./lib/request"); // importing request for making get request
+const {
+  request,
+  options,
+  clearCache,
+  stopCacheClear
+} = require("./lib/request"); // importing request for making get request
 
 const { ifError } = require("./lib/error"); // error file
 const { getWinner } = require("./lib/awards"); // awards are provided
@@ -166,5 +171,8 @@ module.exports = {
   ifError,
   request,
   getUpcoming,
-  changeQuality
+  changeQuality,
+  options,
+  clearCache,
+  stopCacheClear
 };

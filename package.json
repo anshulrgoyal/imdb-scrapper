@@ -4,8 +4,10 @@
   "description": "scrap data from imdb web site",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "fix": "standard --fix"
+    "test": "node ./test/test.js",
+    "fix": "standard --fix",
+    "prettier": "prettier --write   ./*.js|./**/*.js",
+    "output": "node outputGenerator.js"
   },
   "keywords": [
     "imdb",
@@ -14,10 +16,7 @@
     "trending",
     "tv show"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hack-throne/imdb-scrapper.git"
-  },
+  "repository": "git+https://github.com/hack-throne/imdb-scrapper.git",
   "author": "hack-throne",
   "license": "MIT",
   "bugs": {
@@ -29,6 +28,7 @@
     "d3-time-format": "^2.1.3"
   },
   "devDependencies": {
+    "prettier": "^1.15.3",
     "standard": "^11.0.1"
   }
 }
