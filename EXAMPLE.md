@@ -428,9 +428,9 @@
   ```
     
 
-  ## getStarsByBornDay(Tue Jan 01 2019 17:54:24 GMT+0530 (India Standard Time))
+  ## getStarsByBornDay(Tue Jan 01 2019 23:24:21 GMT+0530 (India Standard Time))
   ```javascript
-  getStarsByBornDay(Tue Jan 01 2019 17:54:24 GMT+0530 (India Standard Time)).then(val=>console.log(val))
+  getStarsByBornDay(Tue Jan 01 2019 23:24:21 GMT+0530 (India Standard Time)).then(val=>console.log(val))
   ```
   ### output
    ```json
@@ -766,7 +766,7 @@
   "title": "Black Panther (2018)",
   "runtime": "2h 14min",
   "year": "2018",
-  "story": "    After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
+  "story": "After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
   "director": [
     "Ryan Coogler"
   ],
@@ -780,9 +780,9 @@
     "Lupita Nyong'o"
   ],
   "genre": [
-    " Action ",
-    " Adventure ",
-    " Sci-Fi"
+    "Action",
+    "Adventure",
+    "Sci-Fi"
   ],
   "rating": "7.4",
   "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
@@ -910,7 +910,7 @@
   "title": "Avengers: Age of Ultron (2015)",
   "runtime": "2h 21min",
   "year": "2015",
-  "story": "    Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.",
+  "story": "Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.",
   "director": [
     "Joss Whedon"
   ],
@@ -924,9 +924,9 @@
     "Mark Ruffalo"
   ],
   "genre": [
-    " Action ",
-    " Adventure ",
-    " Sci-Fi"
+    "Action",
+    "Adventure",
+    "Sci-Fi"
   ],
   "rating": "7.4",
   "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_QL50.jpg",
