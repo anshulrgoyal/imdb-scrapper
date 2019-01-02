@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./test/test.js",
+    "test-new": "node ./test/test-new.js",
     "fix": "standard --fix",
     "prettier": "prettier --write   ./*.js|./**/*.js",
     "output": "node outputGenerator.js"

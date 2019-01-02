@@ -2,7 +2,7 @@
  * This file contains all the test that are Written for testing our package
  * please add test if any new user facing api is added
  * use displayMessage for showing error or sucess
- * always add console.log for all the data that a function is returned
+ * never add  console.log for any the data that a function is returned
  * */
 
 const {
@@ -26,12 +26,27 @@ function dislayMessage(msg, status) {
     : console.error(`Something is wrong with ${msg}`);
 }
 
+function testGetStarsByBornDay() {
+  return getStarsByBornDay(new Date("2018-10-2")).then(data => {
+    const isValid = data.length > 0;
+    dislayMessage("Stars By Born Day", isValid);
+  });
+}
+
+function testGetStarsBornToday() {
+  return getStarsBornToday().then(data => {
+    const isValid = data.length > 0;
+    dislayMessage("Stars Born Today", isValid);
+  });
+}
 function test() {
   Promise.all([
     getFull("tt2395427"),
     getFull("tt0944947"),
     episodesPage("tt2177461"),
-    episodesPage("tt0436992", -1)
+    episodesPage("tt0436992", -1),
+    testGetStarsBornToday(),
+    testGetStarsByBornDay()
   ]).then(data => {
     let movieDetails = data[0];
     const expectedMovieDetails = {
@@ -39,14 +54,13 @@ function test() {
       runtime: "2h 21min",
       year: "2015",
       story:
-        "ony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, he Avengers go into action to try and defeat a virtually impossible enemy together. Earths mightiest heroes must come together once again to protect the world from global extinction.                Written byapplenatalia9            ",
+        "Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, he Avengers go into action to try and defeat a virtually impossible enemy together. Earths mightiest heroes must come together once again to protect the world from global extinction.                Written byapplenatalia9            ",
       director: ["Joss Whedon"],
       writers: ["Joss Whedon", "Stan Lee"],
       stars: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
-      genre: [" Action ", " Adventure ", " Sci-Fi"],
+      genre: ["Action ", "Adventure ", "Sci-Fi"],
       rating: "7.4"
     };
-    console.log(movieDetails);
 
     const moviesTestValid = movieDetails.title === expectedMovieDetails.title;
     dislayMessage("Movie Details", moviesTestValid);
@@ -64,7 +78,6 @@ function test() {
       rating: "9.5",
       episodes: "73 episodes"
     };
-    console.log(seriesDetails);
 
     //series should have year, runtime, episode count
     let seriesTestValid =
@@ -81,7 +94,6 @@ function test() {
       airDate: "14 Sep. 2018",
       rating: "8.6"
     };
-    console.log(seriesEpisode);
 
     let episodeTestValid =
       seriesEpisode.story === expectedSeriesEpisodeDetails.story &&
@@ -95,7 +107,6 @@ function test() {
       airDate: "16 Sep. 2012",
       rating: "7.2"
     };
-    console.log(seriesEpisode2);
 
     let episodeTestValid2 =
       seriesEpisode2.story === expectedSeriesEpisodeDetails2.story &&
@@ -103,23 +114,7 @@ function test() {
       seriesEpisode2.rating !== null &&
       seriesEpisode2.poster === null;
     dislayMessage("Series Episode 2", episodeTestValid2);
-  });
-
-  testGetStarsByBornDay();
-  testGetStarsBornToday();
-}
-
-function testGetStarsByBornDay() {
-  getStarsByBornDay(new Date("2018-10-2")).then(data => {
-    const isValid = data.length > 0;
-    dislayMessage("Stars By Born Day", isValid);
-  });
-}
-
-function testGetStarsBornToday() {
-  getStarsBornToday().then(data => {
-    const isValid = data.length > 0;
-    dislayMessage("Stars Born Today", isValid);
+    process.exit(0);
   });
 }
 
