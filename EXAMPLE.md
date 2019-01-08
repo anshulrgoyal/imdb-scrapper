@@ -1,31 +1,4 @@
 
-  ## changeQuality(n)
-  ### n can be 0,1,2,3,4,5
-  
-## 0
-![quality-0](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_QL50.jpg)
-
-
-## 1
-![quality-1](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg)
-
-
-## 2
-![quality-2](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX148_CR0,0,148,216_AL__QL50.jpg)
-
-
-## 3
-![quality-3](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX86_CR0,0,86,86_AL_.jpg)
-
-
-## 4
-![quality-4](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UY99_CR43,0,99,99_AL_.jpg)
-
-
-## 5
-![quality-5](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX32_CR0,0,32,44_AL_.jpg)
-
-
   ## simpleSearch(flash)
   ```javascript
   simpleSearch(flash).then(val=>console.log(val))
@@ -428,267 +401,6 @@
   ```
     
 
-  ## getStarsByBornDay(Tue Jan 01 2019 23:24:21 GMT+0530 (India Standard Time))
-  ```javascript
-  getStarsByBornDay(Tue Jan 01 2019 23:24:21 GMT+0530 (India Standard Time)).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   [
-  {
-    "id": "nm3886028",
-    "name": "Angourie Rice",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNzUzNzhkZjktYzczYS00MmFiLTgwMWUtYzdiNWVlNDNiN2FiXkEyXkFqcGdeQXVyMzI3NDI1MDU@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0001750",
-    "name": "Madolyn Smith Osborne",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNzQyNjA1MjYwMF5BMl5BanBnXkFtZTgwOTE5NTc3MjE@._V1_UY209_CR69,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0355265",
-    "name": "Adrian Hall",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTkwMDIxODQ3MF5BMl5BanBnXkFtZTcwMzI4NTAxOA@@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm2959880",
-    "name": "Colin Morgan",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMzg1MjcxNDE5OF5BMl5BanBnXkFtZTgwODQwMDAyOTE@._V1_UY209_CR8,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0873942",
-    "name": "Verne Troyer",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BODg5ODk2NjgzMV5BMl5BanBnXkFtZTcwNjQ5NDcxNg@@._V1_UY209_CR2,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm5237479",
-    "name": "Stacy Martin",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjIwNTk2ODI2OF5BMl5BanBnXkFtZTgwOTc0ODQ0MDI@._V1_UY209_CR30,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0001449",
-    "name": "Frank Langella",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTI5MDc0NTI3Nl5BMl5BanBnXkFtZTcwMTgzNjQzMg@@._V1_UY209_CR4,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm1632536",
-    "name": "Dana DeLorenzo",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjIzOTYzNzYxMl5BMl5BanBnXkFtZTgwMDA3ODA0NDE@._V1_UY209_CR69,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0004820",
-    "name": "Morris Chestnut",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTg2NTIyNjk3MF5BMl5BanBnXkFtZTcwNDQyODQ3Mg@@._V1_UY209_CR20,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0354937",
-    "name": "Jennifer Hale",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjEzNzk2MzUwNF5BMl5BanBnXkFtZTcwMTk1MDQ4Nw@@._V1_UY209_CR3,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0819874",
-    "name": "Sam Spruell",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTFkYjIzNWYtMjM3Ni00NmY4LThjOWEtODYwMDZjOWVlZmY1XkEyXkFqcGdeQXVyMTQwMDY5MzQ@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0679410",
-    "name": "Dedee Pfeiffer",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTg0NTczOTIwMF5BMl5BanBnXkFtZTYwNzI2MjYz._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0515950",
-    "name": "Danny Lloyd",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZDBkN2I0YTktY2I4Ni00MTQ1LWIwY2YtZDUzMzAwZDRmZDQ0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY209_CR116,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm6191250",
-    "name": "Ekaterina Samsonov",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNjk0OWY3MTgtM2VmYy00NzhjLTgyZGItYWNjMmE4YjlhNmNiXkEyXkFqcGdeQXVyNDk0OTgwODE@._V1_UY209_CR34,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0726180",
-    "name": "Eden Riegel",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BODQ0OTA0MDgwOF5BMl5BanBnXkFtZTgwMDg5MjI0NjE@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0231191",
-    "name": "Fiona Dolman",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNWQ2YzliYmYtZWRmMS00MWY5LTg0OGQtNGJiODRiOGQ0OTRkXkEyXkFqcGdeQXVyNzc5Nzc5NTY@._V1_UY209_CR69,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0565319",
-    "name": "Sheila McCarthy",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTY4NjM1NjU4OV5BMl5BanBnXkFtZTcwNTEwNzUzOA@@._V1_UY209_CR6,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm1116106",
-    "name": "Anna Brewster",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTUyNzk2OTQ4Ml5BMl5BanBnXkFtZTgwNTgxNjI4MDI@._V1_UY209_CR139,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0806527",
-    "name": "Sharon Small",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNDI1MDI4ODgzNF5BMl5BanBnXkFtZTcwMjM2MjUzMg@@._V1_UY209_CR86,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0509264",
-    "name": "Anders Danielsen Lie",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjI0MDU2NTE3N15BMl5BanBnXkFtZTcwODI1Mjg3Nw@@._V1_UY209_CR123,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0484808",
-    "name": "Carole Landis",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjE3MjAzMjM1NF5BMl5BanBnXkFtZTYwMjcyNDI2._V1_UY209_CR15,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0000763",
-    "name": "Dana Andrews",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNjQ3ODQzNjQ1MV5BMl5BanBnXkFtZTYwMjExMTM2._V1_UY209_CR10,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0436528",
-    "name": "Stanley Kamel",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTUxMzI5NDIyOF5BMl5BanBnXkFtZTcwNjMxOTUzMQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm1765073",
-    "name": "Jonas Armstrong",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjAyOTU5ODM0M15BMl5BanBnXkFtZTcwMTMxMzA5Nw@@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0317159",
-    "name": "Richard Gibson",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTc0MTUzNjA3OF5BMl5BanBnXkFtZTcwMzkzMTUzOA@@._V1_UY209_CR6,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0266995",
-    "name": "Stephanie Faracy",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTA3NDk2MjY2MDReQTJeQWpwZ15BbWU3MDI5MTMwMTc@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0551243",
-    "name": "Zena Marshall",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTgxNTMzMjMwNl5BMl5BanBnXkFtZTcwMTIzMDMxOA@@._V1_UY209_CR13,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm1799038",
-    "name": "Vidya Balan",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNDI3Mjk2MjgzMl5BMl5BanBnXkFtZTcwODQwMjI1OQ@@._V1_UY209_CR2,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0129379",
-    "name": "Clare Calbraith",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNzEzNjM3NTcxNV5BMl5BanBnXkFtZTcwOTY4NTQ2OQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0447648",
-    "name": "Suzy Kendall",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNDMwODg0MjU1OF5BMl5BanBnXkFtZTgwMTg5MDAwNzM@._V1_UY209_CR15,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0610486",
-    "name": "Zach Moyes",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNzM5NDgxMTc3M15BMl5BanBnXkFtZTcwNDY5NDUzMQ@@._V1_UY209_CR32,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0418909",
-    "name": "Gabriel Jarret",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMDQwYzI3MDMtNGMwOC00OGY5LWEyZTktY2EwYzc4NWFjYTFlXkEyXkFqcGdeQXVyNTA2NzA1MQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0362249",
-    "name": "Ty Hardin",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTIwNjg0MjgwNV5BMl5BanBnXkFtZTYwMjkxODU2._V1_UY209_CR89,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0249602",
-    "name": "William Edmunds",
-    "photoUrl": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB470041852_.png"
-  },
-  {
-    "id": "nm0321119",
-    "name": "Toni Ann Gisondi",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMzAxMmM1OTctZWM5Yi00NDkwLTgzMDMtYzFhOGZiMDFkNjg5XkEyXkFqcGdeQXVyODE0NDMyNA@@._V1_UY209_CR2,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm3270744",
-    "name": "Alyssa Julya Smith",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTAxMzcxMjItMmU2Ni00ZWNjLTk1MGEtMDNmMjA1YmY3YzMwXkEyXkFqcGdeQXVyMjA0MTM3ODQ@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm1194748",
-    "name": "Adèle Haenel",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjE5NDU2OTc1OV5BMl5BanBnXkFtZTcwNjE3MDAzNQ@@._V1_UY209_CR4,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0002057",
-    "name": "Richard Edson",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTg1NzYwNjEyNl5BMl5BanBnXkFtZTcwOTk2NDE1Mg@@._V1_UY209_CR12,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0461070",
-    "name": "Sandra Knight",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BOTZjNWE4NmEtNTExZi00OWY3LTk4NDItNjgzMjgxZmMzMDZmXkEyXkFqcGdeQXVyMTE2NzA0Ng@@._V1_UY209_CR116,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0326988",
-    "name": "Carlos Gómez",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BNjIzMDc2NzUwMV5BMl5BanBnXkFtZTgwMjg0MjE3MDE@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0580440",
-    "name": "Michèle Mercier",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BODUyMWM4YjEtNTA5YS00OGI0LTgwNGItOTk0NjM2YzE4MjllXkEyXkFqcGdeQXVyNTk5NzQ5Ng@@._V1_UY209_CR9,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm3041648",
-    "name": "Lara Robinson",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMDU1ZTI5ZGEtNDFlYy00NmVmLTk5YjktNDJjZmI2ZWY4M2Q4XkEyXkFqcGdeQXVyMTk0NzI2NDU@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0637038",
-    "name": "Don Novello",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTc4NzI3NDE4M15BMl5BanBnXkFtZTYwMjA4NTY0._V1_UY209_CR2,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0709634",
-    "name": "Lexi Randall",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTM1MjYyMzA1M15BMl5BanBnXkFtZTcwMzQzNjgwMw@@._V1_UY209_CR5,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0063915",
-    "name": "Matthew 'Stymie' Beard",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYzRiMjA0YzgtYzYxYy00ZmMwLTkxZGItOTNiYjU4OWM3YWYxXkEyXkFqcGdeQXVyMzk3NTUwOQ@@._V1_UY209_CR11,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0178886",
-    "name": "Gia Coppola",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BYjRkZGU3MjItNGY1Ni00ZmQwLTk3YzYtNzg3OTg0ODU5YTI3XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UY209_CR34,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0492951",
-    "name": "Mr. Lawrence",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMjI4ODQwNjAwOV5BMl5BanBnXkFtZTcwMzE3NDEzOQ@@._V1_UX140_CR0,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0001948",
-    "name": "Charles Bickford",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTM3MDUxMjkxNF5BMl5BanBnXkFtZTcwNDQwNTYyOA@@._V1_UY209_CR5,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0269599",
-    "name": "Meagen Fay",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ4MjMxNTU1M15BMl5BanBnXkFtZTgwOTM3NTI1NTE@._V1_UY209_CR28,0,140,209_AL_.jpg"
-  },
-  {
-    "id": "nm0404606",
-    "name": "Brian G. Hutton",
-    "photoUrl": "https://m.media-amazon.com/images/M/MV5BZGQzNzFiYmQtODY0Yy00MGZhLWJhNDgtZTVjMjg4OGFkNjRhXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_UY209_CR104,0,140,209_AL_.jpg"
-  }
-]
-  ```
-    
-
   ## searchActor(govinda)
   ```javascript
   searchActor(govinda).then(val=>console.log(val))
@@ -753,6 +465,54 @@
     "actorBorn": "Norfolk, Virginia, USA"
   }
 ]
+  ```
+    
+
+  ## getTrending(comedy,7)
+  ```javascript
+  getTrending(comedy,7).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "trending": [
+    {
+      "name": "Mary Poppins Returns",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM0MjEzOTQ1NF5BMl5BanBnXkFtZTgwODg4ODc5NjM@._V1_QL50.jpg",
+      "id": "tt5028340"
+    },
+    {
+      "name": "Spider-Man: Into the Spider-Verse",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL50.jpg",
+      "id": "tt4633694"
+    },
+    {
+      "name": "Holmes & Watson",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTNjMjAwNjQtYjE4MC00OGNlLTgzNDctNTE2NTBjMjRlMDgwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_QL50.jpg",
+      "id": "tt1255919"
+    },
+    {
+      "name": "Vice",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1NjM0MzgxMV5BMl5BanBnXkFtZTgwNDc4NTY0NjM@._V1_QL50.jpg",
+      "id": "tt6266538"
+    },
+    {
+      "name": "Love Actually",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_UX67_CR0,0,67,98_AL_.jpg@._V1_QL50.jpg",
+      "id": "tt0314331"
+    },
+    {
+      "name": "National Lampoon's Christmas Vacation",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGZkMWQ2MzMtYTkxYS00OThmLWI0ZTQtNmY0ZTkyY2E4MjliXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL50.jpg",
+      "id": "tt0097958"
+    },
+    {
+      "name": "Home Alone",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL50.jpg",
+      "id": "tt0099785"
+    }
+  ]
+}
   ```
     
 
@@ -846,54 +606,6 @@
       "id": "tt1843866",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
       "name": "Captain America: The Winter Soldier"
-    }
-  ]
-}
-  ```
-    
-
-  ## getTrending(comedy,7)
-  ```javascript
-  getTrending(comedy,7).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "trending": [
-    {
-      "name": "Mary Poppins Returns",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM0MjEzOTQ1NF5BMl5BanBnXkFtZTgwODg4ODc5NjM@._V1_QL50.jpg",
-      "id": "tt5028340"
-    },
-    {
-      "name": "Spider-Man: Into the Spider-Verse",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL50.jpg",
-      "id": "tt4633694"
-    },
-    {
-      "name": "Holmes & Watson",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTNjMjAwNjQtYjE4MC00OGNlLTgzNDctNTE2NTBjMjRlMDgwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_QL50.jpg",
-      "id": "tt1255919"
-    },
-    {
-      "name": "Vice",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1NjM0MzgxMV5BMl5BanBnXkFtZTgwNDc4NTY0NjM@._V1_QL50.jpg",
-      "id": "tt6266538"
-    },
-    {
-      "name": "Love Actually",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_UX67_CR0,0,67,98_AL_.jpg@._V1_QL50.jpg",
-      "id": "tt0314331"
-    },
-    {
-      "name": "National Lampoon's Christmas Vacation",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMGZkMWQ2MzMtYTkxYS00OThmLWI0ZTQtNmY0ZTkyY2E4MjliXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL50.jpg",
-      "id": "tt0097958"
-    },
-    {
-      "name": "Home Alone",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL50.jpg",
-      "id": "tt0099785"
     }
   ]
 }
@@ -1348,3 +1060,29 @@
 }
   ```
     
+
+  ## changeQuality(n)
+  ### n can be 0,1,2,3,4,5
+  
+## 0
+![quality-0](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_QL50.jpg)
+
+
+## 1
+![quality-1](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg)
+
+
+## 2
+![quality-2](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX148_CR0,0,148,216_AL__QL50.jpg)
+
+
+## 3
+![quality-3](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX86_CR0,0,86,86_AL_.jpg)
+
+
+## 4
+![quality-4](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UY99_CR43,0,99,99_AL_.jpg)
+
+
+## 5
+![quality-5](https://m.media-amazon.com/images/M/MV5BMjMzMzQ0NzI5Nl5BMl5BanBnXkFtZTgwNjc2NTY0NjM@._V1_UX32_CR0,0,32,44_AL_.jpg)
