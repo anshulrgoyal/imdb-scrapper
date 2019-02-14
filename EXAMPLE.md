@@ -16,7 +16,7 @@
       "y": 2014,
       "yr": "2014-",
       "q": "TV series",
-      "vt": 29,
+      "vt": 30,
       "i": [
         "https://m.media-amazon.com/images/M/MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM@._V1_.jpg",
         960,
@@ -94,18 +94,6 @@
       ]
     },
     {
-      "l": "Ricki and the Flash",
-      "id": "tt3623726",
-      "s": "Meryl Streep, Kevin Kline",
-      "y": 2015,
-      "q": "feature",
-      "i": [
-        "https://m.media-amazon.com/images/M/MV5BMTY1NzIxNzkzM15BMl5BanBnXkFtZTgwMzAzNjIzNjE@._V1_.jpg",
-        1382,
-        2048
-      ]
-    },
-    {
       "l": "Jumpin' Jack Flash",
       "id": "tt0091306",
       "s": "Whoopi Goldberg, Stephen Collins",
@@ -115,6 +103,18 @@
         "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
         500,
         766
+      ]
+    },
+    {
+      "l": "Ricki and the Flash",
+      "id": "tt3623726",
+      "s": "Meryl Streep, Kevin Kline",
+      "y": 2015,
+      "q": "feature",
+      "i": [
+        "https://m.media-amazon.com/images/M/MV5BMTY1NzIxNzkzM15BMl5BanBnXkFtZTgwMzAzNjIzNjE@._V1_.jpg",
+        1382,
+        2048
       ]
     },
     {
@@ -131,15 +131,16 @@
       ]
     },
     {
-      "l": "Flash Gordon",
-      "id": "tt0027623",
-      "s": "Buster Crabbe, Jean Rogers",
-      "y": 1936,
-      "q": "feature",
+      "l": "Flash Forward",
+      "id": "tt0115173",
+      "s": "Ben Foster, Jewel Staite",
+      "y": 1995,
+      "yr": "1995-1997",
+      "q": "TV series",
       "i": [
-        "https://m.media-amazon.com/images/M/MV5BMjA5NDczNjM5Nl5BMl5BanBnXkFtZTgwNzMxMDM1MjE@._V1_.jpg",
-        336,
-        500
+        "https://m.media-amazon.com/images/M/MV5BYjM4YWE5ZmEtY2VkNC00ODYwLWIxOTgtNmI5ZmVkOTIzOWFiXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg",
+        947,
+        1000
       ]
     }
   ]
@@ -157,6 +158,93 @@
   ```
     
 
+  ## awardsPage(tt5580390)
+  ```javascript
+  awardsPage(tt5580390).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   [
+  {
+    "name": "Saturn Award",
+    "winner": [
+      {
+        "category": "Best Costume Design",
+        "wonBy": "Alexandra Byrne"
+      }
+    ]
+  },
+  {
+    "name": "Annie",
+    "winner": [
+      {
+        "category": "Outstanding Achievement in Animated Effects in a Live Action Production",
+        "wonBy": "Michael Balog"
+      }
+    ]
+  },
+  {
+    "name": "AACTA Award",
+    "winner": [
+      {
+        "category": "Best Visual Effects or Animation",
+        "wonBy": "Christopher Townsend"
+      }
+    ]
+  }
+]
+  ```
+    
+
+  ## searchActor(govinda)
+  ```javascript
+  searchActor(govinda).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   [
+  {
+    "searchQuery": "govinda"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/M/MV5BNzEwNDgwMTk3Nl5BMl5BanBnXkFtZTgwNjMwOTU4MDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda",
+    "actorId": "nm0332871"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Shree Krishna",
+    "actorId": "nm10191142"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda",
+    "actorId": "nm7678583"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda Angulo",
+    "actorId": "nm5291179"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/M/MV5BMDkwOGNiMDYtZDBhMy00NWY0LWExYmQtZDgyNzViMDI2ZTIxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govindan Aravindan",
+    "actorId": "nm0033244"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda Van Maele",
+    "actorId": "nm1985352"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "R. Govindaraj",
+    "actorId": "nm5407632"
+  }
+]
+  ```
+    
+
   ## getUpcoming(20)
   ```javascript
   getUpcoming(20).then(val=>console.log(val))
@@ -166,84 +254,246 @@
    {
   "upcoming": [
     {
-      "name": "The Vanishing",
-      "id": "tt4131496"
+      "name": "Fighting with My Family",
+      "id": "tt6513120"
     },
     {
-      "name": "State Like Sleep",
-      "id": "tt3628574"
+      "name": "The Divorce Party",
+      "id": "tt3699702"
     },
     {
-      "name": "Animal Crackers",
-      "id": "tt4155534"
+      "name": "Donnybrook",
+      "id": "tt7087210"
     },
     {
-      "name": "Replicas",
-      "id": "tt4154916"
+      "name": "How to Train Your Dragon: The Hidden World",
+      "id": "tt2386490"
     },
     {
-      "name": "The Upside",
-      "id": "tt1987680"
+      "name": "Trading Paint",
+      "id": "tt7052494"
     },
     {
-      "name": "A Dog's Way Home",
-      "id": "tt7616798"
+      "name": "Total Dhamaal",
+      "id": "tt7639372"
     },
     {
-      "name": "Ashes in the Snow",
-      "id": "tt3759298"
+      "name": "Run the Race",
+      "id": "tt3201736"
     },
     {
-      "name": "Dragon Ball Super: Broly",
-      "id": "tt7961060"
+      "name": "O.G.",
+      "id": "tt7897102"
     },
     {
-      "name": "Glass",
-      "id": "tt6823368"
+      "name": "Climax",
+      "id": "tt8359848"
     },
     {
-      "name": "Girl",
-      "id": "tt8254556"
+      "name": "Greta",
+      "id": "tt2639336"
     },
     {
-      "name": "The Brawler",
-      "id": "tt5471472"
+      "name": "A Madea Family Funeral",
+      "id": "tt7054636"
     },
     {
-      "name": "The Last Man",
-      "id": "tt3312180"
+      "name": "We Die Young",
+      "id": "tt7903530"
     },
     {
-      "name": "Serenity",
-      "id": "tt6476140"
+      "name": "The Wedding Guest",
+      "id": "tt7645780"
     },
     {
-      "name": "The Kid Who Would Be King",
-      "id": "tt6811018"
+      "name": "The Boy Who Harnessed the Wind",
+      "id": "tt7533152"
     },
     {
-      "name": "King of Thieves",
-      "id": "tt5789976"
+      "name": "Apollo 11",
+      "id": "tt8760684"
     },
     {
-      "name": "The Wild Pear Tree",
-      "id": "tt6628102"
+      "name": "Transit",
+      "id": "tt6675244"
     },
     {
-      "name": "Arctic",
-      "id": "tt6820256"
+      "name": "Giant Little Ones",
+      "id": "tt4481066"
     },
     {
-      "name": "Miss Bala",
-      "id": "tt5941692"
+      "name": "Among the Shadows",
+      "id": "tt5206770"
     },
     {
-      "name": "Piercing",
-      "id": "tt6516314"
+      "name": "Captain Marvel",
+      "id": "tt4154664"
     },
     {
-      "name": "Everybody Knows",
-      "id": "tt4964788"
+      "name": "I'm Not Here",
+      "id": "tt5657712"
+    }
+  ]
+}
+  ```
+    
+
+  ## getTrending(comedy,7)
+  ```javascript
+  getTrending(comedy,7).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "trending": [
+    {
+      "name": "Russian Doll",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmViMjdhZmQtODIyZi00Mzc4LWFhNTItOTk4NGM1NGU0ZDZjXkEyXkFqcGdeQXVyNjc2NTQzMjU@._V1_QL50.jpg",
+      "id": "tt7520794"
+    },
+    {
+      "name": "Sex Education",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTE0MjQ1NDU3OV5BMl5BanBnXkFtZTgwNTI4MTgwNzM@._V1_QL50.jpg",
+      "id": "tt7767422"
+    },
+    {
+      "name": "Green Book",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNzExNzQ5OV5BMl5BanBnXkFtZTgwNjM2MjIxNjM@._V1_QL50.jpg",
+      "id": "tt6966692"
+    },
+    {
+      "name": "The Favourite",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg1NzQwMDQxNV5BMl5BanBnXkFtZTgwNDg2NDYyNjM@._V1_QL50.jpg",
+      "id": "tt5083738"
+    },
+    {
+      "name": "Incredibles 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_UX67_CR0,0,67,98_AL_.jpg@._V1_QL50.jpg",
+      "id": "tt3606756"
+    },
+    {
+      "name": "The Lego Movie 2: The Second Part",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTkyOTkwNDc1N15BMl5BanBnXkFtZTgwNzkyMzk3NjM@._V1_QL50.jpg",
+      "id": "tt3513498"
+    },
+    {
+      "name": "How to Train Your Dragon: The Hidden World",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_QL50.jpg",
+      "id": "tt2386490"
+    }
+  ]
+}
+  ```
+    
+
+  ## getActor(nm2652716)
+  ```javascript
+  getActor(nm2652716).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   [
+  {
+    "actorName": "Grant Gustin",
+    "actorImage": "https://m.media-amazon.com/images/M/MV5BMjE3NDUyMTg1MF5BMl5BanBnXkFtZTgwMTQzMjY1NjM@._V1_UY317_CR11,0,214,317_AL__QL50.jpg",
+    "actorInfo": "Thomas Grant Gustin was born on January 14, 1990 in Norfolk, Virginia, to Tina Lynne (Sweeney), a pediatric nurse, and Thomas Avery Gustin. In 2008, he graduated from Granby High School and went on to attend the BFA Music Theatre Program at Elon University in North Carolina for two years. He left school to take the role of Baby John in the",
+    "actorBirth": "January 14, 1990",
+    "actorBorn": "Norfolk, Virginia, USA"
+  }
+]
+  ```
+    
+
+  ## scrapper(tt1825683)
+  ```javascript
+  scrapper(tt1825683).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "title": "Black Panther (2018)",
+  "runtime": "2h 14min",
+  "year": "2018",
+  "story": "After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
+  "director": [
+    "Ryan Coogler"
+  ],
+  "writers": [
+    "Ryan Coogler",
+    "Joe Robert Cole"
+  ],
+  "stars": [
+    "Chadwick Boseman",
+    "Michael B. Jordan",
+    "Lupita Nyong'o"
+  ],
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "rating": "7.4",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
+  "related": [
+    {
+      "id": "tt4154756",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Avengers: Infinity War"
+    },
+    {
+      "id": "tt3501632",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Thor: Ragnarok"
+    },
+    {
+      "id": "tt2250912",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "Spider-Man: Homecoming"
+    },
+    {
+      "id": "tt3896198",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Guardians of the Galaxy Vol. 2"
+    },
+    {
+      "id": "tt5463162",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY190_CR31,0,128,190_AL_.jpg",
+      "name": "Deadpool 2"
+    },
+    {
+      "id": "tt1211837",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Doctor Strange"
+    },
+    {
+      "id": "tt3498820",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Captain America: Civil War"
+    },
+    {
+      "id": "tt1431045",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "Deadpool"
+    },
+    {
+      "id": "tt2015381",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Guardians of the Galaxy"
+    },
+    {
+      "id": "tt2395427",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Avengers: Age of Ultron"
+    },
+    {
+      "id": "tt0848228",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "The Avengers"
+    },
+    {
+      "id": "tt1843866",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
+      "name": "Captain America: The Winter Soldier"
     }
   ]
 }
@@ -330,7 +580,7 @@
     },
     {
       "name": "David S. Lee",
-      "image": "https://m.media-amazon.com/images/M/MV5BYmJkMTAyNTAtNGU3OS00MjI3LWE5OTgtMjMzMWQ0MTc0OTdmXkEyXkFqcGdeQXVyMjQ5ODYxOTI@._V1_QL50.jpg",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzE5NWU2NjAtNGVmZC00MzhmLWExMzYtOTRhY2U4NGYyMTA0XkEyXkFqcGdeQXVyMjQ5ODYxOTI@._V1_QL50.jpg",
       "role": "Limbani"
     },
     {
@@ -363,482 +613,6 @@
   ```
     
 
-  ## awardsPage(tt5580390)
-  ```javascript
-  awardsPage(tt5580390).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   [
-  {
-    "name": "Saturn Award",
-    "winner": [
-      {
-        "category": "Best Costume Design",
-        "wonBy": "Alexandra Byrne"
-      }
-    ]
-  },
-  {
-    "name": "Annie",
-    "winner": [
-      {
-        "category": "Outstanding Achievement in Animated Effects in a Live Action Production",
-        "wonBy": "Michael Balog"
-      }
-    ]
-  },
-  {
-    "name": "AACTA Award",
-    "winner": [
-      {
-        "category": "Best Visual Effects or Animation",
-        "wonBy": "Christopher Townsend"
-      }
-    ]
-  }
-]
-  ```
-    
-
-  ## searchActor(govinda)
-  ```javascript
-  searchActor(govinda).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   [
-  {
-    "searchQuery": "govinda"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNzEwNDgwMTk3Nl5BMl5BanBnXkFtZTgwNjMwOTU4MDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm0332871"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Shree Krishna",
-    "actorId": "nm10191142"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm5744282"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Van Maele",
-    "actorId": "nm1985352"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindan Aravindan",
-    "actorId": "nm0033244"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Angulo",
-    "actorId": "nm5291179"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "R. Govindaraj",
-    "actorId": "nm5407632"
-  }
-]
-  ```
-    
-
-  ## getActor(nm2652716)
-  ```javascript
-  getActor(nm2652716).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   [
-  {
-    "actorName": "Grant Gustin",
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMjE3NDUyMTg1MF5BMl5BanBnXkFtZTgwMTQzMjY1NjM@._V1_UY317_CR11,0,214,317_AL__QL50.jpg",
-    "actorInfo": "Thomas Grant Gustin was born on January 14, 1990 in Norfolk, Virginia, to Tina Lynne (Sweeney), a pediatric nurse, and Thomas Avery Gustin. In 2008, he graduated from Granby High School and went on to attend the BFA Music Theatre Program at Elon University in North Carolina for two years. He left school to take the role of Baby John in the",
-    "actorBirth": "January 14, 1990",
-    "actorBorn": "Norfolk, Virginia, USA"
-  }
-]
-  ```
-    
-
-  ## getTrending(comedy,7)
-  ```javascript
-  getTrending(comedy,7).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "trending": [
-    {
-      "name": "Mary Poppins Returns",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM0MjEzOTQ1NF5BMl5BanBnXkFtZTgwODg4ODc5NjM@._V1_QL50.jpg",
-      "id": "tt5028340"
-    },
-    {
-      "name": "Spider-Man: Into the Spider-Verse",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL50.jpg",
-      "id": "tt4633694"
-    },
-    {
-      "name": "Holmes & Watson",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTNjMjAwNjQtYjE4MC00OGNlLTgzNDctNTE2NTBjMjRlMDgwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_QL50.jpg",
-      "id": "tt1255919"
-    },
-    {
-      "name": "Vice",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1NjM0MzgxMV5BMl5BanBnXkFtZTgwNDc4NTY0NjM@._V1_QL50.jpg",
-      "id": "tt6266538"
-    },
-    {
-      "name": "Love Actually",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_UX67_CR0,0,67,98_AL_.jpg@._V1_QL50.jpg",
-      "id": "tt0314331"
-    },
-    {
-      "name": "National Lampoon's Christmas Vacation",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMGZkMWQ2MzMtYTkxYS00OThmLWI0ZTQtNmY0ZTkyY2E4MjliXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL50.jpg",
-      "id": "tt0097958"
-    },
-    {
-      "name": "Home Alone",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL50.jpg",
-      "id": "tt0099785"
-    }
-  ]
-}
-  ```
-    
-
-  ## scrapper(tt1825683)
-  ```javascript
-  scrapper(tt1825683).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "title": "Black Panther (2018)",
-  "runtime": "2h 14min",
-  "year": "2018",
-  "story": "After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
-  "director": [
-    "Ryan Coogler"
-  ],
-  "writers": [
-    "Ryan Coogler",
-    "Joe Robert Cole"
-  ],
-  "stars": [
-    "Chadwick Boseman",
-    "Michael B. Jordan",
-    "Lupita Nyong'o"
-  ],
-  "genre": [
-    "Action",
-    "Adventure",
-    "Sci-Fi"
-  ],
-  "rating": "7.4",
-  "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
-  "related": [
-    {
-      "id": "tt3501632",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Thor: Ragnarok"
-    },
-    {
-      "id": "tt2250912",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Spider-Man: Homecoming"
-    },
-    {
-      "id": "tt4154756",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Avengers: Infinity War"
-    },
-    {
-      "id": "tt3896198",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy Vol. 2"
-    },
-    {
-      "id": "tt1211837",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Doctor Strange"
-    },
-    {
-      "id": "tt5463162",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY190_CR31,0,128,190_AL_.jpg",
-      "name": "Deadpool 2"
-    },
-    {
-      "id": "tt3498820",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: Civil War"
-    },
-    {
-      "id": "tt5095030",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Ant-Man and the Wasp"
-    },
-    {
-      "id": "tt2015381",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy"
-    },
-    {
-      "id": "tt2395427",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Avengers: Age of Ultron"
-    },
-    {
-      "id": "tt0848228",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "The Avengers"
-    },
-    {
-      "id": "tt1843866",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
-      "name": "Captain America: The Winter Soldier"
-    }
-  ]
-}
-  ```
-    
-
-  ## getFull(tt2395427)
-  ```javascript
-  getFull(tt2395427).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "title": "Avengers: Age of Ultron (2015)",
-  "runtime": "2h 21min",
-  "year": "2015",
-  "story": "Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.",
-  "director": [
-    "Joss Whedon"
-  ],
-  "writers": [
-    "Joss Whedon",
-    "Stan Lee"
-  ],
-  "stars": [
-    "Robert Downey Jr.",
-    "Chris Evans",
-    "Mark Ruffalo"
-  ],
-  "genre": [
-    "Action",
-    "Adventure",
-    "Sci-Fi"
-  ],
-  "rating": "7.4",
-  "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_QL50.jpg",
-  "related": [
-    {
-      "id": "tt0848228",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "The Avengers"
-    },
-    {
-      "id": "tt3498820",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: Civil War"
-    },
-    {
-      "id": "tt1843866",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
-      "name": "Captain America: The Winter Soldier"
-    },
-    {
-      "id": "tt0458339",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: The First Avenger"
-    },
-    {
-      "id": "tt1300854",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-      "name": "Iron Man 3"
-    },
-    {
-      "id": "tt2015381",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy"
-    },
-    {
-      "id": "tt1211837",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Doctor Strange"
-    },
-    {
-      "id": "tt0800369",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Thor"
-    },
-    {
-      "id": "tt0371746",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Iron Man"
-    },
-    {
-      "id": "tt1981115",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-      "name": "Thor: The Dark World"
-    },
-    {
-      "id": "tt0478970",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Ant-Man"
-    },
-    {
-      "id": "tt1228705",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Iron Man 2"
-    }
-  ],
-  "awards": [
-    {
-      "name": "Saturn Award",
-      "winner": [
-        {
-          "category": "Best Costume Design",
-          "wonBy": "Alexandra Byrne"
-        }
-      ]
-    },
-    {
-      "name": "Annie",
-      "winner": [
-        {
-          "category": "Outstanding Achievement in Animated Effects in a Live Action Production",
-          "wonBy": "Michael Balog"
-        }
-      ]
-    },
-    {
-      "name": "AACTA Award",
-      "winner": [
-        {
-          "category": "Best Visual Effects or Animation",
-          "wonBy": "Christopher Townsend"
-        }
-      ]
-    }
-  ],
-  "cast": [
-    {
-      "name": "Robert Downey Jr.",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_QL50.jpg",
-      "role": "Tony Stark/Iron Man"
-    },
-    {
-      "name": "Chris Hemsworth",
-      "image": "https://m.media-amazon.com/images/M/MV5BOTU2MTI0NTIyNV5BMl5BanBnXkFtZTcwMTA4Nzc3OA@@._V1_QL50.jpg",
-      "role": "Thor"
-    },
-    {
-      "name": "Mark Ruffalo",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDQyNzMzZTMtYjlkNS00YzFhLWFhMTctY2M4YmQ1NmRhODBkXkEyXkFqcGdeQXVyNjcyNzgyOTE@._V1_QL50.jpg",
-      "role": "Bruce Banner/Hulk"
-    },
-    {
-      "name": "Chris Evans",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTU2NTg1OTQzMF5BMl5BanBnXkFtZTcwNjIyMjkyMg@@._V1_QL50.jpg",
-      "role": "Steve Rogers/Captain America"
-    },
-    {
-      "name": "Scarlett Johansson",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_QL50.jpg",
-      "role": "Natasha Romanoff/Black Widow"
-    },
-    {
-      "name": "Jeremy Renner",
-      "image": "https://m.media-amazon.com/images/M/MV5BOTk2NDc2ODgzMF5BMl5BanBnXkFtZTcwMTMzOTQ4Nw@@._V1_QL50.jpg",
-      "role": "Clint Barton/Hawkeye"
-    },
-    {
-      "name": "James Spader",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTQ3MTQ5NjY5Ml5BMl5BanBnXkFtZTgwMTY0NzU5MDE@._V1_QL50.jpg",
-      "role": "Ultron"
-    },
-    {
-      "name": "Samuel L. Jackson",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
-      "role": "Nick Fury"
-    },
-    {
-      "name": "Don Cheadle",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDMxNDM3MzY5N15BMl5BanBnXkFtZTcwMjkzOTY4MQ@@._V1_QL50.jpg",
-      "role": "James Rhodes/War Machine"
-    },
-    {
-      "name": "Aaron Taylor-Johnson",
-      "image": "https://m.media-amazon.com/images/M/MV5BMzE5MzI0MzY2OF5BMl5BanBnXkFtZTgwODE3MTk4MTE@._V1_QL50.jpg",
-      "role": "Pietro Maximoff/Quicksilver"
-    },
-    {
-      "name": "Elizabeth Olsen",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_QL50.jpg",
-      "role": "Wanda Maximoff/Scarlet Witch"
-    },
-    {
-      "name": "Paul Bettany",
-      "image": "https://m.media-amazon.com/images/M/MV5BNjUzMDIzNjkxMl5BMl5BanBnXkFtZTgwNjgyNzA0MjI@._V1_QL50.jpg",
-      "role": "Jarvis/Vision"
-    },
-    {
-      "name": "Cobie Smulders",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTkzNTUyMTczM15BMl5BanBnXkFtZTcwMjMxNTM4Nw@@._V1_QL50.jpg",
-      "role": "Maria Hill"
-    },
-    {
-      "name": "Anthony Mackie",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTk3NTM1MjE2M15BMl5BanBnXkFtZTcwNzc5OTI2Mg@@._V1_QL50.jpg",
-      "role": "Sam Wilson/Falcon"
-    },
-    {
-      "name": "Hayley Atwell",
-      "image": "https://m.media-amazon.com/images/M/MV5BZmRhZWVjZWMtMzUwZi00OTI3LThiMzAtY2VmMjU5YjQ0YjVjXkEyXkFqcGdeQXVyODMzMTM1MDc@._V1_QL50.jpg",
-      "role": "Peggy Carter"
-    },
-    {
-      "name": "Idris Elba",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzEzMTI2NjEyNF5BMl5BanBnXkFtZTcwNTA0OTE4OA@@._V1_QL50.jpg",
-      "role": "Heimdall"
-    },
-    {
-      "name": "Linda Cardellini",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTQ2MDM4MTM2NF5BMl5BanBnXkFtZTgwMTM4MjYyMDE@._V1_QL50.jpg",
-      "role": "Laura Barton"
-    },
-    {
-      "name": "Stellan Skarsgård",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTg4NDUzOTY0N15BMl5BanBnXkFtZTYwNjYxODE0._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
-      "role": "Erik Selvig"
-    },
-    {
-      "name": "Claudia Kim",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTcyMzgxNTM4N15BMl5BanBnXkFtZTgwMjY1ODk4MzE@._V1_QL50.jpg",
-      "role": "Dr. Helen Cho"
-    },
-    {
-      "name": "Thomas Kretschmann",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTY1Njc5MzE1OF5BMl5BanBnXkFtZTcwMTc1NDM4Nw@@._V1_QL50.jpg",
-      "role": "Strucker"
-    }
-  ]
-}
-  ```
-    
-
   ## getTrending(7)
   ```javascript
   getTrending(7).then(val=>console.log(val))
@@ -848,39 +622,39 @@
    {
   "trending": [
     {
-      "name": "Bird Box",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_QL50.jpg",
-      "id": "tt2737304"
+      "name": "Velvet Buzzsaw",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjExMDQ1NjMzOV5BMl5BanBnXkFtZTgwMjkxMzMyNzM@._V1_QL50.jpg",
+      "id": "tt7043012"
     },
     {
-      "name": "Aquaman",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_QL50.jpg",
-      "id": "tt1477834"
+      "name": "Alita: Battle Angel",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzVhMjcxYjYtOTVhOS00MzQ1LWFiNTAtZmY2ZmJjNjIxMjllXkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_QL50.jpg",
+      "id": "tt0437086"
     },
     {
-      "name": "Mary Poppins Returns",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM0MjEzOTQ1NF5BMl5BanBnXkFtZTgwODg4ODc5NjM@._V1_QL50.jpg",
-      "id": "tt5028340"
+      "name": "Avengers: Endgame",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGZiMzBkZjMtNjE3Mi00MWNlLWIyYjItYTk3MjY0Yjg5ODZkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL50.jpg",
+      "id": "tt4154796"
     },
     {
-      "name": "Spider-Man: Into the Spider-Verse",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_QL50.jpg",
-      "id": "tt4633694"
+      "name": "Polar",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAzNDkzODU3Ml5BMl5BanBnXkFtZTgwNDI4OTExNzM@._V1_QL50.jpg",
+      "id": "tt4139588"
     },
     {
-      "name": "Bumblebee",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTM3NzE5OTE1Nl5BMl5BanBnXkFtZTgwNzQwNjM3NjM@._V1_QL50.jpg",
-      "id": "tt4701182"
+      "name": "Bohemian Rhapsody",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_QL50.jpg",
+      "id": "tt1727824"
     },
     {
-      "name": "Holmes & Watson",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTNjMjAwNjQtYjE4MC00OGNlLTgzNDctNTE2NTBjMjRlMDgwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_QL50.jpg",
-      "id": "tt1255919"
+      "name": "Overlord",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTUzYmJlNDgtMzM2ZS00N2ZkLWJjY2ItNzM0ZmVjMWU5OTA3XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL50.jpg",
+      "id": "tt4530422"
     },
     {
-      "name": "Vice",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1NjM0MzgxMV5BMl5BanBnXkFtZTgwNDc4NTY0NjM@._V1_QL50.jpg",
-      "id": "tt6266538"
+      "name": "Glass",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_QL50.jpg",
+      "id": "tt6823368"
     }
   ]
 }
@@ -1055,6 +829,236 @@
       "story": "With Zoom's true plan revealed, Team Flash fears Barry's resolve to do whatever it takes to stop him.",
       "airDate": "24 May 2016",
       "rating": "9.1"
+    }
+  ]
+}
+  ```
+    
+
+  ## getFull(tt2193021)
+  ```javascript
+  getFull(tt2193021).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "title": "Arrow",
+  "runtime": "42min",
+  "year": "2012",
+  "story": "Oliver Queen and his father are lost at sea when their luxury yacht sinks, apparently in a storm. His father dies, but Oliver survives for five years on an uncharted island and eventually returns home. But he wasn't alone on the island where he learned not only how to fight and survive but also of his father's corruption and unscrupulous business dealings. He returns to civilization a changed man, determined to put things right. He disguises himself with the hood of one of his mysterious island mentors, arms himself with a bow and sets about hunting down the men and women who have corrupted his city.",
+  "creators": [
+    "Greg Berlanti",
+    "Marc Guggenheim",
+    "Andrew Kreisberg"
+  ],
+  "stars": [
+    "Stephen Amell",
+    "Katie Cassidy",
+    "David Ramsey"
+  ],
+  "genre": [
+    "Action",
+    "Adventure",
+    "Crime",
+    "Drama",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "rating": "7.7",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTU5MjU5NjUyOV5BMl5BanBnXkFtZTgwMDY1ODIyNjM@._V1_QL50.jpg",
+  "episodes": "184 episodes",
+  "seasons": "8",
+  "related": [
+    {
+      "id": "tt3107288",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM@._V1_UY190_CR12,0,128,190_AL_.jpg",
+      "name": "The Flash"
+    },
+    {
+      "id": "tt4532368",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmJlMWFhZjEtN2VjZC00MTdmLTljYjMtNDk2ZjA2YWIwYjUyXkEyXkFqcGdeQXVyNDY2NDU1MzA@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Legends of Tomorrow"
+    },
+    {
+      "id": "tt4016454",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE0MzgxNjYzOV5BMl5BanBnXkFtZTgwMzk3NDUyNTM@._V1_UY190_CR4,0,128,190_AL_.jpg",
+      "name": "Supergirl"
+    },
+    {
+      "id": "tt3749900",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU5NjQ2MTU4NV5BMl5BanBnXkFtZTgwOTYyNTAwNzM@._V1_UY190_CR12,0,128,190_AL_.jpg",
+      "name": "Gotham"
+    },
+    {
+      "id": "tt4052886",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjI4MTU0NzE1OF5BMl5BanBnXkFtZTgwODI3NDc0OTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "Lucifer"
+    },
+    {
+      "id": "tt0460681",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAyNzkxOTU5MF5BMl5BanBnXkFtZTgwMTk1OTYzNjM@._V1_UY190_CR12,0,128,190_AL_.jpg",
+      "name": "Supernatural"
+    },
+    {
+      "id": "tt1632701",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk1MjYzOTU2Nl5BMl5BanBnXkFtZTgwMzAxMTg5MTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Suits"
+    },
+    {
+      "id": "tt0898266",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "The Big Bang Theory"
+    },
+    {
+      "id": "tt2364582",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5NzEzMzA2MF5BMl5BanBnXkFtZTgwNDkyNzgyNDM@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "Agents of S.H.I.E.L.D."
+    },
+    {
+      "id": "tt2741602",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGYyZDFjOGMtNDE2Zi00ODg3LWJiZjktMWFiYjUwOTVmNjBkXkEyXkFqcGdeQXVyNjMxNzcwOTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+      "name": "The Blacklist"
+    },
+    {
+      "id": "tt4574334",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk3NTc2NTI0N15BMl5BanBnXkFtZTgwMDA4MjcwNzM@._V1_UY190_CR3,0,128,190_AL_.jpg",
+      "name": "Stranger Things"
+    },
+    {
+      "id": "tt1520211",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDM2OTA1NzIzMV5BMl5BanBnXkFtZTgwOTkxMTk5NjM@._V1_UX128_CR0,0,128,190_AL_.jpg",
+      "name": "The Walking Dead"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Saturn Award",
+      "winner": [
+        {
+          "category": "Best Superhero Adaptation Television Series",
+          "wonBy": ""
+        }
+      ]
+    },
+    {
+      "name": "Saturn Award",
+      "winner": [
+        {
+          "category": "Best Superhero Adaptation Television Series",
+          "wonBy": ""
+        }
+      ]
+    },
+    {
+      "name": "Saturn Award",
+      "winner": [
+        {
+          "category": "Best Superhero Adaptation Television Series",
+          "wonBy": ""
+        }
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "Stephen Amell",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc3MTg0MDMyMV5BMl5BanBnXkFtZTcwMjc2MzQxOA@@._V1_QL50.jpg",
+      "role": "Oliver Queen/Green Arrow/The Arrow/The Hood/Black Arrow/Elseworlds Flash(161 episodes, 2012-2019)"
+    },
+    {
+      "name": "David Ramsey",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc1NDI3MDk2M15BMl5BanBnXkFtZTcwNjk4NDg4Mg@@._V1_QL50.jpg",
+      "role": "John Diggle/Spartan/Green Arrow/The Hood(160 episodes, 2012-2019)"
+    },
+    {
+      "name": "Emily Bett Rickards",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTdkZjlmYTQtMGMwNS00Yzk3LTg4YWItMzVlNTY0MmNiMzM3XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL50.jpg",
+      "role": "Felicity Smoak/Overwatch(154 episodes, 2012-2019)"
+    },
+    {
+      "name": "Katie Cassidy",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjMyMzA1MTY2MV5BMl5BanBnXkFtZTgwMzIyNzQ3MDE@._V1_QL50.jpg",
+      "role": "Laurel Lance/Black Canary/Black Siren(143 episodes, 2012-2019)"
+    },
+    {
+      "name": "Paul Blackthorne",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ1NjcyODAxMF5BMl5BanBnXkFtZTgwMjc5MDMwNzE@._V1_QL50.jpg",
+      "role": "Quentin Lance(139 episodes, 2012-2019)"
+    },
+    {
+      "name": "Willa Holland",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzgwMDk1NTUxMF5BMl5BanBnXkFtZTcwMTQxODY4Mg@@._V1_QL50.jpg",
+      "role": "Thea Queen/Speedy(132 episodes, 2012-2019)"
+    },
+    {
+      "name": "Echo Kellum",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTg5MTQwMzk2OV5BMl5BanBnXkFtZTgwMzEwNjI0NjE@._V1_QL50.jpg",
+      "role": "Curtis Holt/Mr. Terrific(79 episodes, 2015-2019)"
+    },
+    {
+      "name": "Colton Haynes",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjc1NDMwYmItM2NiNy00OWE5LTljYWYtNmFjZWFlMjdiNWFmXkEyXkFqcGdeQXVyMTYwMDA3MDg@._V1_QL50.jpg",
+      "role": "Roy Harper/Arsenal(77 episodes, 2013-2019)"
+    },
+    {
+      "name": "John Barrowman",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ4Mjc1MzQzM15BMl5BanBnXkFtZTcwMDc0MDYzMw@@._V1_QL50.jpg",
+      "role": "Malcolm Merlyn/Dark Archer(67 episodes, 2012-2018)"
+    },
+    {
+      "name": "Rick Gonzalez",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2FhOTU1MDktM2E4MC00MTY0LWE4NzYtMWY2MjU4YTAyYTViXkEyXkFqcGdeQXVyNTgwNDMyMDQ@._V1_QL50.jpg",
+      "role": "Rene Ramirez/Wild Dog(66 episodes, 2016-2019)"
+    },
+    {
+      "name": "Juliana Harkavy",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTJjMjc2ODItYmMyNC00ZGMyLWExZGUtZTg5MThjMWRmOGY1XkEyXkFqcGdeQXVyMTkzMDk1Mzk@._V1_QL50.jpg",
+      "role": "Dinah Drake/Black Canary/Tina Boland(57 episodes, 2017-2019)"
+    },
+    {
+      "name": "Susanna Thompson",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTI1MTEzMjI5M15BMl5BanBnXkFtZTYwMDMzNzY2._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
+      "role": "Moira Queen(48 episodes, 2012-2017)"
+    },
+    {
+      "name": "Keri Adams",
+      "image": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB470041852_.png@._V1_QL50.jpg",
+      "role": "Bethany Snow(42 episodes, 2013-2019)"
+    },
+    {
+      "name": "Manu Bennett",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTAzMTY2ODY0ODVeQTJeQWpwZ15BbWU4MDM3MjY5MzAx._V1_UY109_CR2,0,75,109_AL_.jpg@._V1_QL50.jpg",
+      "role": "Slade Wilson/Deathstroke(40 episodes, 2013-2017)"
+    },
+    {
+      "name": "Kirk Acevedo",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTM0MDMwMjE1OF5BMl5BanBnXkFtZTYwNjc2NDM0._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
+      "role": "Ricardo Diaz(35 episodes, 2017-2019)"
+    },
+    {
+      "name": "Caity Lotz",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAyNjc2MjIxNV5BMl5BanBnXkFtZTgwNzU3MjExMzI@._V1_QL50.jpg",
+      "role": "Sara Lance/The Canary/White Canary(35 episodes, 2013-2019)"
+    },
+    {
+      "name": "David Nykl",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjI1OTY4Mzk0NF5BMl5BanBnXkFtZTgwNzk3NzYxMDE@._V1_QL50.jpg",
+      "role": "Anatoly Knyazev(34 episodes, 2013-2018)"
+    },
+    {
+      "name": "Audrey Marie Anderson",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjQ3NDQ3ODQ5NV5BMl5BanBnXkFtZTgwNDk5NTc2ODE@._V1_QL50.jpg",
+      "role": "Lyla Michaels(33 episodes, 2013-2019)"
+    },
+    {
+      "name": "Colin Donnell",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjkwOTczZTMtOGViNy00ODA4LTlmMmMtNmM3NzgyMzIxMmY5XkEyXkFqcGdeQXVyNDYzODA2NjI@._V1_QL50.jpg",
+      "role": "Tommy Merlyn/Green Arrow/Prometheus(30 episodes, 2012-2018)"
+    },
+    {
+      "name": "Jack Moore",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGZmNzI5ZDctYmYwYS00MWJiLThkMDItNGYwOTVlOGQ1NTZkXkEyXkFqcGdeQXVyNjMzMzQ5Njc@._V1_QL50.jpg",
+      "role": "William Clayton(26 episodes, 2015-2019)"
     }
   ]
 }

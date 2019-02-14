@@ -17,8 +17,8 @@ const {
 } = require("./index");
 
 const jobs = excuteMe => [
-  getFull("tt2395427").then(movieDetails => {
-    return excuteMe("getFull-tt2395427", movieDetails);
+  getFull("tt2193021").then(movieDetails => {
+    return excuteMe("getFull-tt2193021", movieDetails);
   }),
 
   simpleSearch("flash").then(data => {
