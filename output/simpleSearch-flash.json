@@ -9,7 +9,7 @@
             "y": 2014,
             "yr": "2014-",
             "q": "TV series",
-            "vt": 30,
+            "vt": 35,
             "i": [
                 "https://m.media-amazon.com/images/M/MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM@._V1_.jpg",
                 960,
@@ -17,11 +17,11 @@
             ],
             "v": [
                 {
-                    "l": "Official Promo",
-                    "id": "vi2312747545",
-                    "s": "0:31",
+                    "l": "Season 6 Teaser: San Diego Comic-Con",
+                    "id": "vi1667480601",
+                    "s": "2:00",
                     "i": [
-                        "https://m.media-amazon.com/images/M/MV5BNmM2YWRmOTctZWZjOC00ZTIxLWI1YWMtZTgzNmI5NzNmMDg0XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+                        "https://m.media-amazon.com/images/M/MV5BYmMzNWFhMWItOTdlNy00Njk2LWE5MGItZTYzNGE3NTA3OTYwXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
                         1920,
                         1080
                     ]
@@ -37,11 +37,35 @@
                     ]
                 },
                 {
-                    "l": "Comic-Con 2018 Trailer",
-                    "id": "vi701348633",
-                    "s": "2:42",
+                    "l": "Official Promo",
+                    "id": "vi2312747545",
+                    "s": "0:31",
                     "i": [
-                        "https://m.media-amazon.com/images/M/MV5BMWM3NTQ2NjMtOGQ2OS00YWE1LWFhZGQtNDgwN2RmYzQ0YWQ5XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+                        "https://m.media-amazon.com/images/M/MV5BNmM2YWRmOTctZWZjOC00ZTIxLWI1YWMtZTgzNmI5NzNmMDg0XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+                        1920,
+                        1080
+                    ]
+                }
+            ]
+        },
+        {
+            "l": "The Flash",
+            "id": "tt0439572",
+            "s": "Ezra Miller",
+            "q": "feature",
+            "vt": 2,
+            "i": [
+                "https://m.media-amazon.com/images/M/MV5BYjU1NGMxZGEtMTRhYS00MzUyLThkMGQtODIzNzlhOTA4Yjg3XkEyXkFqcGdeQXVyNDU4NjI4ODQ@._V1_.jpg",
+                696,
+                471
+            ],
+            "v": [
+                {
+                    "l": "DC Bets It All on Wisecracks",
+                    "id": "vi3236150553",
+                    "s": "3:32",
+                    "i": [
+                        "https://m.media-amazon.com/images/M/MV5BNzA2M2M5ZmItYTY4My00M2E1LTg5OGUtYThjODZjMjQ5ZDJkXkEyXkFqcGdeQWFsZWxvZw@@._V1_.jpg",
                         1920,
                         1080
                     ]
@@ -54,7 +78,6 @@
             "s": "Sam J. Jones, Melody Anderson",
             "y": 1980,
             "q": "feature",
-            "vt": 1,
             "i": [
                 "https://m.media-amazon.com/images/M/MV5BN2Y4ZDBjMjEtZWQ0OS00NzYyLTg0M2ItMmUzYTEwN2RmMGVlXkEyXkFqcGdeQXVyMjgyOTI1ODY@._V1_.jpg",
                 1944,
@@ -87,18 +110,6 @@
             ]
         },
         {
-            "l": "Jumpin' Jack Flash",
-            "id": "tt0091306",
-            "s": "Whoopi Goldberg, Stephen Collins",
-            "y": 1986,
-            "q": "feature",
-            "i": [
-                "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
-                500,
-                766
-            ]
-        },
-        {
             "l": "Ricki and the Flash",
             "id": "tt3623726",
             "s": "Meryl Streep, Kevin Kline",
@@ -111,16 +122,15 @@
             ]
         },
         {
-            "l": "Flash Gordon",
-            "id": "tt0959086",
-            "s": "Eric Johnson, Gina Holden",
-            "y": 2007,
-            "yr": "2007-2008",
-            "q": "TV series",
+            "l": "Jumpin' Jack Flash",
+            "id": "tt0091306",
+            "s": "Whoopi Goldberg, Stephen Collins",
+            "y": 1986,
+            "q": "feature",
             "i": [
-                "https://m.media-amazon.com/images/M/MV5BMTY2Njc1MTgyNV5BMl5BanBnXkFtZTcwODYwNTI1MQ@@._V1_.jpg",
-                429,
-                600
+                "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
+                500,
+                766
             ]
         },
         {

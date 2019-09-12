@@ -35,6 +35,8 @@ function testOutput(name, value) {
   return result;
 }
 function test(shouldBe, actual) {
+  console.log(shouldBe)
+  console.log("====================================")
   const type = typeof actual;
   if (type === typeof actual) {
     switch (type) {

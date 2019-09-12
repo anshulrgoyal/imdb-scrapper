@@ -20,38 +20,13 @@
         "Adventure",
         "Sci-Fi"
     ],
-    "rating": "7.4",
+    "rating": "7.3",
     "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL50.jpg",
     "related": [
-        {
-            "id": "tt4154756",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Avengers: Infinity War"
-        },
         {
             "id": "tt3501632",
             "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
             "name": "Thor: Ragnarok"
-        },
-        {
-            "id": "tt2250912",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
-            "name": "Spider-Man: Homecoming"
-        },
-        {
-            "id": "tt5463162",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY190_CR31,0,128,190_AL_.jpg",
-            "name": "Deadpool 2"
-        },
-        {
-            "id": "tt3896198",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Guardians of the Galaxy Vol. 2"
-        },
-        {
-            "id": "tt1211837",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Doctor Strange"
         },
         {
             "id": "tt3498820",
@@ -59,9 +34,14 @@
             "name": "Captain America: Civil War"
         },
         {
-            "id": "tt1431045",
-            "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX128_CR0,0,128,190_AL_.jpg",
-            "name": "Deadpool"
+            "id": "tt3896198",
+            "poster": "https://m.media-amazon.com/images/M/MV5BN2MwNjJlODAtMTc1MS00NjkwLTg2NDMtYzFjZmU2MGM1YWUwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Guardians of the Galaxy Vol. 2"
+        },
+        {
+            "id": "tt2250912",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Spider-Man: Homecoming"
         },
         {
             "id": "tt2395427",
@@ -69,19 +49,39 @@
             "name": "Avengers: Age of Ultron"
         },
         {
-            "id": "tt0848228",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "The Avengers"
-        },
-        {
             "id": "tt2015381",
             "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
             "name": "Guardians of the Galaxy"
         },
         {
+            "id": "tt1211837",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Doctor Strange"
+        },
+        {
+            "id": "tt0848228",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "The Avengers"
+        },
+        {
+            "id": "tt4154756",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Avengers: Infinity War"
+        },
+        {
             "id": "tt1843866",
             "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
             "name": "Captain America: The Winter Soldier"
+        },
+        {
+            "id": "tt0478970",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Ant-Man"
+        },
+        {
+            "id": "tt0458339",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Captain America: The First Avenger"
         }
     ]
 }

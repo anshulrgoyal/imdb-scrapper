@@ -1,39 +1,39 @@
 {
     "trending": [
         {
-            "name": "Velvet Buzzsaw",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjExMDQ1NjMzOV5BMl5BanBnXkFtZTgwMjkxMzMyNzM@._V1_QL50.jpg",
-            "id": "tt7043012"
+            "name": "Joker",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
+            "id": "tt7286456"
         },
         {
-            "name": "Alita: Battle Angel",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNzVhMjcxYjYtOTVhOS00MzQ1LWFiNTAtZmY2ZmJjNjIxMjllXkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_QL50.jpg",
-            "id": "tt0437086"
+            "name": "It Chapter Two",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTJlNjlkZTktNjEwOS00NzI5LTlkNDAtZmEwZDFmYmM2MjU2XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL50.jpg",
+            "id": "tt7349950"
         },
         {
-            "name": "Avengers: Endgame",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNGZiMzBkZjMtNjE3Mi00MWNlLWIyYjItYTk3MjY0Yjg5ODZkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL50.jpg",
-            "id": "tt4154796"
+            "name": "Once Upon a Time... in Hollywood",
+            "poster": "https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL50.jpg",
+            "id": "tt7131622"
         },
         {
-            "name": "Polar",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjAzNDkzODU3Ml5BMl5BanBnXkFtZTgwNDI4OTExNzM@._V1_QL50.jpg",
-            "id": "tt4139588"
+            "name": "Terminator: Dark Fate",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzhlYjE5MjMtZDJmYy00MGZmLTgwN2MtZGM0NTk2ZTczNmU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
+            "id": "tt6450804"
         },
         {
-            "name": "Bohemian Rhapsody",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNDg2NjIxMDUyNF5BMl5BanBnXkFtZTgwMzEzNTE1NTM@._V1_QL50.jpg",
-            "id": "tt1727824"
+            "name": "Hustlers",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjM5ZTNiNGMtMDA2OC00MDYyLWEyNzAtOWZmMzFlY2VmOWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
+            "id": "tt5503686"
         },
         {
-            "name": "Overlord",
-            "poster": "https://m.media-amazon.com/images/M/MV5BYTUzYmJlNDgtMzM2ZS00N2ZkLWJjY2ItNzM0ZmVjMWU5OTA3XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL50.jpg",
-            "id": "tt4530422"
+            "name": "It",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_QL50.jpg",
+            "id": "tt1396484"
         },
         {
-            "name": "Glass",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_QL50.jpg",
-            "id": "tt6823368"
+            "name": "Ready or Not",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYzBkMzAyMDUtZTFkZS00OWUyLTgwM2ItNGI3MTQ5NzA3NTVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
+            "id": "tt7798634"
         }
     ]
 }

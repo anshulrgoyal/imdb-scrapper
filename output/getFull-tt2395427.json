@@ -20,7 +20,7 @@
         "Adventure",
         "Sci-Fi"
     ],
-    "rating": "7.4",
+    "rating": "7.3",
     "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_QL50.jpg",
     "related": [
         {
@@ -39,34 +39,14 @@
             "name": "Captain America: The Winter Soldier"
         },
         {
+            "id": "tt3896198",
+            "poster": "https://m.media-amazon.com/images/M/MV5BN2MwNjJlODAtMTc1MS00NjkwLTg2NDMtYzFjZmU2MGM1YWUwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_UX128_CR0,0,128,190_AL_.jpg",
+            "name": "Guardians of the Galaxy Vol. 2"
+        },
+        {
             "id": "tt0458339",
             "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg",
             "name": "Captain America: The First Avenger"
-        },
-        {
-            "id": "tt0800369",
-            "poster": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Thor"
-        },
-        {
-            "id": "tt1300854",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-            "name": "Iron Man Three"
-        },
-        {
-            "id": "tt0371746",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Iron Man"
-        },
-        {
-            "id": "tt1211837",
-            "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Doctor Strange"
-        },
-        {
-            "id": "tt1228705",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-            "name": "Iron Man 2"
         },
         {
             "id": "tt0478970",
@@ -79,9 +59,29 @@
             "name": "Guardians of the Galaxy"
         },
         {
-            "id": "tt1981115",
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-            "name": "Thor: The Dark World"
+            "id": "tt1300854",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
+            "name": "Iron Man Three"
+        },
+        {
+            "id": "tt1211837",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Doctor Strange"
+        },
+        {
+            "id": "tt0371746",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Iron Man"
+        },
+        {
+            "id": "tt3501632",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Thor: Ragnarok"
+        },
+        {
+            "id": "tt1228705",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
+            "name": "Iron Man 2"
         }
     ],
     "awards": [
@@ -182,7 +182,7 @@
         {
             "name": "Anthony Mackie",
             "image": "https://m.media-amazon.com/images/M/MV5BMTk3NTM1MjE2M15BMl5BanBnXkFtZTcwNzc5OTI2Mg@@._V1_QL50.jpg",
-            "role": "Sam Wilson/Falcon"
+            "role": "Sam Wilson/The Falcon"
         },
         {
             "name": "Hayley Atwell",
