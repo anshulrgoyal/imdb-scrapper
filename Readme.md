@@ -61,3 +61,6 @@ There are two different ways of scrapping provide by this lib:
 **_Have a look at outputGenerator for expamle and output for output example also have look at [example](https://github.com/hack-throne/imdb-scrapper/blob/master/EXAMPLE.md)_**
 
 _I hope it helps._
+
+
+**Currenly I am in process of converting this scrapper to use rust under the hood for scrapping, will start with few basic functions and then move towards full rewrite**
