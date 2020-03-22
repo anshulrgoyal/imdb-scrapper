@@ -1,0 +1,16 @@
+{
+  "name": "imdb-scrapper",
+  "version": "3.0.0",
+  "description": "ImdbScrapper",
+  "main": "lib/index.js",
+  "author": "Anshul Goyal <anshulgoel151999@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "d3-time-format": "^2.2.3",
+    "neon-cli": "^0.4.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
