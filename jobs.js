@@ -13,7 +13,7 @@ const {
   getUpcoming,
   scrap_rust,
   changeQuality
-} = require("./lib");
+} = require("./lib/native");
 
 const jobs = excuteMe => [
   getFull("tt2395427").then(movieDetails => {

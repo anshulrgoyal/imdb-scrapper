@@ -6,3 +6,4 @@ native/artifacts.json
 **/.DS_Store
 output/
 .data/
+.idea

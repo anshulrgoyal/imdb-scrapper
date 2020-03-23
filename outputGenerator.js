@@ -1,6 +1,6 @@
 const childProcess = require("child_process");
 const os = require("os");
-const { changeQuality } = require("./lib");
+const { changeQuality } = require("./lib/native");
 const jobs = require("./jobs");
 
 const {

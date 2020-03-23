@@ -8,9 +8,25 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "d3-time-format": "^2.2.3",
-    "neon-cli": "^0.4.0"
+    "neon-cli": "^0.4.0",
+    "node-pre-gyp": "github:amilajack/node-pre-gyp",
+    "node-pre-gyp-github": "^1.4.3"
   },
   "scripts": {
-    "install": "neon build"
+    "install": "node-pre-gyp install --fallback-to-build=false || neon build --release",
+    "package": "node-pre-gyp package",
+    "upload-binary": "node-pre-gyp package && node-pre-gyp-github publish"
+  },
+  "files": [
+    "native/index.node",
+    "lib"
+  ],
+  "binary": {
+    "module_name": "index",
+    "host": "https://github.com/hack-throne/imdb-scrapper/releases/download/",
+    "remote_path": "{version}",
+    "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+    "module_path": "./native",
+    "pkg_path": "."
   }
 }
