@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  push:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        platform: [windows-latest,ubuntu-latest,macos-latest]
+
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install latest nightly
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: nightly
+        override: true
+        components: rustfmt, clippy
+    - name: Cache cargo registry
+      uses: actions/cache@v1
+      with:
+        path: ~/.cargo/registry
+        key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+    - name: Cache cargo index
+      uses: actions/cache@v1
+      with:
+        path: ~/.cargo/git
+        key: ${{ runner.os }}-cargo1073325810292-index-${{ hashFiles('**/Cargo.lock') }}
+    - name: Cache cargo build
+      uses: actions/cache@v1
+      with:
+        path: target
+        key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+    - name: Build
+      run: cargo build --release -Z unstable-options --out-dir .
+    - name: Upload Asset Mac/Linux
+      if: matrix.platform=='ubuntu-latest' || matrix.platform=='macos-latest'
+      id: upload--asset-linux
+      uses: actions/upload-artifact@v1
+      with: 
+        name: index-${{matrix.platform}}.node
+        path: ./libnode.so
+    - name: Upload Release Asset Window
+      if: matrix.platform=='windows-latest'
+      id: upload-release-asset-window
+      uses: actions/upload-artifact@v1
+      with: 
+        name: inde-${{matrix.platform}}.node
+        path: .\libnode.dll

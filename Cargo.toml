@@ -1,0 +1,16 @@
+[package]
+name = "imdb-scraper"
+version = "0.1.0"
+authors = ["Anshul Goyal <anshulgoel151999@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nodejs-sys = "0.2.0"
+select = "0.4.3"
+curl = "0.4.28"
+
+[lib]
+name="node"
+crate-type = ["cdylib"]
