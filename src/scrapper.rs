@@ -79,24 +79,24 @@ pub unsafe extern "C" fn scrap(env: napi_env, info: napi_callback_info) -> napi_
 
 pub unsafe extern "C" fn perform_task(_env: napi_env, data: *mut c_void) {
     let mut task: Box<Data> = Box::from_raw(std::mem::transmute(data));
-    let url = format!("https://www.imdb.com/title/{}/", task.val);
-    let s = match request::get_data(url){
-        Ok(result)=>result,
-        Err(err)=>{
-            task.movie = Some(Err(err));
-            Box::into_raw(task);
-            return
-        }
-    };
-    let data = match scrap::parse_movie_metadata(s.as_str()){
-        Ok(result)=>result,
-        Err(err)=>{
-             task.movie = Some(Err(err));
-            Box::into_raw(task);
-            return
-        }
-    };
-    task.movie = Some(Ok(data));
+    // let url = format!("https://www.imdb.com/title/{}/", task.val);
+    // let s = match request::get_data(url){
+    //     Ok(result)=>result,
+    //     Err(err)=>{
+    //         task.movie = Some(Err(err));
+    //         Box::into_raw(task);
+    //         return
+    //     }
+    // };
+    // let data = match scrap::parse_movie_metadata(s.as_str()){
+    //     Ok(result)=>result,
+    //     Err(err)=>{
+    //          task.movie = Some(Err(err));
+    //         Box::into_raw(task);
+    //         return
+    //     }
+    // };
+    // task.movie = Some(Ok(data));
     Box::into_raw(task);
 }
 
@@ -108,9 +108,9 @@ pub unsafe extern "C" fn complete_task(env: napi_env, _status: napi_status, data
             Err(err)=>{
             let mut js_error:napi_value=std::mem::zeroed();
             let s=napi_create_error(env,types::JsString::new(env,"100").to_raw(),types::JsString::new(env,&err).to_raw(),&mut js_error);
-            println!("{:?}", s);
+            // println!("{:?}", s);
             let s=napi_reject_deferred(env, task.deferred,js_error);
-            println!("{:?}", s);
+            // println!("{:?}", s);
             napi_delete_async_work(env, task.work);
             return;}
         },
