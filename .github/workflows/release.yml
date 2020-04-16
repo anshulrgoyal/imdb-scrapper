@@ -29,25 +29,25 @@ jobs:
         path: target
         key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
     - name: Build
-      run: cargo build --release -Z unstable-options --out-dir .
+      run: cargo build --release
     - name: Upload Asset Linux
       if: matrix.platform=='ubuntu-latest'
       id: upload--asset-linux
       uses: actions/upload-artifact@v1
       with: 
         name: index-${{matrix.platform}}.node
-        path: ./libnode.so
+        path: ./target/release/libnode.so
     - name: Upload Asset MacOs
       if: matrix.platform=='macos-latest'
       id: upload--asset-macos
       uses: actions/upload-artifact@v1
       with: 
         name: index-${{matrix.platform}}.node
-        path: ./libnode.dylib
+        path: ./target/release/libnode.dylib
     - name: Upload Release Asset Window
       if: matrix.platform=='windows-latest'
       id: upload-asset-window
       uses: actions/upload-artifact@v1
       with: 
         name: inde-${{matrix.platform}}.node
-        path: .\libnode.dll
+        path: .\target\release\libnode.dll
