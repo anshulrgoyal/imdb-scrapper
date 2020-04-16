@@ -79,24 +79,24 @@ pub unsafe extern "C" fn scrap(env: napi_env, info: napi_callback_info) -> napi_
 
 pub unsafe extern "C" fn perform_task(_env: napi_env, data: *mut c_void) {
     let mut task: Box<Data> = Box::from_raw(std::mem::transmute(data));
-    // let url = format!("https://www.imdb.com/title/{}/", task.val);
-    // let s = match request::get_data(url){
-    //     Ok(result)=>result,
-    //     Err(err)=>{
-    //         task.movie = Some(Err(err));
-    //         Box::into_raw(task);
-    //         return
-    //     }
-    // };
-    // let data = match scrap::parse_movie_metadata(s.as_str()){
-    //     Ok(result)=>result,
-    //     Err(err)=>{
-    //          task.movie = Some(Err(err));
-    //         Box::into_raw(task);
-    //         return
-    //     }
-    // };
-    // task.movie = Some(Ok(data));
+    let url = format!("https://www.imdb.com/title/{}/", task.val);
+    let s = match request::get_data(url){
+        Ok(result)=>result,
+        Err(err)=>{
+            task.movie = Some(Err(err));
+            Box::into_raw(task);
+            return
+        }
+    };
+    let data = match scrap::parse_movie_metadata(s.as_str()){
+        Ok(result)=>result,
+        Err(err)=>{
+             task.movie = Some(Err(err));
+            Box::into_raw(task);
+            return
+        }
+    };
+    task.movie = Some(Ok(data));
     Box::into_raw(task);
 }
 

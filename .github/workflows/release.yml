@@ -36,13 +36,20 @@ jobs:
         key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
     - name: Build
       run: cargo build --release -Z unstable-options --out-dir .
-    - name: Upload Asset Mac/Linux
-      if: matrix.platform=='ubuntu-latest' || matrix.platform=='macos-latest'
+    - name: Upload Asset Linux
+      if: matrix.platform=='ubuntu-latest'
       id: upload--asset-linux
       uses: actions/upload-artifact@v1
       with: 
         name: index-${{matrix.platform}}.node
         path: ./libnode.so
+    - name: Upload Asset Linux
+      if: matrix.platform=='macos-latest'
+      id: upload--asset-linux
+      uses: actions/upload-artifact@v1
+      with: 
+        name: index-${{matrix.platform}}.node
+        path: ./libnode.dylib
     - name: Upload Release Asset Window
       if: matrix.platform=='windows-latest'
       id: upload-release-asset-window
