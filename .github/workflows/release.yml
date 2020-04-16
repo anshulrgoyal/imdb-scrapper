@@ -45,14 +45,14 @@ jobs:
         path: ./libnode.so
     - name: Upload Asset Linux
       if: matrix.platform=='macos-latest'
-      id: upload--asset-linux
+      id: upload--asset-macos
       uses: actions/upload-artifact@v1
       with: 
         name: index-${{matrix.platform}}.node
         path: ./libnode.dylib
     - name: Upload Release Asset Window
       if: matrix.platform=='windows-latest'
-      id: upload-release-asset-window
+      id: upload-asset-window
       uses: actions/upload-artifact@v1
       with: 
         name: inde-${{matrix.platform}}.node
