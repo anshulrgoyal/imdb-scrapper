@@ -7,18 +7,12 @@ jobs:
   build:
     strategy:
       matrix:
-        platform: [macos-latest]
+        platform: [macos-latest,windows-latest,ubuntu-latest]
 
     runs-on: ${{ matrix.platform }}
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install latest nightly
-      uses: actions-rs/toolchain@v1
-      with:
-        toolchain: nightly
-        override: true
-        components: rustfmt, clippy
     - name: Cache cargo registry
       uses: actions/cache@v1
       with:
@@ -43,7 +37,7 @@ jobs:
       with: 
         name: index-${{matrix.platform}}.node
         path: ./libnode.so
-    - name: Upload Asset Linux
+    - name: Upload Asset MacOs
       if: matrix.platform=='macos-latest'
       id: upload--asset-linux
       uses: actions/upload-artifact@v1
