@@ -9,13 +9,33 @@
             "y": 2014,
             "yr": "2014-",
             "q": "TV series",
-            "vt": 35,
+            "vt": 36,
             "i": [
-                "https://m.media-amazon.com/images/M/MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM@._V1_.jpg",
-                960,
-                1200
+                "https://m.media-amazon.com/images/M/MV5BMjAwNTljOTgtYzk0NS00OGMzLTgzMDUtZDc2YjhjNzU3Yjg5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+                1002,
+                1500
             ],
             "v": [
+                {
+                    "l": "Final Trailer",
+                    "id": "vi1195032345",
+                    "s": "1:42",
+                    "i": [
+                        "https://m.media-amazon.com/images/M/MV5BYmMwODZkOTctNDE5ZC00OGUwLTk2MTItODExNmI3OThhMzQxXkEyXkFqcGdeQW1hcmNtYW5u._V1_.jpg",
+                        1920,
+                        1080
+                    ]
+                },
+                {
+                    "l": "\"Elseworlds\" Batwoman Teaser",
+                    "id": "vi2716449305",
+                    "s": "0:21",
+                    "i": [
+                        "https://m.media-amazon.com/images/M/MV5BYjM1ZWMyYzQtNDUyMi00YjA1LWExMTgtYzBlZjA1NGYyOTRjXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+                        1920,
+                        1080
+                    ]
+                },
                 {
                     "l": "Season 6 Teaser: San Diego Comic-Con",
                     "id": "vi1667480601",
@@ -25,41 +45,32 @@
                         1920,
                         1080
                     ]
-                },
-                {
-                    "l": "\"Elseworlds\" | Batwoman Teaser",
-                    "id": "vi198883865",
-                    "s": "0:21",
-                    "i": [
-                        "https://m.media-amazon.com/images/M/MV5BZTI1OWJhNzQtZGM3NC00MDVmLTljNWMtNzkxZDk0ZmRkM2VkXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_.jpg",
-                        1920,
-                        1080
-                    ]
-                },
-                {
-                    "l": "Official Promo",
-                    "id": "vi2312747545",
-                    "s": "0:31",
-                    "i": [
-                        "https://m.media-amazon.com/images/M/MV5BNmM2YWRmOTctZWZjOC00ZTIxLWI1YWMtZTgzNmI5NzNmMDg0XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
-                        1920,
-                        1080
-                    ]
                 }
             ]
         },
         {
             "l": "The Flash",
             "id": "tt0439572",
-            "s": "Ezra Miller",
+            "s": "Michael Keaton, Ezra Miller",
+            "y": 2022,
             "q": "feature",
-            "vt": 2,
+            "vt": 3,
             "i": [
                 "https://m.media-amazon.com/images/M/MV5BYjU1NGMxZGEtMTRhYS00MzUyLThkMGQtODIzNzlhOTA4Yjg3XkEyXkFqcGdeQXVyNDU4NjI4ODQ@._V1_.jpg",
                 696,
                 471
             ],
             "v": [
+                {
+                    "l": "DC 2020 & Beyond: Wonder Woman, Batman, The Flash",
+                    "id": "vi3249847833",
+                    "s": "3:30",
+                    "i": [
+                        "https://m.media-amazon.com/images/M/MV5BOGMyMmY1ODItY2ZmOS00M2Y1LWEyNGMtNTAwZjI3MWRkNjgwXkEyXkFqcGdeQWFsZWxvZw@@._V1_.jpg",
+                        1920,
+                        1080
+                    ]
+                },
                 {
                     "l": "DC Bets It All on Wisecracks",
                     "id": "vi3236150553",
@@ -98,6 +109,18 @@
             ]
         },
         {
+            "l": "Jumpin' Jack Flash",
+            "id": "tt0091306",
+            "s": "Whoopi Goldberg, Stephen Collins",
+            "y": 1986,
+            "q": "feature",
+            "i": [
+                "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
+                500,
+                766
+            ]
+        },
+        {
             "l": "Flash",
             "id": "tt0136199",
             "s": "Lucas Black, Brian Kerwin",
@@ -122,28 +145,16 @@
             ]
         },
         {
-            "l": "Jumpin' Jack Flash",
-            "id": "tt0091306",
-            "s": "Whoopi Goldberg, Stephen Collins",
-            "y": 1986,
-            "q": "feature",
-            "i": [
-                "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
-                500,
-                766
-            ]
-        },
-        {
-            "l": "Flash Forward",
-            "id": "tt0115173",
-            "s": "Ben Foster, Jewel Staite",
-            "y": 1995,
-            "yr": "1995-1997",
+            "l": "Flash Gordon: A Modern Space Opera",
+            "id": "tt0959086",
+            "s": "Eric Johnson, Gina Holden",
+            "y": 2007,
+            "yr": "2007-2008",
             "q": "TV series",
             "i": [
-                "https://m.media-amazon.com/images/M/MV5BYjM4YWE5ZmEtY2VkNC00ODYwLWIxOTgtNmI5ZmVkOTIzOWFiXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg",
-                947,
-                1000
+                "https://m.media-amazon.com/images/M/MV5BMTY2Njc1MTgyNV5BMl5BanBnXkFtZTcwODYwNTI1MQ@@._V1_.jpg",
+                429,
+                600
             ]
         }
     ]

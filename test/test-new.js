@@ -35,8 +35,6 @@ function testOutput(name, value) {
   return result;
 }
 function test(shouldBe, actual) {
-  console.log(shouldBe)
-  console.log("====================================")
   const type = typeof actual;
   if (type === typeof actual) {
     switch (type) {
@@ -68,10 +66,10 @@ function test(shouldBe, actual) {
 // add function for output an send arguments or provide a name and outputs
 
 // if file is exucted directly using node
-if ((module = require.main)) {
-  Promise.all(jobs(testOutput)).then(v => {
+if (module == require.main) {
+  Promise.all(jobs(testOutput)).then((v) => {
     fs.writeFileSync(__dirname + "/result.md", arr.join("\n"));
-    const result = v.every(t => t);
+    const result = v.every((t) => t);
     console.log(`${result ? "all test passed" : "some test failed"}`);
     process.exit(0);
   });

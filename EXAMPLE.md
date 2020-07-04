@@ -16,13 +16,33 @@
       "y": 2014,
       "yr": "2014-",
       "q": "TV series",
-      "vt": 35,
+      "vt": 36,
       "i": [
-        "https://m.media-amazon.com/images/M/MV5BMjI1MDAwNDM4OV5BMl5BanBnXkFtZTgwNjUwNDIxNjM@._V1_.jpg",
-        960,
-        1200
+        "https://m.media-amazon.com/images/M/MV5BMjAwNTljOTgtYzk0NS00OGMzLTgzMDUtZDc2YjhjNzU3Yjg5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        1002,
+        1500
       ],
       "v": [
+        {
+          "l": "Final Trailer",
+          "id": "vi1195032345",
+          "s": "1:42",
+          "i": [
+            "https://m.media-amazon.com/images/M/MV5BYmMwODZkOTctNDE5ZC00OGUwLTk2MTItODExNmI3OThhMzQxXkEyXkFqcGdeQW1hcmNtYW5u._V1_.jpg",
+            1920,
+            1080
+          ]
+        },
+        {
+          "l": "\"Elseworlds\" Batwoman Teaser",
+          "id": "vi2716449305",
+          "s": "0:21",
+          "i": [
+            "https://m.media-amazon.com/images/M/MV5BYjM1ZWMyYzQtNDUyMi00YjA1LWExMTgtYzBlZjA1NGYyOTRjXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+            1920,
+            1080
+          ]
+        },
         {
           "l": "Season 6 Teaser: San Diego Comic-Con",
           "id": "vi1667480601",
@@ -32,41 +52,32 @@
             1920,
             1080
           ]
-        },
-        {
-          "l": "\"Elseworlds\" | Batwoman Teaser",
-          "id": "vi198883865",
-          "s": "0:21",
-          "i": [
-            "https://m.media-amazon.com/images/M/MV5BZTI1OWJhNzQtZGM3NC00MDVmLTljNWMtNzkxZDk0ZmRkM2VkXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_.jpg",
-            1920,
-            1080
-          ]
-        },
-        {
-          "l": "Official Promo",
-          "id": "vi2312747545",
-          "s": "0:31",
-          "i": [
-            "https://m.media-amazon.com/images/M/MV5BNmM2YWRmOTctZWZjOC00ZTIxLWI1YWMtZTgzNmI5NzNmMDg0XkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
-            1920,
-            1080
-          ]
         }
       ]
     },
     {
       "l": "The Flash",
       "id": "tt0439572",
-      "s": "Ezra Miller",
+      "s": "Michael Keaton, Ezra Miller",
+      "y": 2022,
       "q": "feature",
-      "vt": 2,
+      "vt": 3,
       "i": [
         "https://m.media-amazon.com/images/M/MV5BYjU1NGMxZGEtMTRhYS00MzUyLThkMGQtODIzNzlhOTA4Yjg3XkEyXkFqcGdeQXVyNDU4NjI4ODQ@._V1_.jpg",
         696,
         471
       ],
       "v": [
+        {
+          "l": "DC 2020 & Beyond: Wonder Woman, Batman, The Flash",
+          "id": "vi3249847833",
+          "s": "3:30",
+          "i": [
+            "https://m.media-amazon.com/images/M/MV5BOGMyMmY1ODItY2ZmOS00M2Y1LWEyNGMtNTAwZjI3MWRkNjgwXkEyXkFqcGdeQWFsZWxvZw@@._V1_.jpg",
+            1920,
+            1080
+          ]
+        },
         {
           "l": "DC Bets It All on Wisecracks",
           "id": "vi3236150553",
@@ -105,6 +116,18 @@
       ]
     },
     {
+      "l": "Jumpin' Jack Flash",
+      "id": "tt0091306",
+      "s": "Whoopi Goldberg, Stephen Collins",
+      "y": 1986,
+      "q": "feature",
+      "i": [
+        "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
+        500,
+        766
+      ]
+    },
+    {
       "l": "Flash",
       "id": "tt0136199",
       "s": "Lucas Black, Brian Kerwin",
@@ -129,277 +152,17 @@
       ]
     },
     {
-      "l": "Jumpin' Jack Flash",
-      "id": "tt0091306",
-      "s": "Whoopi Goldberg, Stephen Collins",
-      "y": 1986,
-      "q": "feature",
-      "i": [
-        "https://m.media-amazon.com/images/M/MV5BMDJmYjMxODgtZjgwMi00N2E0LWE0N2UtMzhjMmJkNGZiNDNhXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
-        500,
-        766
-      ]
-    },
-    {
-      "l": "Flash Forward",
-      "id": "tt0115173",
-      "s": "Ben Foster, Jewel Staite",
-      "y": 1995,
-      "yr": "1995-1997",
+      "l": "Flash Gordon: A Modern Space Opera",
+      "id": "tt0959086",
+      "s": "Eric Johnson, Gina Holden",
+      "y": 2007,
+      "yr": "2007-2008",
       "q": "TV series",
       "i": [
-        "https://m.media-amazon.com/images/M/MV5BYjM4YWE5ZmEtY2VkNC00ODYwLWIxOTgtNmI5ZmVkOTIzOWFiXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg",
-        947,
-        1000
+        "https://m.media-amazon.com/images/M/MV5BMTY2Njc1MTgyNV5BMl5BanBnXkFtZTcwODYwNTI1MQ@@._V1_.jpg",
+        429,
+        600
       ]
-    }
-  ]
-}
-  ```
-    
-
-  ## search('new world')
-  ```javascript
-  search('new world').then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   []
-  ```
-    
-
-  ## getUpcoming(20)
-  ```javascript
-  getUpcoming(20).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "upcoming": [
-    {
-      "name": "The Goldfinch",
-      "id": "tt3864056"
-    },
-    {
-      "name": "Monos",
-      "id": "tt6062774"
-    },
-    {
-      "name": "Freaks",
-      "id": "tt8781414"
-    },
-    {
-      "name": "Haunt",
-      "id": "tt6535880"
-    },
-    {
-      "name": "Ad Astra",
-      "id": "tt2935510"
-    },
-    {
-      "name": "Downton Abbey",
-      "id": "tt6398184"
-    },
-    {
-      "name": "Rambo: Last Blood",
-      "id": "tt1206885"
-    },
-    {
-      "name": "Between Two Ferns: The Movie",
-      "id": "tt9398640"
-    },
-    {
-      "name": "Villains",
-      "id": "tt6378710"
-    },
-    {
-      "name": "Corporate Animals",
-      "id": "tt8366502"
-    },
-    {
-      "name": "Running with the Devil",
-      "id": "tt5792656"
-    },
-    {
-      "name": "Diego Maradona",
-      "id": "tt5433114"
-    },
-    {
-      "name": "Bloodline",
-      "id": "tt8883524"
-    },
-    {
-      "name": "The Laundromat",
-      "id": "tt5865326"
-    },
-    {
-      "name": "Judy",
-      "id": "tt7549996"
-    },
-    {
-      "name": "Abominable",
-      "id": "tt6324278"
-    },
-    {
-      "name": "Zeroville",
-      "id": "tt1881109"
-    },
-    {
-      "name": "The Golden Glove",
-      "id": "tt7670212"
-    },
-    {
-      "name": "Doom: Annihilation",
-      "id": "tt8328716"
-    },
-    {
-      "name": "Joker",
-      "id": "tt7286456"
-    }
-  ]
-}
-  ```
-    
-
-  ## searchActor(govinda)
-  ```javascript
-  searchActor(govinda).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   [
-  {
-    "searchQuery": "govinda"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BNzEwNDgwMTk3Nl5BMl5BanBnXkFtZTgwNjMwOTU4MDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm0332871"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Shree Krishna",
-    "actorId": "nm10191142"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda",
-    "actorId": "nm10571802"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Angulo",
-    "actorId": "nm5291179"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Van Maele",
-    "actorId": "nm1985352"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/M/MV5BMDkwOGNiMDYtZDBhMy00NWY0LWExYmQtZDgyNzViMDI2ZTIxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govindan Aravindan",
-    "actorId": "nm0033244"
-  },
-  {
-    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-    "actorName": "Govinda Machado de Figueiredo",
-    "actorId": "nm2864019"
-  }
-]
-  ```
-    
-
-  ## getTrending(7)
-  ```javascript
-  getTrending(7).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "trending": [
-    {
-      "name": "Joker",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
-      "id": "tt7286456"
-    },
-    {
-      "name": "It Chapter Two",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTJlNjlkZTktNjEwOS00NzI5LTlkNDAtZmEwZDFmYmM2MjU2XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL50.jpg",
-      "id": "tt7349950"
-    },
-    {
-      "name": "Once Upon a Time... in Hollywood",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL50.jpg",
-      "id": "tt7131622"
-    },
-    {
-      "name": "Terminator: Dark Fate",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzhlYjE5MjMtZDJmYy00MGZmLTgwN2MtZGM0NTk2ZTczNmU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
-      "id": "tt6450804"
-    },
-    {
-      "name": "Hustlers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjM5ZTNiNGMtMDA2OC00MDYyLWEyNzAtOWZmMzFlY2VmOWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
-      "id": "tt5503686"
-    },
-    {
-      "name": "It",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_QL50.jpg",
-      "id": "tt1396484"
-    },
-    {
-      "name": "Ready or Not",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzBkMzAyMDUtZTFkZS00OWUyLTgwM2ItNGI3MTQ5NzA3NTVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
-      "id": "tt7798634"
-    }
-  ]
-}
-  ```
-    
-
-  ## getTrending(comedy,7)
-  ```javascript
-  getTrending(comedy,7).then(val=>console.log(val))
-  ```
-  ### output
-   ```json
-   {
-  "trending": [
-    {
-      "name": "Once Upon a Time... in Hollywood",
-      "poster": "https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL50.jpg",
-      "id": "tt7131622"
-    },
-    {
-      "name": "The Boys",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjdjOTliZTQtM2FhNS00Mjk3LWJiOTgtMWJlMTg4MDgyNzc1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_QL50.jpg",
-      "id": "tt1190634"
-    },
-    {
-      "name": "Hustlers",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjM5ZTNiNGMtMDA2OC00MDYyLWEyNzAtOWZmMzFlY2VmOWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
-      "id": "tt5503686"
-    },
-    {
-      "name": "Ready or Not",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzBkMzAyMDUtZTFkZS00OWUyLTgwM2ItNGI3MTQ5NzA3NTVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
-      "id": "tt7798634"
-    },
-    {
-      "name": "The Dead Don't Die",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZWQxZDIzNzUtZGE3MS00MGU3LTk5NjMtZGFjMDljNDlmMWE1XkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_QL50.jpg",
-      "id": "tt8695030"
-    },
-    {
-      "name": "Jojo Rabbit",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL50.jpg",
-      "id": "tt2584384"
-    },
-    {
-      "name": "The Righteous Gemstones",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZGE5MWVjMGUtNDM3My00MmJhLTgxMDctODdhMzdjN2UyYzgxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL50.jpg",
-      "id": "tt8634332"
     }
   ]
 }
@@ -439,63 +202,63 @@
   "related": [
     {
       "id": "tt0848228",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "The Avengers"
+      "name": "The Avengers",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt3498820",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: Civil War"
+      "name": "Captain America: Civil War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt1843866",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
-      "name": "Captain America: The Winter Soldier"
-    },
-    {
-      "id": "tt3896198",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2MwNjJlODAtMTc1MS00NjkwLTg2NDMtYzFjZmU2MGM1YWUwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy Vol. 2"
-    },
-    {
-      "id": "tt0458339",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: The First Avenger"
+      "name": "Captain America: The Winter Soldier",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg"
     },
     {
       "id": "tt0478970",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Ant-Man"
-    },
-    {
-      "id": "tt2015381",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy"
+      "name": "Ant-Man",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt1300854",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg",
-      "name": "Iron Man Three"
+      "name": "Iron Man Three",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_UY190_CR2,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt3896198",
+      "name": "Guardians of the Galaxy Vol. 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt1211837",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Doctor Strange"
+      "name": "Doctor Strange",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt0458339",
+      "name": "Captain America: The First Avenger",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt0800369",
+      "name": "Thor",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt0371746",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Iron Man"
-    },
-    {
-      "id": "tt3501632",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Thor: Ragnarok"
+      "name": "Iron Man",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt1228705",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Iron Man 2"
+      "name": "Iron Man 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_UY190_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt2015381",
+      "name": "Guardians of the Galaxy",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg"
     }
   ],
   "awards": [
@@ -530,101 +293,121 @@
   "cast": [
     {
       "name": "Robert Downey Jr.",
+      "id": "nm0000375",
       "image": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_QL50.jpg",
       "role": "Tony Stark/Iron Man"
     },
     {
       "name": "Chris Hemsworth",
+      "id": "nm1165110",
       "image": "https://m.media-amazon.com/images/M/MV5BOTU2MTI0NTIyNV5BMl5BanBnXkFtZTcwMTA4Nzc3OA@@._V1_QL50.jpg",
       "role": "Thor"
     },
     {
       "name": "Mark Ruffalo",
+      "id": "nm0749263",
       "image": "https://m.media-amazon.com/images/M/MV5BNDQyNzMzZTMtYjlkNS00YzFhLWFhMTctY2M4YmQ1NmRhODBkXkEyXkFqcGdeQXVyNjcyNzgyOTE@._V1_QL50.jpg",
       "role": "Bruce Banner/Hulk"
     },
     {
       "name": "Chris Evans",
+      "id": "nm0262635",
       "image": "https://m.media-amazon.com/images/M/MV5BMTU2NTg1OTQzMF5BMl5BanBnXkFtZTcwNjIyMjkyMg@@._V1_QL50.jpg",
       "role": "Steve Rogers/Captain America"
     },
     {
       "name": "Scarlett Johansson",
+      "id": "nm0424060",
       "image": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_QL50.jpg",
       "role": "Natasha Romanoff/Black Widow"
     },
     {
       "name": "Jeremy Renner",
+      "id": "nm0719637",
       "image": "https://m.media-amazon.com/images/M/MV5BOTk2NDc2ODgzMF5BMl5BanBnXkFtZTcwMTMzOTQ4Nw@@._V1_QL50.jpg",
       "role": "Clint Barton/Hawkeye"
     },
     {
       "name": "James Spader",
+      "id": "nm0000652",
       "image": "https://m.media-amazon.com/images/M/MV5BMTQ3MTQ5NjY5Ml5BMl5BanBnXkFtZTgwMTY0NzU5MDE@._V1_QL50.jpg",
       "role": "Ultron"
     },
     {
       "name": "Samuel L. Jackson",
+      "id": "nm0000168",
       "image": "https://m.media-amazon.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
       "role": "Nick Fury"
     },
     {
       "name": "Don Cheadle",
+      "id": "nm0000332",
       "image": "https://m.media-amazon.com/images/M/MV5BNDMxNDM3MzY5N15BMl5BanBnXkFtZTcwMjkzOTY4MQ@@._V1_QL50.jpg",
       "role": "James Rhodes/War Machine"
     },
     {
       "name": "Aaron Taylor-Johnson",
+      "id": "nm1093951",
       "image": "https://m.media-amazon.com/images/M/MV5BMzE5MzI0MzY2OF5BMl5BanBnXkFtZTgwODE3MTk4MTE@._V1_QL50.jpg",
       "role": "Pietro Maximoff/Quicksilver"
     },
     {
       "name": "Elizabeth Olsen",
+      "id": "nm0647634",
       "image": "https://m.media-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_QL50.jpg",
       "role": "Wanda Maximoff/Scarlet Witch"
     },
     {
       "name": "Paul Bettany",
+      "id": "nm0079273",
       "image": "https://m.media-amazon.com/images/M/MV5BNjUzMDIzNjkxMl5BMl5BanBnXkFtZTgwNjgyNzA0MjI@._V1_QL50.jpg",
       "role": "Jarvis/Vision"
     },
     {
       "name": "Cobie Smulders",
+      "id": "nm1130627",
       "image": "https://m.media-amazon.com/images/M/MV5BMTkzNTUyMTczM15BMl5BanBnXkFtZTcwMjMxNTM4Nw@@._V1_QL50.jpg",
       "role": "Maria Hill"
     },
     {
       "name": "Anthony Mackie",
+      "id": "nm1107001",
       "image": "https://m.media-amazon.com/images/M/MV5BMTk3NTM1MjE2M15BMl5BanBnXkFtZTcwNzc5OTI2Mg@@._V1_QL50.jpg",
       "role": "Sam Wilson/The Falcon"
     },
     {
       "name": "Hayley Atwell",
+      "id": "nm2017943",
       "image": "https://m.media-amazon.com/images/M/MV5BZmRhZWVjZWMtMzUwZi00OTI3LThiMzAtY2VmMjU5YjQ0YjVjXkEyXkFqcGdeQXVyODMzMTM1MDc@._V1_QL50.jpg",
       "role": "Peggy Carter"
     },
     {
       "name": "Idris Elba",
+      "id": "nm0252961",
       "image": "https://m.media-amazon.com/images/M/MV5BNzEzMTI2NjEyNF5BMl5BanBnXkFtZTcwNTA0OTE4OA@@._V1_QL50.jpg",
       "role": "Heimdall"
     },
     {
       "name": "Linda Cardellini",
+      "id": "nm0004802",
       "image": "https://m.media-amazon.com/images/M/MV5BMTQ2MDM4MTM2NF5BMl5BanBnXkFtZTgwMTM4MjYyMDE@._V1_QL50.jpg",
       "role": "Laura Barton"
     },
     {
       "name": "Stellan Skarsgård",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTg4NDUzOTY0N15BMl5BanBnXkFtZTYwNjYxODE0._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
+      "id": "nm0001745",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzljNGIzYjgtMTQ0MS00OWU1LTk1NWEtOWQ3ZDhmNzQ2ZDAxXkEyXkFqcGdeQXVyMDAzMDk4OQ@@._V1_QL50.jpg",
       "role": "Erik Selvig"
     },
     {
       "name": "Claudia Kim",
+      "id": "nm2263791",
       "image": "https://m.media-amazon.com/images/M/MV5BMTcyMzgxNTM4N15BMl5BanBnXkFtZTgwMjY1ODk4MzE@._V1_QL50.jpg",
       "role": "Dr. Helen Cho"
     },
     {
       "name": "Thomas Kretschmann",
+      "id": "nm0470981",
       "image": "https://m.media-amazon.com/images/M/MV5BMTY1Njc5MzE1OF5BMl5BanBnXkFtZTcwMTc1NDM4Nw@@._V1_QL50.jpg",
       "role": "Strucker"
     }
@@ -633,113 +416,96 @@
   ```
     
 
-  ## getCast(tt1825683)
+  ## getTrending(7)
   ```javascript
-  getCast(tt1825683).then(val=>console.log(val))
+  getTrending(7).then(val=>console.log(val))
   ```
   ### output
    ```json
    {
-  "cast": [
+  "trending": [
     {
-      "name": "Chadwick Boseman",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTk2OTY5MzcwMV5BMl5BanBnXkFtZTgwODM4MDI5MjI@._V1_QL50.jpg",
-      "role": "T'Challa/Black Panther"
+      "name": "365 dni",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODljZTM3ODAtMDc0YS00NmI4LTlmZTUtM2I5MDAzNTQxZmMxXkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_QL50.jpg",
+      "id": "tt10886166"
     },
     {
-      "name": "Michael B. Jordan",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjExOTY3NzExM15BMl5BanBnXkFtZTgwOTg1OTAzMTE@._V1_QL50.jpg",
-      "role": "Erik Killmonger"
+      "name": "Eurovision Song Contest: The Story of Fire Saga",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzRjYzA5NTQtOTE3MC00OTYzLWEzODItMzQxYWE1NDJkMDA0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
+      "id": "tt8580274"
     },
     {
-      "name": "Lupita Nyong'o",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTY0NTQ4MDY2Nl5BMl5BanBnXkFtZTgwNDk1MTEyMDE@._V1_QL50.jpg",
-      "role": "Nakia"
+      "name": "Knives Out",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_QL50.jpg",
+      "id": "tt8946378"
     },
     {
-      "name": "Danai Gurira",
-      "image": "https://m.media-amazon.com/images/M/MV5BNjYyNjg1OTU1M15BMl5BanBnXkFtZTgwNzYyNTkzMDI@._V1_QL50.jpg",
-      "role": "Okoye"
+      "name": "The King's Man",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGE2MmQ0ZTEtM2FjOC00OTE1LTlmYjMtYjlkMzllN2RlOTBiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY67_CR0,0,45,67_AL_.jpg@._V1_QL50.jpg",
+      "id": "tt6856242"
     },
     {
-      "name": "Martin Freeman",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjE0MjAwOTMzMF5BMl5BanBnXkFtZTcwMDg1MjEyNw@@._V1_QL50.jpg",
-      "role": "Everett K. Ross"
+      "name": "Feel the Beat",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmIxZWMxYjktZWY1OS00MWVkLTljZDQtYWMxYTdmOWY0NzM4XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_QL50.jpg",
+      "id": "tt10714856"
     },
     {
-      "name": "Daniel Kaluuya",
-      "image": "https://m.media-amazon.com/images/M/MV5BOTk1MzgzOTg5OV5BMl5BanBnXkFtZTcwNDQ4NjMxOA@@._V1_QL50.jpg",
-      "role": "W'Kabi"
+      "name": "You Should Have Left",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTMxMTJhNWQtYzQwMC00MThhLTkzNjMtMDljMGE1MmE1NWM2XkEyXkFqcGdeQXVyODkxMzcxOTY@._V1_QL50.jpg",
+      "id": "tt8201852"
     },
     {
-      "name": "Letitia Wright",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjIyMzgxMzc5N15BMl5BanBnXkFtZTgwNDg3NzYzMDI@._V1_QL50.jpg",
-      "role": "Shuri"
+      "name": "The King of Staten Island",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzkxMzMzOTgtNmZhMS00MGM0LTk3MzUtMjE1MzI4MzU5ZjkzXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_QL50.jpg",
+      "id": "tt9686708"
+    }
+  ]
+}
+  ```
+    
+
+  ## getTrending(comedy,7)
+  ```javascript
+  getTrending(comedy,7).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "trending": [
+    {
+      "name": "Eurovision Song Contest: The Story of Fire Saga",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzRjYzA5NTQtOTE3MC00OTYzLWEzODItMzQxYWE1NDJkMDA0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL50.jpg",
+      "id": "tt8580274"
     },
     {
-      "name": "Winston Duke",
-      "image": "https://m.media-amazon.com/images/M/MV5BMzc5ZjRhNTItMTM5MS00ZDIxLTk4MzYtYzZkZDBhMjE1ZjMwXkEyXkFqcGdeQXVyNTEwNTA1Njg@._V1_QL50.jpg",
-      "role": "M'Baku"
+      "name": "The Politician",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzk1Yzg4MmEtODFjNS00NzE1LWEzMDItNjhiMmRlYTZhN2U5XkEyXkFqcGdeQXVyMTAxOTg0NDc3._V1_UY98_CR5,0,67,98_AL_.jpg@._V1_QL50.jpg",
+      "id": "tt7971476"
     },
     {
-      "name": "Sterling K. Brown",
-      "image": "https://m.media-amazon.com/images/M/MV5BZmEzNmExM2ItNzg5Zi00NGRjLWI1NTEtMmQ5MGMwNjFlNWFhL2ltYWdlXkEyXkFqcGdeQXVyMTM0MzI5Nzc@._V1_QL50.jpg",
-      "role": "N'Jobu"
+      "name": "Knives Out",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_QL50.jpg",
+      "id": "tt8946378"
     },
     {
-      "name": "Angela Bassett",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjI4OTQ1NTcxOF5BMl5BanBnXkFtZTcwOTc1NTU0OQ@@._V1_QL50.jpg",
-      "role": "Ramonda"
+      "name": "The King's Man",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGE2MmQ0ZTEtM2FjOC00OTE1LTlmYjMtYjlkMzllN2RlOTBiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg@._V1_QL50.jpg",
+      "id": "tt6856242"
     },
     {
-      "name": "Forest Whitaker",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTQzMDI3NTg2OV5BMl5BanBnXkFtZTcwNTgwMzg5Mg@@._V1_QL50.jpg",
-      "role": "Zuri"
+      "name": "Feel the Beat",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmIxZWMxYjktZWY1OS00MWVkLTljZDQtYWMxYTdmOWY0NzM4XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_QL50.jpg",
+      "id": "tt10714856"
     },
     {
-      "name": "Andy Serkis",
-      "image": "https://m.media-amazon.com/images/M/MV5BYTgwYmM0ZjgtMWRmZC00YTc1LWIwYWEtYTFjMTZiMDNjNWRkXkEyXkFqcGdeQXVyNjcwMjczMzE@._V1_QL50.jpg",
-      "role": "Ulysses Klaue"
+      "name": "Community",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDQ5NDZiYjktZmFmMy00MjAxLTk1MDktOGZjYTY5YTE1ODdmXkEyXkFqcGdeQXVyNjcwMzEzMTU@._V1_QL50.jpg",
+      "id": "tt1439629"
     },
     {
-      "name": "Florence Kasumba",
-      "image": "https://m.media-amazon.com/images/M/MV5BYmQ1MjU0MjEtMzgxOC00ZDdlLWFjNjgtYjJhOTM4OWZiZGM4XkEyXkFqcGdeQXVyNDU5ODk2OTg@._V1_QL50.jpg",
-      "role": "Ayo"
-    },
-    {
-      "name": "John Kani",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTA0NTg4Mzc1NjZeQTJeQWpwZ15BbWU4MDg5MDQzODQz._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
-      "role": "T'Chaka"
-    },
-    {
-      "name": "David S. Lee",
-      "image": "https://m.media-amazon.com/images/M/MV5BNzE5NWU2NjAtNGVmZC00MzhmLWExMzYtOTRhY2U4NGYyMTA0XkEyXkFqcGdeQXVyMjQ5ODYxOTI@._V1_QL50.jpg",
-      "role": "Limbani"
-    },
-    {
-      "name": "Nabiyah Be",
-      "image": "https://m.media-amazon.com/images/M/MV5BYmYwZTUxMzItMWQyMy00NzA3LWJkZDgtMzMxNzY0YjE2MWZlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL50.jpg",
-      "role": "Linda"
-    },
-    {
-      "name": "Isaach De Bankolé",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTc4MzE3OTgxMV5BMl5BanBnXkFtZTcwMzA4NTAzMQ@@._V1_QL50.jpg",
-      "role": "River Tribe Elder"
-    },
-    {
-      "name": "Connie Chiume",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjM1MTYyMjMyM15BMl5BanBnXkFtZTgwMDAzMDA3NDM@._V1_QL50.jpg",
-      "role": "Mining Tribe Elder"
-    },
-    {
-      "name": "Dorothy Steel",
-      "image": "https://m.media-amazon.com/images/M/MV5BZTk4YzIwM2EtNmUwMy00Mzg1LWIxM2MtYWE4Njk1MzBmYTlkXkEyXkFqcGdeQXVyNzgxOTY1MDk@._V1_QL50.jpg",
-      "role": "Merchant Tribe Elder"
-    },
-    {
-      "name": "Danny Sapani",
-      "image": "https://m.media-amazon.com/images/M/MV5BMTc1MDg2ODE2OV5BMl5BanBnXkFtZTgwNDc1NjE2MTE@._V1_QL50.jpg",
-      "role": "Border Tribe Elder"
+      "name": "The Office",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_QL50.jpg",
+      "id": "tt0386676"
     }
   ]
 }
@@ -784,6 +550,149 @@
   ```
     
 
+  ## search('new world')
+  ```javascript
+  search('new world').then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   []
+  ```
+    
+
+  ## getCast(tt1825683)
+  ```javascript
+  getCast(tt1825683).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "cast": [
+    {
+      "name": "Chadwick Boseman",
+      "id": "nm1569276",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk2OTY5MzcwMV5BMl5BanBnXkFtZTgwODM4MDI5MjI@._V1_QL50.jpg",
+      "role": "T'Challa/Black Panther"
+    },
+    {
+      "name": "Michael B. Jordan",
+      "id": "nm0430107",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjExOTY3NzExM15BMl5BanBnXkFtZTgwOTg1OTAzMTE@._V1_QL50.jpg",
+      "role": "Erik Killmonger"
+    },
+    {
+      "name": "Lupita Nyong'o",
+      "id": "nm2143282",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY0NTQ4MDY2Nl5BMl5BanBnXkFtZTgwNDk1MTEyMDE@._V1_QL50.jpg",
+      "role": "Nakia"
+    },
+    {
+      "name": "Danai Gurira",
+      "id": "nm1775091",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjYyNjg1OTU1M15BMl5BanBnXkFtZTgwNzYyNTkzMDI@._V1_QL50.jpg",
+      "role": "Okoye"
+    },
+    {
+      "name": "Martin Freeman",
+      "id": "nm0293509",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE0MjAwOTMzMF5BMl5BanBnXkFtZTcwMDg1MjEyNw@@._V1_QL50.jpg",
+      "role": "Everett K. Ross"
+    },
+    {
+      "name": "Daniel Kaluuya",
+      "id": "nm2257207",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTk1MzgzOTg5OV5BMl5BanBnXkFtZTcwNDQ4NjMxOA@@._V1_QL50.jpg",
+      "role": "W'Kabi"
+    },
+    {
+      "name": "Letitia Wright",
+      "id": "nm4004793",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIyMzgxMzc5N15BMl5BanBnXkFtZTgwNDg3NzYzMDI@._V1_QL50.jpg",
+      "role": "Shuri"
+    },
+    {
+      "name": "Winston Duke",
+      "id": "nm6328300",
+      "image": "https://m.media-amazon.com/images/M/MV5BODgzMTk5MTEyOV5BMl5BanBnXkFtZTgwOTQyNzE2NzM@._V1_QL50.jpg",
+      "role": "M'Baku"
+    },
+    {
+      "name": "Sterling K. Brown",
+      "id": "nm1250791",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmEzNmExM2ItNzg5Zi00NGRjLWI1NTEtMmQ5MGMwNjFlNWFhL2ltYWdlXkEyXkFqcGdeQXVyMTM0MzI5Nzc@._V1_QL50.jpg",
+      "role": "N'Jobu"
+    },
+    {
+      "name": "Angela Bassett",
+      "id": "nm0000291",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjI4OTQ1NTcxOF5BMl5BanBnXkFtZTcwOTc1NTU0OQ@@._V1_QL50.jpg",
+      "role": "Ramonda"
+    },
+    {
+      "name": "Forest Whitaker",
+      "id": "nm0001845",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQzMDI3NTg2OV5BMl5BanBnXkFtZTcwNTgwMzg5Mg@@._V1_QL50.jpg",
+      "role": "Zuri"
+    },
+    {
+      "name": "Andy Serkis",
+      "id": "nm0785227",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTgwYmM0ZjgtMWRmZC00YTc1LWIwYWEtYTFjMTZiMDNjNWRkXkEyXkFqcGdeQXVyNjcwMjczMzE@._V1_QL50.jpg",
+      "role": "Ulysses Klaue"
+    },
+    {
+      "name": "Florence Kasumba",
+      "id": "nm0441042",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmQ1MjU0MjEtMzgxOC00ZDdlLWFjNjgtYjJhOTM4OWZiZGM4XkEyXkFqcGdeQXVyNDU5ODk2OTg@._V1_QL50.jpg",
+      "role": "Ayo"
+    },
+    {
+      "name": "John Kani",
+      "id": "nm0434712",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTA0NTg4Mzc1NjZeQTJeQWpwZ15BbWU4MDg5MDQzODQz._V1_UX75_CR0,0,75,109_AL_.jpg@._V1_QL50.jpg",
+      "role": "T'Chaka"
+    },
+    {
+      "name": "David S. Lee",
+      "id": "nm1605085",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzE5NWU2NjAtNGVmZC00MzhmLWExMzYtOTRhY2U4NGYyMTA0XkEyXkFqcGdeQXVyMjQ5ODYxOTI@._V1_QL50.jpg",
+      "role": "Limbani"
+    },
+    {
+      "name": "Nabiyah Be",
+      "id": "nm8852246",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmYwZTUxMzItMWQyMy00NzA3LWJkZDgtMzMxNzY0YjE2MWZlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL50.jpg",
+      "role": "Linda"
+    },
+    {
+      "name": "Isaach De Bankolé",
+      "id": "nm0207218",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc4MzE3OTgxMV5BMl5BanBnXkFtZTcwMzA4NTAzMQ@@._V1_QL50.jpg",
+      "role": "River Tribe Elder"
+    },
+    {
+      "name": "Connie Chiume",
+      "id": "nm0158448",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjM1MTYyMjMyM15BMl5BanBnXkFtZTgwMDAzMDA3NDM@._V1_QL50.jpg",
+      "role": "Mining Tribe Elder"
+    },
+    {
+      "name": "Dorothy Steel",
+      "id": "nm7262074",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTk4YzIwM2EtNmUwMy00Mzg1LWIxM2MtYWE4Njk1MzBmYTlkXkEyXkFqcGdeQXVyNzgxOTY1MDk@._V1_QL50.jpg",
+      "role": "Merchant Tribe Elder"
+    },
+    {
+      "name": "Danny Sapani",
+      "id": "nm0764527",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc1MDg2ODE2OV5BMl5BanBnXkFtZTgwNDc1NjE2MTE@._V1_QL50.jpg",
+      "role": "Border Tribe Elder"
+    }
+  ]
+}
+  ```
+    
+
   ## getActor(nm2652716)
   ```javascript
   getActor(nm2652716).then(val=>console.log(val))
@@ -794,7 +703,7 @@
   {
     "actorName": "Grant Gustin",
     "actorImage": "https://m.media-amazon.com/images/M/MV5BMjE3NDUyMTg1MF5BMl5BanBnXkFtZTgwMTQzMjY1NjM@._V1_UY317_CR11,0,214,317_AL__QL50.jpg",
-    "actorInfo": "Thomas Grant Gustin was born on January 14, 1990 in Norfolk, Virginia, to Tina Lynne (Sweeney), a pediatric nurse, and Thomas Avery Gustin. In 2008, he graduated from Granby High School and went on to attend the BFA Music Theatre Program at Elon University in North Carolina for two years. He left school to take the role of Baby John in the",
+    "actorInfo": "Thomas Grant Gustin, better known as Grant Gustin, is an American actor and singer. He is known for his roles as Barry Allen / Flash on the CW series The Flash and as Sebastian Smythe on the Fox series Glee. Gustin was born on January 14, 1990 in Norfolk, Virginia. He is the son of Dr. Tina Lynne (Sweeney) Haney, a pediatric nurse, and Thomas Avery",
     "actorBirth": "January 14, 1990",
     "actorBorn": "Norfolk, Virginia, USA"
   }
@@ -835,66 +744,115 @@
   "related": [
     {
       "id": "tt3501632",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Thor: Ragnarok"
-    },
-    {
-      "id": "tt3498820",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: Civil War"
+      "name": "Thor: Ragnarok",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt3896198",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2MwNjJlODAtMTc1MS00NjkwLTg2NDMtYzFjZmU2MGM1YWUwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy Vol. 2"
-    },
-    {
-      "id": "tt2250912",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Spider-Man: Homecoming"
-    },
-    {
-      "id": "tt2395427",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Avengers: Age of Ultron"
-    },
-    {
-      "id": "tt2015381",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Guardians of the Galaxy"
+      "name": "Guardians of the Galaxy Vol. 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt1211837",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Doctor Strange"
+      "name": "Doctor Strange",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
-      "id": "tt0848228",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "The Avengers"
+      "id": "tt2015381",
+      "name": "Guardians of the Galaxy",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
-      "id": "tt4154756",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg",
-      "name": "Avengers: Infinity War"
+      "id": "tt2250912",
+      "name": "Spider-Man: Homecoming",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX128_CR0,0,128,190_AL_.jpg"
     },
     {
-      "id": "tt1843866",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg",
-      "name": "Captain America: The Winter Soldier"
-    },
-    {
-      "id": "tt0478970",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Ant-Man"
+      "id": "tt3498820",
+      "name": "Captain America: Civil War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UY190_CR0,0,128,190_AL_.jpg"
     },
     {
       "id": "tt0458339",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg",
-      "name": "Captain America: The First Avenger"
+      "name": "Captain America: The First Avenger",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_UX128_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt0478970",
+      "name": "Ant-Man",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX128_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt1843866",
+      "name": "Captain America: The Winter Soldier",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY190_CR1,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt5095030",
+      "name": "Ant-Man and the Wasp",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY190_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt4154756",
+      "name": "Avengers: Infinity War",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY190_CR0,0,128,190_AL_.jpg"
+    },
+    {
+      "id": "tt2395427",
+      "name": "Avengers: Age of Ultron",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_UY190_CR0,0,128,190_AL_.jpg"
     }
   ]
 }
+  ```
+    
+
+  ## searchActor(govinda)
+  ```javascript
+  searchActor(govinda).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   [
+  {
+    "searchQuery": "govinda"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/M/MV5BNzEwNDgwMTk3Nl5BMl5BanBnXkFtZTgwNjMwOTU4MDI@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda",
+    "actorId": "nm0332871"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Shree Krishna",
+    "actorId": "nm10191142"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda",
+    "actorId": "nm10571802"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda Angulo",
+    "actorId": "nm5291179"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/M/MV5BMDkwOGNiMDYtZDBhMy00NWY0LWExYmQtZDgyNzViMDI2ZTIxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govindan Aravindan",
+    "actorId": "nm0033244"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Govinda Van Maele",
+    "actorId": "nm1985352"
+  },
+  {
+    "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+    "actorName": "Hamsalekha",
+    "actorId": "nm0359096"
+  }
+]
   ```
     
 
@@ -911,7 +869,7 @@
       "name": "The Man Who Saved Central City",
       "story": "Still feeling responsible for Eddie's death, Barry pushes his friends away and tries to protect the city on his own; Cisco assists Joe with the Meta Task Force.",
       "airDate": "6 Oct. 2015",
-      "rating": "8.4"
+      "rating": "8.3"
     },
     {
       "poster": "https://m.media-amazon.com/images/M/MV5BMTA0MzI2NDMyMjJeQTJeQWpwZ15BbWU4MDM3MjA1OTYx._V1_UX224_CR0,0,224,126_AL_.jpg@._V1_QL50.jpg",
@@ -946,10 +904,10 @@
       "name": "Enter Zoom",
       "story": "Barry and his team plan to trap Zoom with Linda's help while Joe is against it.",
       "airDate": "10 Nov. 2015",
-      "rating": "9.5"
+      "rating": "9.4"
     },
     {
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjJhYTkyZjAtZTU1Yi00YWJiLWJkNzUtZGJkYmU5MjQwY2YyXkEyXkFqcGdeQXVyNjc3MTA5MDA@._V1_QL50.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDgxMjY5MzE5M15BMl5BanBnXkFtZTgwODQ3NzQ2ODE@._V1_QL50.jpg",
       "name": "Gorilla Warfare",
       "story": "Barry's team races to rescue Caitlin when Grodd abducts her; Cisco plans a date with the new barista at Jitters; Patty knows Barry is hiding something.",
       "airDate": "17 Nov. 2015",
@@ -981,7 +939,7 @@
       "name": "The Reverse-Flash Returns",
       "story": "Dr. Wells figures out how to induce Cisco's ability; they hence learn that Eobard Thawne is still alive. Iris says farewell to her mother. Patty realizes there's more to Barry than meets the eye.",
       "airDate": "26 Jan. 2016",
-      "rating": "8.9"
+      "rating": "8.8"
     },
     {
       "poster": "https://m.media-amazon.com/images/M/MV5BMTk3MDY3MTMyN15BMl5BanBnXkFtZTgwODczMjk4NzE@._V1_QL50.jpg",
@@ -995,7 +953,7 @@
       "name": "Welcome to Earth-2",
       "story": "Harrison, Cisco and Barry travel to Earth-2 to save Harrison's daughter. Barry assumes the role of his doppelganger, who's married to Iris. He then encounters alternate-Caitlin and alternate-Ronnie, who are Zoom's agents.",
       "airDate": "9 Feb. 2016",
-      "rating": "9.4"
+      "rating": "9.3"
     },
     {
       "poster": "https://m.media-amazon.com/images/M/MV5BNzg2YTU2YjItOGIxNy00YTgzLTgwZWItYjU1MWQ0MTM5ZDRlXkEyXkFqcGdeQXVyNjUzOTYxMTM@._V1_QL50.jpg",
@@ -1044,7 +1002,7 @@
       "name": "Rupture",
       "story": "Just as Wells comes up with a plan to defeat Zoom, Zoom returns hellbent on destroying Central City. Meanwhile, Cisco has a vision of his brother, and Iris comes to terms with her feelings.",
       "airDate": "3 May 2016",
-      "rating": "9.0"
+      "rating": "8.9"
     },
     {
       "poster": "https://m.media-amazon.com/images/M/MV5BMjM5MzA4Mzc5Ml5BMl5BanBnXkFtZTgwOTM2ODU4ODE@._V1_QL50.jpg",
@@ -1066,6 +1024,99 @@
       "story": "With Zoom's true plan revealed, Team Flash fears Barry's resolve to do whatever it takes to stop him.",
       "airDate": "24 May 2016",
       "rating": "9.1"
+    }
+  ]
+}
+  ```
+    
+
+  ## getUpcoming(20)
+  ```javascript
+  getUpcoming(20).then(val=>console.log(val))
+  ```
+  ### output
+   ```json
+   {
+  "upcoming": [
+    {
+      "name": "Saint Maud",
+      "id": "tt7557108"
+    },
+    {
+      "name": "Radioactive",
+      "id": "tt6017756"
+    },
+    {
+      "name": "Amulet",
+      "id": "tt8332802"
+    },
+    {
+      "name": "Unhinged",
+      "id": "tt10059518"
+    },
+    {
+      "name": "The Shadow of Violence",
+      "id": "tt4460792"
+    },
+    {
+      "name": "Summerland",
+      "id": "tt6841122"
+    },
+    {
+      "name": "The Fight",
+      "id": "tt11394184"
+    },
+    {
+      "name": "The Broken Hearts Gallery",
+      "id": "tt2140571"
+    },
+    {
+      "name": "Black Water: Abyss",
+      "id": "tt7978672"
+    },
+    {
+      "name": "Made in Italy",
+      "id": "tt9207700"
+    },
+    {
+      "name": "The Empty Man",
+      "id": "tt5867314"
+    },
+    {
+      "name": "Capel Green",
+      "id": "tt8151794"
+    },
+    {
+      "name": "Tenet",
+      "id": "tt6723592"
+    },
+    {
+      "name": "Greenland",
+      "id": "tt7737786"
+    },
+    {
+      "name": "Bill & Ted Face the Music",
+      "id": "tt1086064"
+    },
+    {
+      "name": "Sound of Metal",
+      "id": "tt5363618"
+    },
+    {
+      "name": "Fatima",
+      "id": "tt2197936"
+    },
+    {
+      "name": "Mulan",
+      "id": "tt4566758"
+    },
+    {
+      "name": "Antebellum",
+      "id": "tt10065694"
+    },
+    {
+      "name": "Let Him Go",
+      "id": "tt9340860"
     }
   ]
 }

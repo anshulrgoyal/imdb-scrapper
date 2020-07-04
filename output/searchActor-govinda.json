@@ -8,24 +8,19 @@
         "actorId": "nm0332871"
     },
     {
-        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
         "actorName": "Shree Krishna",
         "actorId": "nm10191142"
     },
     {
-        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
         "actorName": "Govinda",
         "actorId": "nm10571802"
     },
     {
-        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
         "actorName": "Govinda Angulo",
         "actorId": "nm5291179"
-    },
-    {
-        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-        "actorName": "Govinda Van Maele",
-        "actorId": "nm1985352"
     },
     {
         "actorImage": "https://m.media-amazon.com/images/M/MV5BMDkwOGNiMDYtZDBhMy00NWY0LWExYmQtZDgyNzViMDI2ZTIxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
@@ -33,8 +28,13 @@
         "actorId": "nm0033244"
     },
     {
-        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB470041625_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
-        "actorName": "Govinda Machado de Figueiredo",
-        "actorId": "nm2864019"
+        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+        "actorName": "Govinda Van Maele",
+        "actorId": "nm1985352"
+    },
+    {
+        "actorImage": "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._CB468460248_.png@._V1_UX1024_CR1024,1024,0,0_AL_.jpg",
+        "actorName": "Hamsalekha",
+        "actorId": "nm0359096"
     }
 ]
